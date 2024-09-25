@@ -1,0 +1,86 @@
+---
+references:
+- id: field2014
+  author:
+  - family: Field
+    given: Andy P.
+  genre: Report
+  issued: 2014
+  key: ZFC9VVM4
+  language: en
+  libraryID: 1
+  page: 44
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: The Higher Education Academy
+  publisher-place: York, UK
+  rights: All rights reserved
+  title: Skills in mathematics and statistics in psychology and tackling
+    transition
+  type: report
+  URL: "https://www.advance-he.ac.uk/knowledge-hub/skills-mathematics-and-statistics-psychology-and-tackling-transition"
+- id: hoekstra2012
+  author:
+  - family: Hoekstra
+    given: Rink
+  - family: Kiers
+    given: Henk
+  - family: Johnson
+    given: Addie
+  container-title: Frontiers in Psychology
+  container-title-short: Front. Psychology
+  DOI: 10.3389/fpsyg.2012.00137
+  is-referenced-by-count: 55
+  ISSN: 1664-1078
+  issued: 2012
+  member: 1965
+  prefix: 10.3389
+  providerKey: doi
+  publisher: Frontiers Media SA
+  reference-count: 0
+  references-count: 0
+  score: 1
+  source: Crossref
+  title: Are Assumptions of Well-Known Statistical Techniques Checked,
+    and Why (Not)?
+  type: article-journal
+  URL: "http://dx.doi.org/10.3389/fpsyg.2012.00137"
+  volume: 3
+- id: belia2005
+  author:
+  - family: Belia
+    given: S.
+  - family: Fidler
+    given: F.
+  - family: Williams
+    given: J.
+  - family: Cumming
+    given: Geoff
+  container-title: Psychological Methods
+  DOI: "https://doi.org/10.1037/1082-989X.10.4.389"
+  issued: 2005
+  key: UF57HJMI
+  libraryID: 1
+  page: 389-396
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Researchers misunderstand confidence intervals and standard
+    error bars.
+  type: article-journal
+  volume: 10
+- id: haller2002
+  author:
+  - family: Haller
+    given: H.
+  - family: Kraus
+    given: S.
+  container-title: MPR-Online
+  issued: 2002
+  key: NT4RB9A9
+  libraryID: 1
+  page: 1-20
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: "Misinterpretations of significance: a problem students share
+    with their teachers?"
+  type: article-journal
+  URL: "https://www.metheval.uni-jena.de/lehre/0405-ws/evaluationuebung/haller.pdf"
+  volume: 7
+...

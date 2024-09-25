@@ -1,0 +1,74 @@
+website:
+  title: "Andy Field"                                # Your name
+  description: "The stats book guy ..."   # A brief slogan (optional)
+  image: images/ds6_cover_small.jpg
+  favicon: favicon.ico
+  navbar:  
+    pinned: true
+    logo: favicon.ico
+    left:
+      - text: "Discoverse"
+        href: discoverse.qmd
+      - text: "Publications"
+        href: pages/pubs.qmd
+      - text: "R Packages"
+        href: pages/packages.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/profandyfield
+      - text: "{{< iconify fa6-brands orcid >}}"
+        href: https://orcid.org/0000-0003-3306-4695
+      - text: "{{< iconify fa6-brands google-scholar >}}"
+        href: https://scholar.google.co.uk/citations?user=0Iy7PFYAAAAJ&hl=en
+      - text: "{{< fa brands x-twitter >}}"
+        href: https://twitter.com/profandyfield
+      - text: "{{< iconify fa6-brands bluesky >}}"
+        href: https://bsky.app/profile/profandyfield.bsky.social
+      - icon: linkedin
+        href: https://www.linkedin.com/in/profandyfield/
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    center: |
+      <span class="faux-block">&#169; 2024 Andy Field CC BY-SA 4.0</span>
+  google-analytics: "G-4B4C2HG6H3"
+
+project:
+  type: website
+  output-dir: _site
+  preview: 
+    port: 4200
+    browser: true
+    watch-inputs: true
+    navigate: true
+  render:
+    - "*.qmd"
+    - "!dev/"
+execute:
+  freeze: true
+  echo: true
+  warnings: false
+  message: false
+format:
+  html:
+    fontsize: 1.1em
+    theme:
+      light: [flatly, theme_light.scss]
+      dark: [darkly, theme_dark.scss]
+    toc: true
+    toc_depth: 3
+    toc-location: left
+    toc-title: Map
+    toc_float: true
+    code-link: true
+    highlight-style: ayu
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+
+
+

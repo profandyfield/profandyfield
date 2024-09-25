@@ -1,0 +1,108 @@
+---
+title: "StinkFiske"
+description: "Discussion of Susan Fiske's 'methodological terrorists' comments"
+author:
+  - name: Andy Field
+    url: https://profandyfield.com
+date: 03 01 2017
+categories: [Research critique] # self-defined categories
+citation: 
+  url: https://profandyfield.com/posts/2017_03_01/ 
+image: stinkfist.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.yaml
+---
+
+## StinkFiske
+
+Many of you will have seen former APS president Professor Susan Fiske's recently leaked an <a href="https://www.dropbox.com/s/9zubbn9fyi1xjcu/Fiske%20presidential%20guest%20column_APS%20Observer_copy-edited.pdf">opinion piece</a> in the APS observer and the outcry it has caused. It's been a bit of a StinkFiske.^[I thought Tool fans would appreciate this label.]
+
+I'm late in on this, but in my defence I have a 6 week old child to help keep alive and I'm on shared parental leave, so I'm writing this instead of, you know, enjoying one of the rare moments I get to myself. I really enjoyed (and agreed with) Andrew Gelman's <a href="http://andrewgelman.com/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/">blog post</a> about it, and there are other good pieces by, amongst others, <a href="http://neurochambers.blogspot.co.uk/2016/09/methodological-terrorism-and-other-myths.html">Chris Chambers</a>. I won't pretend to have read other ones, so forgive me if I'm repeating someone else. It wouldn't be the first time.
+
+The Gelman and Chamber's blogs will give you the background of why Fiske's piece has caused such waves. I don't want to retread old ground, so the short version is that she has basically accused a bunch of people (who she refuses to name) of being ‘methodological terrorists' who go around ruining people's careers by posting critiques on social media. She goes onto argue that this sort of criticism is better conducted in private behind the (let's face it) wholly flawed peer review system. She cites anecdotal examples of students leaving science for fear that (shock horror) someone might criticise their work.
+
+The situation hasn't been helped by her choice of evocative language. Let's be clear here, I don't agree with anything Professor Fiske writes, or the way she wrote it. However, I think it has been interesting and useful in getting people to think about <em>why</em> she believes what she believes. I particularly recommend Gelman's one for some insight into the whole history of the situation and his take on where Fiske might be coming from.[^2]
+
+[^2]: In general, Gelman's blogs are well worth reading if you're interested in statistics.
+
+I follow a lot of methodologists on Twitter and the ensuing carnage has been informative and thought-provoking. The reaction has tended to focus on the lack of evidence for the claims she makes, and counterarguments against her view. However much you might disagree with her view though, I think it plausibly represents the views of a great number of psychologists/scientists. As the days have gone on since I read Fiske's piece I find myself less and less focussed on her individual view and more and more asking myself why people might share these views and what we need to do to douse the flames with white poppies.
+
+<h2>What science should be</h2>
+
+I want to start with an anecdote. My PhD and first couple of years of post doc was spent failing to replicate a bunch of studies that showed <em>Evaluative Conditioning</em> (essentially preference learning through association). I did a shit-tonne of experiments, they all failed to replicate the basic phenomenon. The original studies were by a group at <a href="http://ppw.kuleuven.be/home/english/research/clep">KU Leuven</a>. I tried to get them published, that didn't go too well.[^3] I emailed the lead author (Frank Baeyens) throughout my PhD and he was always very helpful, constructive and open to discussing my failures - even after I published a paper suggesting that their results might have been an artefact of their methodology. The upshot was that they invited me (expenses paid) to Belgium to discuss things. Which we did. They then tried to kill me in the most merciful way they could think of: Belgian beer. My point is, they cared about science and about working out what was going on. We could sit down with a beer and forge long-standing friendships over our disagreements. It wasn't personal - everyone just wanted to understand better the phenomenon we were trying (as best we both could) to capture.
+
+[^3]: I did eventually get my 12 experiments published in the <a href="http://link.springer.com/article/10.1007/BF03076407">Netherlands Journal of Psychology</a> in 2008, 10 years after completing my PhD, where it sank without trace.
+
+That's how science should be: it's about updating your beliefs as new evidence emerges and it's not about the people doing it. Why is it that scientists feel so threatened by failed replications and re-analysis of their data? I'm going to brain dump some thoughts.
+
+ 
+
+<h2>Tone</h2>
+
+I consider myself at least aligned with (and possibly a fully fledged member of) the "self-appointed data police", but I have at times (the minority of times I hasten to add) found discussions of some work a bit 'witch-hunty'. I have <em>some</em> sympathy for <em>some</em> people feeling attacked. However, as someone who keeps a fairly close eye on methodological stuff and follows quite a lot of people who I suspect Fiske was directing her polemic at, on the whole people are civil and really just want to make science better.[^4] I really believe that the data police have their hearts in the right place. Yes, statisticians have hearts.
+
+[^4]: The exceptions are the daily spats between some frequentists and Bayesians who seem to thrive on being rude to each other.
+
+ 
+
+<h2>Non-selective criticism</h2>
+
+I think one reason why people might share Fiske's views is that critiques tend to garner more interest when they change the conclusions of the study negatively, and because of the well-known selection bias for significant studies this invariably entails ‘look, the significant effect is not significant when the data police do things <em>properly</em>'. Wouldn't it be fun, just for a change, to have a critique along the lines of ‘I did something the authors didn't think of to improve the analysis, and the original conclusions stand up'. Let's really let our imaginations wander to scenarios along the lines of 'We re-examined this study of null results using some reasonable subjective priors to obtain Bayesian estimates of the model parameters and there's greater evidence than the authors thought that the substantive effect under investigation could be big enough to warrant further investigation.' In this last case, no-one would be doubting the integrity of the original authors but, other things being equal, there's no difference in any of these situations: there's data, there's one analysis of it and some conclusions, then another analysis of it and some other conclusions.
+
+My point is that researchers are likely to feel less defensive, if the focus or re-analysis within our discipline broadens from de-bunking. Re-analysis that reaches the same conclusions as the original paper has just as much value as debunking, but either the data police don't do that sort of thing, or when we do no-one pays it any attention. We can't control hits and retweets (and a good debunking story is always going to generate interest) but we can affect the broader culture of critique and make it more neutral.
+
+We also need to get away from this notion of doing analysis <em>the</em> correct way. Of course there are ways to do things incorrectly, but there is rarely one correct way. In a recent study by <a href="https://osf.io/gvm2z/">Silberzahn et al</a> 61 data analysts were given the same dataset and research question and asked to analyse the data resulting in a variety of models fit to the data. We can usefully re-analyse data/conclusions without falling into the judgemental terminology of correct/incorrect.
+
+We need 're-analysing data' to become a norm rather than the current exceptions that get widely publicised because they challenge the conclusions of the paper in a bad way. To make it a norm, we need new a whole new system really because as click-baity as retractions are, science is about updating beliefs in the light of new evidence. Surely that ethos is best served by papers that are open to re-analysis, commentary and debate. Some hurdles are how to stop that debate getting buried, and how to reward/incentivise that debate (i.e. give people credit for the time they spend contributing to these ongoing discussions of theories). It feels like the traditional system on peer-reviewed 'articles' that stand as static documents of ‘truth' poorly serves these aims. Quite how we create the sea change necessary to think of, present, and cite 'journal articles' that are dynamic pieces of knowledge in a constant state of flux is another matter. Of course, there is also the question of how we re-invent CVs because we all know how much academics love their CVs and all of the incentive structures currently favour lists of 'static' knowledge.
+
+ 
+
+<h2>Honest mistakes or mistaken honesty</h2>
+
+The second reason why I think some people might have sympathy with Fiske's views is that many scientists find it difficult to disentangle critique of their work from accusations of dishonesty. It is understandable that emotions run high: academia is not a job it's a way of life, and for most of us the line between home and work is completely blurred. We invest emotionally in what we do, and criticism of your work can feel like criticism of you.[^5] In psychology at least, the situation isn't helped by the selective nature of methodological critique in recent years (see above) and the very public cases of actual misconduct unearthed through methodological critique (insert your own example here, but Diederik Stapel is possibly the most famous).[^6] I think we could all benefit from accepting that being a scientist is an ongoing learning curve. If we knew everything, there would be no point in us doing our jobs.
+
+[^5]: Should you ever need a case study then come up to me and slag off one of my recent textbooks (old editions are fair game, even <em>I</em> think they're crap), I will probably cry.
+
+[^6]: English readers can enjoy a <a href="http://nick.brown.free.fr/stapel/FakingScience-20141214.pdf">translation of his autobiography</a> thanks to Nick Brown
+
+Let me give you a personal example. I am regarded by some as a statistics 'expert' (at least within Psychology), which of course is a joke because I have no formal training in statistics. Nevertheless, I like statistics more than I like psychology, and I enjoy learning about it. My textbooks are a document of my learning. If I could create a black hole that would suck editions 1 to 3 of my SPSS book into it, I happily would because they contain some fairly embarrassing things that reflect what I thought at the time was the 'truth'. I didn't know any better, but I do now. Give me a dataset now and I'll do a much better job of analysing it than I would have in 1998 when I started writing the SPSS book. Three years ago I didn't have a clue what Bayesian statistics was, these days I still don't, but I get the gist and have some vague sense of how to apply it in a way that I think (hopefully) isn't wrong. Perhaps I should be embarrassed that I needed to ask <a href="https://twitter.com/richarddmorey">Richard Morey</a> to critique the Bayesian bits of my last textbook, and that he found areas where my understanding was off, but I learnt a lot from it. Likewise, someone reanalysing my data I hope, teaches me something. Andrew Gelman makes a similar point. Let's not see re-analysis as judgement of competence, because we are all at the mercy of our knowledge base at any given time. My knowledge base of statistics in 2016 is different to in 1998, so let re-analysis be about helping people to improve how they do their job.
+
+If we accept that scientists are on a learning curve then they will make mistakes. I don't believe that most scientists are dishonest, but I do believe that they make honest mistakes that are perpetuated by (1) poor education, and (2) the wrong incentive structures.
+
+ 
+
+<h3>They know not what they do</h3>
+
+Anecdotally, I get hundreds of emails a year asking statistics questions from people aspiring to publish their research (not just in psychology). None of them seem dishonest, but some of them certainly harbour some misconceptions about data analysis and what's appropriate. @hoekstra2012 provide some evidence for researchers not routinely checking the assumptions of their models, but again I think this likely reflects perceived norms or poor education than it does malpractice.
+
+It is of course ridiculous that we are expected to be both expert theoreticians in some specialist area of a discipline and simultaneously remain at the cutting edge of ever-increasingly complex statistical tools. It's bonkers, it really is. I've reached the point where I spend so much time thinking/reading/doing statistics that I barely have room in my head for psychology. Within this context, I am certain that people are trying their best with their data, but let's be clear - they are up against it for many reasons and there will always be some a-hole like me who has abandoned psychology for a life of nitpicking everyone else's analyses.
+
+One major obstacle is the perpetuation of poor practice. The problem of education boils down to the fact that training in psychological research methods and data analysis tends to be quite rule-based. I did a report for the HEA a few years back on statistics teaching in UK psychology degree programmes [@field2014]. There is amazing consistency in what statistical methods are taught to undergraduate psychologists in the UK, and it won't surprise anyone that it is very based on Null Hypothesis Significance Testing (NHST), <em>p</em> values etc. Relatively few institutions delve into effect sizes, or Bayesian approaches. There's nothing necessarily wrong with teaching NHST (I say this mainly to wind up the Bayesian's on Twitter ...) because it is so widely used, but it is important to also teach its limitations and to offer alternative approaches. It's not clear how much this is done, but I think awareness of the issues <em>has</em> radically increased compared to when I was a postgraduate in 1763.
+
+One problem that teaching NHST does create is that it is very easy to be recipe-book about it: if you don't understand what you're doing just look at <em>p</em> and follow the rule. Of course, I'm absolutely guilty of this in my textbooks because it is such an easy trap to fall into.[^7] The nuances of NHST are tricky, so for students who struggle with statistics the line of least resistance is ‘follow this simple rule'. For those that then go onto PhDs, and are supervised by people who also blindly follow the rules (because that's what they were taught too), and who are then incentivised to get ‘significant results' (see later) you have, frankly, a recipe for disaster.
+
+[^7]: In my defence, I have over the years tried hard to lace my books with a healthy dose of critique of blindly following <em>p</em> value based decision rules, but even so ...
+
+There are many reasons why NHST is so prevalent in teaching and research. I wrote a <a href="http://discoveringstatistics.blogspot.co.uk/2012/07/twitterpanic-nhst-wizards-and-cult-of.html">blog in 2012</a> that is strangely relevant here (and until I'm proved otherwise, I believe to be the first recorded use of the word 'fuckwizardy', which I'm disappointed hasn't caught on, so give it a read and insert that word liberally into conversation from now on - thanks). In it, I gave a few ideas about why NHST is so prevalent in psychological science, and why that will be slow to change. The take home points were: (1) researchers don't have time to be experts on statistics <em>and</em> their research topic (see above); (2) people tend to teach what they know, modules have to fit in with other modules/faculty expertise, so deviating from decades of established research/teaching practice is difficult; (3) as long as reviewers/journals don't update their own statistics knowledge we're stuck between a rock and hard place if we start deviating from the norm; (4) textbooks tend to tow a conservative line (ahem!).
+
+A problem I didn't mention in that blog is that some teachers don't themselves understand what they're teaching. @haller2002 (and Oakes (1986) before them) showed that 80% of methodology instructors and 90% of active researchers held one misconception about the <em>p</em> value. Similarly, a study by @belia2005 showed that researchers have difficulty interpreting confidence intervals. So, poor education perpetuates poor education. Of course, we need to try to improve training for the future generations of researchers, but for those for whom it's too late, open and constructive critique offers a way to help them not keep making the same mistakes. However, critique needs to be more ‘there are a multitude of reasons why you probably did it your way, but let me show you an alternative' and a bit less ‘you are stupid for not using Bayes'.
+
+In the long term though, improving our statistical literacy/training will result in better-informed reviewers and editors in the future. Bad practice will wither as the ‘norms' progress beyond the recipe book.
+
+ 
+
+<h3>Incentive structures</h3>
+
+Another reason why people might ‘in good faith' make poor data-based decisions is because the incentive structures in academia are completely screwy: individuals are incentivised, good science is not. Promotions are based on publications and grants, grants are based (to some extent) on likely success and track record (which of course is indexed by publications), and publications are - as is well known - hugely skewed towards significant results. Of course, academics are supposed to be great teachers, engage with the community and all that, but ask anyone in an academic job what matters when it comes to promotion and it'll be grants and publications.[^8]
+
+[^8]: In 2010 when I was promoted to professor I had to go through an interview process as the final formality. The research side of my CV was as you would expect to get a chair; however, unlike comparable applications I had a lot more teaching stuff including my textbooks and a National Teaching fellowship (I was one of only 4–5 people in the entire university to have one of those at the time). During my interview my teaching was not mentioned once - it was all about grants, research leadership etc.
+
+Scientists are rewarded for publishable results, and publishable results invariable means significant results. Mix this with poor training (i.e. awareness of things like <em>p</em>-hacking) and you can see how easily (even with the best intentions) researcher degrees of freedom can filter into data analysis. This is why <a href="https://osf.io/8mpji/wiki/home/">registered reports</a> are such a brilliant idea because they do a decent job of incentivising ideas/methods above the results. Also it offers an opportunity to correct well-intentioned but poor data-analysis practice <em>before</em> data are collected and analysed.
+
+I actually think incentive structures in academia need a massive overhaul to put science as the priority, but that's a whole other stream of consciousness …
+
+ 
+
+<h2>Rant over</h2>
+
+This has ended up as a much more directionless rant than I planned, and it's now time to go and get my 2-year old from nursery so I need to wrap up. I think my main point would be that open critique of science is essential, not because people are dishonest and we need to flush out that dishonesty, but because many scientists are doing the best they can, using what they've been taught. In many cases, they won't even realise the mistakes they're making, public conversation can help them, but it should be in the spirit of improvement. Second, let's change the incentive structures in science away from the individual and towards the collective. Finally, everyone practice open science because it's awesome.

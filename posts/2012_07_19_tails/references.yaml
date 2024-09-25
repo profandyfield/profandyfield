@@ -1,0 +1,52 @@
+---
+references:
+- id: ruxton2010
+  author:
+  - family: Ruxton
+    given: Graeme D.
+  - family: Neuhaeuser
+    given: Markus
+  container-title: Methods in Ecology and Evolution
+  DOI: 10.1111/j.2041-210X.2010.00014.x
+  ISSN: 2041-210X
+  issued: 2010-06
+  key: 6I8SNUTR
+  libraryID: 1
+  page: 114-117
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: When should we use one-tailed hypothesis testing?
+  type: article-journal
+  volume: 1
+- id: lombardi2009
+  author:
+  - family: Lombardi
+    given: Celia M.
+  - family: Hurlbert
+    given: Stuart H.
+  container-title: Austral Ecology
+  DOI: 10.1111/j.1442-9993.2009.01946.x
+  ISSN: 1442-9985
+  issued: 2009-06
+  key: FLL7SSRP
+  libraryID: 1
+  page: 447-468
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Misprescription and misuse of one-tailed tests
+  type: article-journal
+  volume: 34
+- id: kimmel1957
+  author:
+  - family: Kimmel
+    given: H. D.
+  container-title: Psychological Bulletin
+  DOI: 10.1037/h0046737
+  ISSN: 0033-2909
+  issued: 1957
+  key: 2S9GEZ3H
+  libraryID: 1
+  page: 351-353
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Three criteria for the use of one-tailed tests
+  type: article-journal
+  volume: 54
+...

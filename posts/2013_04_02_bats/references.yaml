@@ -1,0 +1,80 @@
+---
+references:
+- id: maruthupandian2013
+  author:
+  - family: Maruthupandian
+    given: Jayabalan
+  - family: Marimuthu
+    given: Ganapathy
+  container-title: PLoS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0059743
+  editor:
+  - family: Brigham
+    given: R. Mark
+  is-referenced-by-count: 27
+  ISSN: 1932-6203
+  issue: 3
+  issued: 2013-03-27
+  language: en
+  member: 340
+  page: e59743
+  prefix: 10.1371
+  providerKey: doi
+  publisher: Public Library of Science (PLoS)
+  reference-count: 12
+  references-count: 12
+  score: 1
+  source: Crossref
+  title: Cunnilingus Apparently Increases Duration of Copulation in the
+    Indian Flying Fox, Pteropus giganteus
+  type: article-journal
+  update-policy: "http://dx.doi.org/10.1371/journal.pone.corrections_policy"
+  URL: "http://dx.doi.org/10.1371/journal.pone.0059743"
+  volume: 8
+- id: field2012
+  author:
+  - family: Field
+    given: Andy P.
+  - family: Miles
+    given: Jeremy N. V.
+  - family: Field
+    given: Zoe C.
+  issued: 2012
+  key: V8GLMLYJ
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Sage
+  publisher-place: London
+  title: "Discovering statistics using R: And sex and drugs and rock \"n\"
+    roll"
+  type: book
+- id: fielddsr22025
+  author:
+  - family: Field
+    given: Andy P.
+  edition: 2nd
+  issued: 2025
+  key: Y39Y84RQ
+  libraryID: 1
+  note: "Citation Key: field_dsr2_2025"
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Sage
+  publisher-place: London
+  rights: All rights reserved
+  title: Discovering statistics using R and RStudio
+  type: book
+- id: wilcox2017
+  author:
+  - family: Wilcox
+    given: Rand R.
+  edition: 4th
+  issued: 2017
+  key: VWBELPTR
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Elsevier
+  publisher-place: Burlington, MA
+  title: Introduction to robust estimation and hypothesis testing
+  type: book
+...

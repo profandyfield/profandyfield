@@ -1,0 +1,4409 @@
+---
+references:
+- id: andrea_relation_2004
+  author:
+    - family: Andrea
+      given: H.
+    - family: Beurskens
+      given: Ajhm
+    - family: Kant
+      given: I. J.
+    - family: Davey
+      given: G. C. L.
+    - family: Field
+      given: Andy P.
+    - family: Schayck
+      given: C. P.
+      non-dropping-particle: van
+  citation-key: andrea_relation_2004
+  container-title: Journal of Psychosomatic Research
+  container-title-short: J. Psychosomat. Res.
+  DOI: 10.1016/j.jpsychores.2003.09.013
+  ISSN: 0022-3999
+  issued:
+    - year: 2004
+      month: 10
+  license: All rights reserved
+  page: 399-407
+  title: >-
+    The relation between pathological worrying and fatigue in a working
+    population
+  type: article-journal
+  volume: '57'
+
+- id: askew_inhibition_2016
+  author:
+    - family: Askew
+      given: Chris
+    - family: Reynolds
+      given: Gemma
+    - family: Fielding-Smith
+      given: Sarah
+    - family: Field
+      given: Andy P.
+  citation-key: askew_inhibition_2016
+  container-title: J Abnorm Psychol
+  ISSN: 0021-843x
+  issued:
+    - year: 2016
+      month: 2
+  language: English
+  license: All rights reserved
+  page: 279-291
+  title: >-
+    Inhibition of vicariously learned fear in children using positive modeling
+    and prior exposure
+  type: article-journal
+  volume: '125'
+
+- id: askew_stimulus_2013
+  accessed:
+    - year: 2023
+      month: 8
+      day: 18
+  author:
+    - family: Askew
+      given: Chris
+    - family: Dunne
+      given: Güler
+    - family: Özdil
+      given: Zehra
+    - family: Reynolds
+      given: Gemma
+    - family: Field
+      given: Andy P.
+  citation-key: askew_stimulus_2013
+  container-title: Emotion
+  container-title-short: Emotion
+  DOI: 10.1037/a0032714
+  ISSN: 1931-1516, 1528-3542
+  issue: '5'
+  issued:
+    - year: 2013
+  language: en
+  license: All rights reserved
+  page: 915-925
+  source: DOI.org (Crossref)
+  title: >-
+    Stimulus fear-relevance and the vicarious learning pathway to childhood
+    fears.
+  type: article-journal
+  URL: http://doi.apa.org/getdoi.cfm?doi=10.1037/a0032714
+  volume: '13'
+
+- id: askew_vicarious_2007
+  author:
+    - family: Askew
+      given: Chris
+    - family: Field
+      given: Andy P.
+  citation-key: askew_vicarious_2007
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2007.06.008
+  ISSN: 0005-7967
+  issued:
+    - year: 2007
+      month: 11
+  license: All rights reserved
+  page: 2616-2627
+  title: Vicarious learning and the development of fears in childhood
+  type: article-journal
+  volume: '45'
+
+- id: askew_vicarious_2008
+  author:
+    - family: Askew
+      given: Chris
+    - family: Field
+      given: Andy P.
+  citation-key: askew_vicarious_2008
+  container-title: Clinical Psychology Review
+  DOI: 10.1016/j.cpr.2008.05.003
+  ISSN: 0272-7358
+  issued:
+    - year: 2008
+      month: 10
+  license: All rights reserved
+  page: 1249-1265
+  title: The vicarious learning pathway to fear 40 years on
+  type: article-journal
+  volume: '28'
+
+- id: askew_what_2008
+  author:
+    - family: Askew
+      given: Chris
+    - family: Kessock-Philip
+      given: Hannah
+    - family: Field
+      given: Andy P.
+  citation-key: askew_what_2008
+  container-title: Behavioural and Cognitive Psychotherapy
+  DOI: 10.1017/s1352465808004402
+  ISSN: 1352-4658
+  issued:
+    - year: 2008
+      month: 7
+  license: All rights reserved
+  page: 491-505
+  title: What happens when verbal threat information and vicarious learning combine?
+  type: article-journal
+  volume: '36'
+
+- id: ayers_evaluation_2018
+  accessed:
+    - year: 2019
+      month: 6
+      day: 6
+  author:
+    - family: Ayers
+      given: Susan
+    - family: Crawley
+      given: Rosalind
+    - family: Button
+      given: Susan
+    - family: Thornton
+      given: Alexandra
+    - family: Field
+      given: Andy P.
+    - family: Flood
+      given: Chris
+    - family: Lee
+      given: Suzanne
+    - family: Eagle
+      given: Andrew
+    - family: Bradley
+      given: Robert
+    - family: Moore
+      given: Donna
+    - family: Gyte
+      given: Gill
+    - family: Smith
+      given: Helen
+  citation-key: ayers_evaluation_2018
+  container-title: Journal of Behavioral Medicine
+  container-title-short: J Behav Med
+  DOI: 10.1007/s10865-018-9970-3
+  ISSN: 1573-3521
+  issue: '5'
+  issued:
+    - year: 2018
+      month: 10
+      day: 1
+  language: en
+  license: All rights reserved
+  page: 614-626
+  source: Springer Link
+  title: >-
+    Evaluation of expressive writing for postpartum health: a randomised
+    controlled trial
+  title-short: Evaluation of expressive writing for postpartum health
+  type: article-journal
+  URL: https://doi.org/10.1007/s10865-018-9970-3
+  volume: '41'
+
+- id: benjamin_redefine_2018
+  accessed:
+    - year: 2018
+      month: 3
+      day: 28
+  author:
+    - family: Benjamin
+      given: Daniel J.
+    - family: Berger
+      given: James O.
+    - family: Johannesson
+      given: Magnus
+    - family: Nosek
+      given: Brian A.
+    - family: Wagenmakers
+      given: E.-J.
+    - family: Berk
+      given: Richard
+    - family: Bollen
+      given: Kenneth A.
+    - family: Brembs
+      given: Björn
+    - family: Brown
+      given: Lawrence
+    - family: Camerer
+      given: Colin
+    - family: Cesarini
+      given: David
+    - family: Chambers
+      given: Christopher D.
+    - family: Clyde
+      given: Merlise
+    - family: Cook
+      given: Thomas D.
+    - family: Boeck
+      given: Paul De
+    - family: Dienes
+      given: Zoltan
+    - family: Dreber
+      given: Anna
+    - family: Easwaran
+      given: Kenny
+    - family: Efferson
+      given: Charles
+    - family: Fehr
+      given: Ernst
+    - family: Fidler
+      given: Fiona
+    - family: Field
+      given: Andy P.
+    - family: Forster
+      given: Malcolm
+    - family: George
+      given: Edward I.
+    - family: Gonzalez
+      given: Richard
+    - family: Goodman
+      given: Steven
+    - family: Green
+      given: Edwin
+    - family: Green
+      given: Donald P.
+    - family: Greenwald
+      given: Anthony G.
+    - family: Hadfield
+      given: Jarrod D.
+    - family: Hedges
+      given: Larry V.
+    - family: Held
+      given: Leonhard
+    - family: Ho
+      given: Teck Hua
+    - family: Hoijtink
+      given: Herbert
+    - family: Hruschka
+      given: Daniel J.
+    - family: Imai
+      given: Kosuke
+    - family: Imbens
+      given: Guido
+    - family: Ioannidis
+      given: John P. A.
+    - family: Jeon
+      given: Minjeong
+    - family: Jones
+      given: James Holland
+    - family: Kirchler
+      given: Michael
+    - family: Laibson
+      given: David
+    - family: List
+      given: John
+    - family: Little
+      given: Roderick
+    - family: Lupia
+      given: Arthur
+    - family: Machery
+      given: Edouard
+    - family: Maxwell
+      given: Scott E.
+    - family: McCarthy
+      given: Michael
+    - family: Moore
+      given: Don A.
+    - family: Morgan
+      given: Stephen L.
+    - family: Munafó
+      given: Marcus
+    - family: Nakagawa
+      given: Shinichi
+    - family: Nyhan
+      given: Brendan
+    - family: Parker
+      given: Timothy H.
+    - family: Pericchi
+      given: Luis
+    - family: Perugini
+      given: Marco
+    - family: Rouder
+      given: Jeff
+    - family: Rousseau
+      given: Judith
+    - family: Savalei
+      given: Victoria
+    - family: Schönbrodt
+      given: Felix D.
+    - family: Sellke
+      given: Thomas
+    - family: Sinclair
+      given: Betsy
+    - family: Tingley
+      given: Dustin
+    - family: Zandt
+      given: Trisha Van
+    - family: Vazire
+      given: Simine
+    - family: Watts
+      given: Duncan J.
+    - family: Winship
+      given: Christopher
+    - family: Wolpert
+      given: Robert L.
+    - family: Xie
+      given: Yu
+    - family: Young
+      given: Cristobal
+    - family: Zinman
+      given: Jonathan
+    - family: Johnson
+      given: Valen E.
+  citation-key: benjamin_redefine_2018
+  container-title: Nature Human Behaviour
+  DOI: 10.1038/s41562-017-0189-z
+  ISSN: 2397-3374
+  issued:
+    - year: 2018
+      month: 1
+  language: en
+  license: 2017 The Author(s)
+  page: 6-10
+  source: www.nature.com
+  title: Redefine statistical significance
+  type: article-journal
+  URL: https://www.nature.com/articles/s41562-017-0189-z
+  volume: '2'
+
+- id: bilham_demystifying_2013
+  accessed:
+    - year: 2023
+      month: 8
+      day: 18
+  author:
+    - family: Field
+      given: Andy
+  citation-key: bilham_demystifying_2013
+  container-title: For the Love of Learning
+  DOI: 10.1007/978-1-137-33430-5_16
+  editor:
+    - family: Bilham
+      given: Tim
+  event-place: London
+  ISBN: 978-1-137-33429-9 978-1-137-33430-5
+  issued:
+    - year: 2013
+  language: en
+  license: All rights reserved
+  page: 109-113
+  publisher: Macmillan Education UK
+  publisher-place: London
+  source: DOI.org (Crossref)
+  title: 'Demystifying statistics: bring your imprimatur … to the laughter'
+  title-short: Demystifying statistics
+  type: chapter
+  URL: http://link.springer.com/10.1007/978-1-137-33430-5_16
+
+- id: bosmans_fear_2015
+  author:
+    - family: Bosmans
+      given: Guy
+    - family: Dujardin
+      given: Adinda
+    - family: Field
+      given: Andy P.
+    - family: Salemink
+      given: Elske
+    - family: Vasey
+      given: Michael W.
+  citation-key: bosmans_fear_2015
+  container-title: Parenting-Science and Practice
+  DOI: 10.1080/15295192.2015.1053336
+  ISSN: 1529-5192
+  issued:
+    - year: 2015
+      month: 10
+      day: 2
+  license: All rights reserved
+  page: 288-294
+  title: >-
+    Fear acquisition through maternal verbal threat information in middle
+    childhood: the role of children's attachment to mother
+  type: article-journal
+  volume: '15'
+
+- id: brewin_memory_2007
+  author:
+    - family: Brewin
+      given: Chris R.
+    - family: Kleiner
+      given: Jennifer Sue
+    - family: Vasterling
+      given: Jennifer J.
+    - family: Field
+      given: Andy Peter
+  citation-key: brewin_memory_2007
+  container-title: Journal of Abnormal Psychology
+  DOI: 10.1037/0021-843x.116.3.448
+  ISSN: 0021-843X
+  issued:
+    - year: 2007
+      month: 8
+  license: All rights reserved
+  page: 448-463
+  title: >-
+    Memory for emotionally neutral information in posttraumatic stress disorder:
+    A meta-analytic investigation
+  type: article-journal
+  volume: '116'
+
+- id: brewin_meta-analysis_2024
+  accessed:
+    - year: 2024
+      month: 4
+      day: 26
+  author:
+    - family: Brewin
+      given: Chris R.
+    - family: Field
+      given: Andy P.
+  citation-key: brewin_meta-analysis_2024
+  container-title: Clinical Psychological Science
+  container-title-short: Clinical Psychological Science
+  DOI: 10.1177/21677026241240456
+  ISSN: 2167-7026, 2167-7034
+  issued:
+    - year: 2024
+      month: 4
+      day: 25
+  language: en
+  license: All rights reserved
+  page: '21677026241240456'
+  source: DOI.org (Crossref)
+  title: >-
+    Meta-analysis shows trauma memories in Posttraumatic Stress Disorder lack
+    coherence: a response to Taylor et al. (2022)
+  title-short: >-
+    Meta-analysis shows trauma memories in posttraumatic stress disorder lack
+    coherence
+  type: article-journal
+  URL: https://journals.sagepub.com/doi/10.1177/21677026241240456
+
+- id: broeren_processing_2011
+  accessed:
+    - year: 2023
+      month: 8
+      day: 18
+  author:
+    - family: Broeren
+      given: Suzanne
+    - family: Muris
+      given: Peter
+    - family: Bouwmeester
+      given: Samantha
+    - family: Field
+      given: Andy P.
+    - family: Voerman
+      given: Jessica S.
+  citation-key: broeren_processing_2011
+  container-title: Journal of Experimental Psychopathology
+  container-title-short: Journal of Experimental Psychopathology
+  DOI: 10.5127/jep.016611
+  ISSN: 2043-8087, 2043-8087
+  issue: '4'
+  issued:
+    - year: 2011
+      month: 12
+  language: en
+  license: All rights reserved
+  page: 454-474
+  source: DOI.org (Crossref)
+  title: >-
+    Processing biases for emotional faces in 4- to 12-year-old non-clinical
+    children: An exploratory study of developmental patterns and relationships
+    with social anxiety and behavioral inhibition
+  title-short: >-
+    Processing biases for emotional faces in 4- to 12-year-old non-clinical
+    children
+  type: article-journal
+  URL: http://journals.sagepub.com/doi/10.5127/jep.016611
+  volume: '2'
+
+- id: broeren_they_2011
+  author:
+    - family: Broeren
+      given: Suzanne
+    - family: Lester
+      given: Kathryn J.
+    - family: Muris
+      given: Peter
+    - family: Field
+      given: Andy P.
+  citation-key: broeren_they_2011
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2010.11.001
+  ISSN: 0005-7967
+  issued:
+    - year: 2011
+      month: 1
+  license: All rights reserved
+  page: 50-57
+  title: >-
+    They are afraid of the animal, so therefore I am too: Influence of peer
+    modeling on fear beliefs and approach-avoidance behaviors towards animals in
+    typically developing children
+  type: article-journal
+  volume: '49'
+
+- id: brown_best_2017
+  author:
+    - family: Brown
+      given: Timothy A.
+    - family: Field
+      given: Andy P.
+  citation-key: brown_best_2017
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2017.06.008
+  ISSN: 0005-7967
+  issued:
+    - year: 2017
+      month: 11
+  license: All rights reserved
+  note: WOS:000413132300001
+  page: 1-3
+  title: >-
+    Best practice guidelines for modern statistical methods in applied clinical
+    research: Introduction to the Special Section
+  type: article-journal
+  volume: '98'
+
+- id: burris_biased_2019
+  accessed:
+    - year: 2020
+      month: 6
+      day: 25
+  author:
+    - family: Burris
+      given: Jessica L.
+    - family: Buss
+      given: Kristin
+    - family: LoBue
+      given: Vanessa
+    - family: Pérez-Edgar
+      given: Koraly
+    - family: Field
+      given: Andy P.
+  citation-key: burris_biased_2019
+  container-title: Journal of Experimental Psychopathology
+  container-title-short: Journal of Experimental Psychopathology
+  DOI: 10.1177/2043808719860717
+  ISSN: 2043-8087, 2043-8087
+  issue: '3'
+  issued:
+    - year: 2019
+      month: 7
+  language: en
+  license: All rights reserved
+  page: '204380871986071'
+  source: DOI.org (Crossref)
+  title: 'Biased attention to threat and anxiety: On taking a developmental approach'
+  title-short: Biased attention to threat and anxiety
+  type: article-journal
+  URL: http://journals.sagepub.com/doi/10.1177/2043808719860717
+  volume: '10'
+
+- id: burris_moderating_2022
+  accessed:
+    - year: 2022
+      month: 2
+      day: 28
+  author:
+    - family: Burris
+      given: Jessica L.
+    - family: Reider
+      given: Lori B.
+    - family: Oleas
+      given: Denise S.
+    - family: Gunther
+      given: Kelley E.
+    - family: Buss
+      given: Kristin A.
+    - family: Pérez‐Edgar
+      given: Koraly
+    - family: Field
+      given: Andy P.
+    - family: LoBue
+      given: Vanessa
+  citation-key: burris_moderating_2022
+  container-title: Developmental Psychobiology
+  container-title-short: Developmental Psychobiology
+  DOI: 10.1002/dev.22241
+  ISSN: 0012-1630, 1098-2302
+  issue: '3'
+  issued:
+    - year: 2022
+      month: 4
+  language: en
+  license: All rights reserved
+  source: DOI.org (Crossref)
+  title: >-
+    Moderating effects of environmental stressors on the development of
+    attention to threat in infancy
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1002/dev.22241
+  volume: '64'
+
+- id: cartwright-hatton_new_2011
+  author:
+    - family: Cartwright-Hatton
+      given: Sam
+    - family: McNally
+      given: Deb
+    - family: Field
+      given: Andy P.
+    - family: Rust
+      given: Stewart
+    - family: Laskey
+      given: Ben
+    - family: Dixon
+      given: Clare
+    - family: Gallagher
+      given: Bridie
+    - family: Harrington
+      given: Richard
+    - family: Miller
+      given: Chloe
+    - family: Pemberton
+      given: Kathryn
+    - family: Symes
+      given: Wendy
+    - family: White
+      given: Caroline
+    - family: Woodham
+      given: Adrine
+  citation-key: cartwright-hatton_new_2011
+  container-title: Journal of the American Academy of Child and Adolescent Psychiatry
+  DOI: 10.1016/j.jaac.2010.12.015
+  ISSN: 0890-8567
+  issued:
+    - year: 2011
+      month: 3
+  license: All rights reserved
+  page: 242-251
+  title: >-
+    A new parenting-based group intervention for young anxious children: results
+    of a randomized controlled trial
+  type: article-journal
+  volume: '50'
+
+- id: cartwright-hatton_research_2008
+  author:
+    - family: Cartwright-Hatton
+      given: Sam
+    - family: Field
+      given: A.
+    - family: Creswell
+      given: Cathy
+    - family: Reynolds
+      given: S.
+  citation-key: cartwright-hatton_research_2008
+  container-title: Behavioural and Cognitive Psychotherapy
+  DOI: 10.1017/s1352465808004566
+  ISSN: 1352-4658
+  issued:
+    - year: 2008
+      month: 7
+  license: All rights reserved
+  page: 377-378
+  title: 'Research into anxiety of childhood: playing catch-up (to olympic standard)'
+  type: article-journal
+  volume: '36'
+
+- id: cartwrighthatton_preventing_2018
+  accessed:
+    - year: 2019
+      month: 1
+      day: 15
+  author:
+    - family: Cartwright‐Hatton
+      given: Sam
+    - family: Ewing
+      given: Donna
+    - family: Dash
+      given: Suzanne
+    - family: Hughes
+      given: Zoe
+    - family: Thompson
+      given: Ellen J.
+    - family: Hazell
+      given: Cassie M.
+    - family: Field
+      given: Andy P.
+    - family: Startup
+      given: Helen
+  citation-key: cartwrighthatton_preventing_2018
+  container-title: British Journal of Clinical Psychology
+  DOI: 10.1111/bjc.12177
+  ISSN: 2044-8260
+  issued:
+    - year: 2018
+  language: en
+  license: © 2018 The British Psychological Society
+  page: 351-366
+  source: Wiley Online Library
+  title: >-
+    Preventing family transmission of anxiety: Feasibility RCT of a brief
+    intervention for parents
+  title-short: Preventing family transmission of anxiety
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/bjc.12177
+  volume: '57'
+
+- id: crawley_feasibility_2018
+  accessed:
+    - year: 2018
+      month: 3
+      day: 28
+  author:
+    - family: Crawley
+      given: Rosalind
+    - family: Ayers
+      given: Susan
+    - family: Button
+      given: Susan
+    - family: Thornton
+      given: Alexandra
+    - family: Field
+      given: Andy P.
+    - family: Lee
+      given: Suzanne
+    - family: Eagle
+      given: Andrew
+    - family: Bradley
+      given: Robert
+    - family: Moore
+      given: Donna
+    - family: Gyte
+      given: Gill
+    - family: Smith
+      given: Helen
+  citation-key: crawley_feasibility_2018
+  container-title: BMC Pregnancy and Childbirth
+  container-title-short: BMC Pregnancy and Childbirth
+  DOI: 10.1186/s12884-018-1703-7
+  ISSN: 1471-2393
+  issued:
+    - year: 2018
+      month: 3
+      day: 27
+  license: All rights reserved
+  page: '75'
+  source: BioMed Central
+  title: >-
+    Feasibility and acceptability of expressive writing with postpartum women: a
+    randomised controlled trial
+  title-short: Feasibility and acceptability of expressive writing with postpartum women
+  type: article-journal
+  URL: https://doi.org/10.1186/s12884-018-1703-7
+  volume: '18'
+
+- id: creswell_interpretation_2011
+  author:
+    - family: Creswell
+      given: Cathy
+    - family: Shildrick
+      given: Sarah
+    - family: Field
+      given: Andy P.
+  citation-key: creswell_interpretation_2011
+  container-title: Journal of Child and Family Studies
+  DOI: 10.1007/s10826-010-9390-7
+  ISSN: 1062-1024
+  issued:
+    - year: 2011
+      month: 4
+  license: All rights reserved
+  page: 240-250
+  title: >-
+    Interpretation of ambiguity in children: a prospective study of associations
+    with anxiety and parental interpretations
+  type: article-journal
+  volume: '20'
+
+- id: daly_effect_2024
+  accessed:
+    - year: 2024
+      month: 7
+      day: 23
+  author:
+    - family: Daly
+      given: Jessica
+    - family: De Luca
+      given: Flavia
+    - family: Berens
+      given: Sam C.
+    - family: Field
+      given: Andy P.
+    - family: Rusted
+      given: Jennifer M.
+    - family: Bird
+      given: Chris M.
+  citation-key: daly_effect_2024
+  container-title: Cortex
+  container-title-short: Cortex
+  DOI: 10.1016/j.cortex.2024.05.006
+  ISSN: '00109452'
+  issued:
+    - year: 2024
+      month: 8
+  language: en
+  license: All rights reserved
+  page: 268-284
+  source: DOI.org (Crossref)
+  title: >-
+    The effect of apolipoprotein E genotype on spatial processing in humans: A
+    meta-analysis and systematic review
+  title-short: The effect of apolipoprotein E genotype on spatial processing in humans
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0010945224001424
+  volume: '177'
+
+- id: davey_benefit_2000
+  author:
+    - family: Davey
+      given: G. C. L.
+    - family: Field
+      given: Andy P.
+  citation-key: davey_benefit_2000
+  container-title: Behavioral and Brain Sciences
+  container-title-short: Behav Brain Sci
+  DOI: 10.1017/s0140525x00272439
+  ISSN: 0140-525X
+  issued:
+    - year: 2000
+      month: 4
+  license: All rights reserved
+  page: 253-+
+  title: >-
+    The "benefit" of Pavlovian conditioning - performance models, hidden costs,
+    and innovation
+  type: article-journal
+  volume: '23'
+
+- id: davey_perseveration_2003-1
+  accessed:
+    - year: 2021
+      month: 6
+      day: 23
+  author:
+    - family: Davey
+      given: Graham C. L.
+    - family: Startup
+      given: Helen M.
+    - family: Zara
+      given: Ayten
+    - family: MacDonald
+      given: C. Benie
+    - family: Field
+      given: Andy P.
+  citation-key: davey_perseveration_2003-1
+  container-title: Journal of Behavior Therapy and Experimental Psychiatry
+  container-title-short: Journal of Behavior Therapy and Experimental Psychiatry
+  DOI: 10.1016/S0005-7916(03)00035-1
+  ISSN: 0005-7916
+  issue: '2'
+  issued:
+    - year: 2003
+      month: 6
+      day: 1
+  language: en
+  license: All rights reserved
+  page: 141-160
+  source: ScienceDirect
+  title: The perseveration of checking thoughts and mood–as–input hypothesis
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S0005791603000351
+  volume: '34'
+
+- id: davey_whats_2021
+  author:
+    - family: Davey
+      given: Graham C. L.
+    - family: Meeten
+      given: Frances
+    - family: Field
+      given: Andy P.
+  citation-key: davey_whats_2021
+  container-title: Cognitive Therapy and Research
+  container-title-short: Cognitive Therapy and Research
+  DOI: 10.1007/s10608-021-10270-0
+  ISSN: 1573-2819
+  issued:
+    - year: 2021
+      month: 10
+      day: 9
+  license: All rights reserved
+  title: >-
+    What’s worrying our students? Increasing worry levels over two decades and a
+    new measure of student worry frequency and domains
+  type: article-journal
+  URL: https://doi.org/10.1007/s10608-021-10270-0
+
+- id: de_houwer_associative_2005
+  author:
+    - family: De Houwer
+      given: J.
+    - family: Baeyens
+      given: F.
+    - family: Field
+      given: Andy P.
+  citation-key: de_houwer_associative_2005
+  container-title: Cognition & Emotion
+  DOI: 10.1080/02699930441000265
+  ISSN: 0269-9931
+  issued:
+    - year: 2005
+      month: 2
+  license: All rights reserved
+  page: 161-174
+  title: >-
+    Associative learning of likes and dislikes: Some current controversies and
+    possible ways forward
+  type: article-journal
+  volume: '19'
+
+- id: du_adolescents_2020
+  accessed:
+    - year: 2020
+      month: 5
+      day: 29
+  author:
+    - family: Du
+      given: Juan
+    - family: Field
+      given: Andy P.
+  citation-key: du_adolescents_2020
+  container-title: Genealogy
+  DOI: 10.3390/genealogy4020062
+  issue: '2'
+  issued:
+    - year: 2020
+      month: 6
+  language: en
+  license: http://creativecommons.org/licenses/by/3.0/
+  number: '2'
+  page: '62'
+  publisher: Multidisciplinary Digital Publishing Institute
+  source: www.mdpi.com
+  title: >-
+    Adolescents’ peer friendship and anxiety and depression among
+    first-generation immigrant BAME families in the uk
+  type: article-journal
+  URL: https://www.mdpi.com/2313-5778/4/2/62
+  volume: '4'
+
+- id: evans_internalizing_2020
+  accessed:
+    - year: 2020
+      month: 5
+      day: 29
+  author:
+    - family: Evans
+      given: Danielle
+    - family: Gaysina
+      given: Darya
+    - family: Field
+      given: Andy P.
+  citation-key: evans_internalizing_2020
+  container-title: Royal Society Open Science
+  container-title-short: Royal Society Open Science
+  DOI: 10.1098/rsos.191433
+  issue: '5'
+  issued:
+    - year: 2020
+  license: All rights reserved
+  page: '191433'
+  publisher: Royal Society
+  source: royalsocietypublishing.org (Atypon)
+  title: >-
+    Internalizing symptoms and working memory as predictors of mathematical
+    attainment trajectories across the primary–secondary education transition
+  type: article-journal
+  URL: https://royalsocietypublishing.org/doi/10.1098/rsos.191433
+  volume: '7'
+
+- id: evans_maths_2020
+  author:
+    - family: Evans
+      given: Danielle
+    - family: Field
+      given: Andy P
+  citation-key: evans_maths_2020
+  container-title: Royal Society Open Science
+  DOI: https://doi.org/10.1098/rsos.200975
+  issued:
+    - year: 2020
+  language: en
+  license: All rights reserved
+  page: '25'
+  source: Zotero
+  title: >-
+    Maths attitudes, school affect and teacher characteristics as predictors of
+    maths attainment trajectories in primary and secondary education
+  type: article-journal
+  volume: '7: 200975'
+
+- id: evans_predictors_2020
+  accessed:
+    - year: 2020
+      month: 7
+      day: 9
+  author:
+    - family: Evans
+      given: Danielle
+    - family: Field
+      given: Andy P.
+  citation-key: evans_predictors_2020
+  container-title: Royal Society Open Science
+  container-title-short: Royal Society Open Science
+  DOI: 10.1098/rsos.200422
+  issue: '7'
+  issued:
+    - year: 2020
+  license: All rights reserved
+  page: '200422'
+  publisher: Royal Society
+  source: royalsocietypublishing.org (Atypon)
+  title: >-
+    Predictors of mathematical attainment trajectories across the
+    primary-to-secondary education transition: parental factors and the home
+    environment
+  title-short: >-
+    Predictors of mathematical attainment trajectories across the
+    primary-to-secondary education transition
+  type: article-journal
+  URL: https://royalsocietypublishing.org/doi/10.1098/rsos.200422
+  volume: '7'
+
+- id: evansReviewAcademicPsychological2018
+  accessed:
+    - year: 2018
+      month: 8
+      day: 29
+  author:
+    - family: Evans
+      given: Danielle
+    - family: Borriello
+      given: Giulia A.
+    - family: Field
+      given: Andy P.
+  citation-key: evansReviewAcademicPsychological2018
+  container-title: Frontiers in Psychology
+  container-title-short: Front. Psychol.
+  DOI: 10.3389/fpsyg.2018.01482
+  ISSN: 1664-1078
+  issued:
+    - year: 2018
+  language: English
+  source: Frontiers
+  title: >-
+    A review of the academic and psychological impact of the transition to
+    secondary education
+  type: article-journal
+  URL: https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01482/full
+  volume: '9'
+
+- id: ewing_meta-analysis_2015
+  author:
+    - family: Ewing
+      given: Donna L.
+    - family: Monsen
+      given: Jeremy J.
+    - family: Thompson
+      given: Ellen J.
+    - family: Cartwright-Hatton
+      given: Sam
+    - family: Field
+      given: Andy
+  citation-key: ewing_meta-analysis_2015
+  container-title: Behavioural and Cognitive Psychotherapy
+  DOI: 10.1017/s1352465813001094
+  ISSN: 1352-4658
+  issued:
+    - year: 2015
+      month: 9
+  license: All rights reserved
+  page: 562-577
+  title: >-
+    A meta-analysis of transdiagnostic cognitive behavioural therapy in the
+    treatment of child and young person anxiety disorders
+  type: article-journal
+  volume: '43'
+
+- id: field_analysis_2007
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_analysis_2007
+  container-title: Encyclopedia of Measurement and Statistics
+  editor:
+    - family: Salkind
+      given: N. J.
+  event-place: 'Thousand Oaks: CA'
+  issued:
+    - year: 2007
+  license: All rights reserved
+  page: 32-35
+  publisher: Sage
+  publisher-place: 'Thousand Oaks: CA'
+  title: Analysis of variance
+  type: chapter
+  volume: '1'
+
+- id: field_associative_2011
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Purkis
+      given: H. M.
+  citation-key: field_associative_2011
+  container-title: Clinical applications of learning theory
+  editor:
+    - family: M. Haselgrove
+      given: ''
+    - family: L. Hogarth
+      given: ''
+  event-place: Hove
+  issued:
+    - year: 2011
+  license: All rights reserved
+  page: 49-73
+  publisher: Psychology Press
+  publisher-place: Hove
+  title: Associative learning and phobias
+  type: chapter
+
+- id: field_behavioral_2006
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_behavioral_2006
+  container-title: Journal of Abnormal Psychology
+  DOI: 10.1037/0021-843x.115.4.742
+  ISSN: 0021-843X
+  issued:
+    - year: 2006
+      month: 11
+  license: All rights reserved
+  page: 742-752
+  title: >-
+    The behavioral inhibition system and the verbal information pathway to
+    children's fears
+  type: article-journal
+  volume: '115'
+
+- id: field_bluffers_1998
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_bluffers_1998
+  container-title: >-
+    Newsletter of the Mathematical, Statistical and Computing Section of the
+    British Psychological Society
+  issued:
+    - year: 1998
+  license: All rights reserved
+  page: 13-22
+  title: A bluffer's guide to sphericity
+  type: article-journal
+  volume: '6'
+
+- id: field_can_2003
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_can_2003
+  container-title: Psychologist
+  container-title-short: Psychologist
+  ISSN: 0952-8229
+  issued:
+    - year: 2003
+      month: 12
+  license: All rights reserved
+  page: 642-645
+  title: Can meta-analysis be trusted?
+  type: article-journal
+  volume: '16'
+
+- id: field_can_2009
+  author:
+    - family: Field
+      given: Andy
+  citation-key: field_can_2009
+  container-title: Psychologist
+  issue: '3'
+  issued:
+    - year: 2009
+  language: en
+  license: All rights reserved
+  page: 210–213
+  source: Zotero
+  title: Can humour make students love statistics?
+  type: article-journal
+  volume: '22'
+
+- id: field_conceptual_1997
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Davey
+      given: G. C. L.
+  citation-key: field_conceptual_1997
+  container-title: Learning and Motivation
+  container-title-short: Learn Motiv
+  DOI: 10.1006/lmot.1997.0980
+  ISSN: 0023-9690
+  issued:
+    - year: 1997
+      month: 8
+  license: All rights reserved
+  page: 446-464
+  title: >-
+    Conceptual conditioning: Evidence for an artifactual account of evaluative
+    learning
+  type: article-journal
+  volume: '28'
+
+- id: field_conditioning_2001
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Davey
+      given: G. C. L.
+  citation-key: field_conditioning_2001
+  container-title: >-
+    Anxiety Disorders in Children and Adolescents: Research, Assessment and
+    Intervention
+  editor:
+    - family: Silverman
+      given: W. K.
+    - family: Treffers
+      given: P. A.
+  event-place: Cambridge
+  issued:
+    - year: 2001
+  license: All rights reserved
+  page: 187–211
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  title: Conditioning models of childhood anxiety.
+  type: chapter
+
+- id: field_dissociating_2005
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Moore
+      given: A. C.
+  citation-key: field_dissociating_2005
+  container-title: Cognition & Emotion
+  DOI: 10.1080/02699930441000292
+  ISSN: 0269-9931
+  issued:
+    - year: 2005
+      month: 2
+  license: All rights reserved
+  page: 217-243
+  title: >-
+    Dissociating the effects of attention and contingency awareness on
+    evaluative conditioning effects in the visual paradigm
+  type: article-journal
+  volume: '19'
+
+- id: field_dread_2015
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_dread_2015
+  container-title: Health Psychology Review
+  DOI: 10.1080/17437199.2013.879198
+  ISSN: 1743-7199
+  issued:
+    - year: 2015
+      month: 1
+      day: 1
+  license: All rights reserved
+  page: 15-20
+  title: Dread returns to Mega-Silly One
+  type: article-journal
+  volume: '9'
+
+- id: field_eta_2005
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_eta_2005
+  container-title: Encyclopedia of Statistics in Behavioral Science
+  editor:
+    - family: Everitt
+      given: B. S.
+    - family: Howell
+      given: D. C.
+  event-place: Chichester
+  issued:
+    - year: 2005
+  license: All rights reserved
+  page: 658-659
+  publisher: Wiley
+  publisher-place: Chichester
+  title: Eta and eta-squared
+  type: chapter
+  volume: '2'
+
+- id: field_evaluative_1998
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Davey
+      given: G. C. L.
+  citation-key: field_evaluative_1998
+  container-title: Learning and Motivation
+  container-title-short: Learn Motiv
+  DOI: 10.1006/lmot.1998.1006
+  ISSN: 0023-9690
+  issued:
+    - year: 1998
+      month: 11
+  license: All rights reserved
+  page: 475-491
+  title: >-
+    Evaluative conditioning: Arti-fact or -fiction? A reply to Baeyens, de
+    Houwer, Vansteenwegen, and Eelen (1998)
+  type: article-journal
+  volume: '29'
+
+- id: field_evaluative_2000
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_evaluative_2000
+  container-title: Consciousness and Cognition
+  issued:
+    - year: 2000
+      month: 3
+  license: All rights reserved
+  page: 41-49
+  title: >-
+    Evaluative conditioning is Pavlovian conditioning: Issues of definition,
+    measurement, and the theoretical importance of contingency awareness
+  type: article-journal
+  volume: '9'
+
+- id: field_evaluative_2008
+  accessed:
+    - year: 2023
+      month: 8
+      day: 16
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Lascelles
+      given: Kristy R. R.
+    - family: Lester
+      given: Kathryn J.
+    - family: Askew
+      given: Chris
+    - family: Davey
+      given: Graham C. L.
+  citation-key: field_evaluative_2008
+  container-title: Netherlands Journal of Psychology
+  container-title-short: NEJP
+  DOI: 10.1007/BF03076407
+  ISSN: 1872-552X, 1876-8768
+  issue: '2'
+  issued:
+    - year: 2008
+      month: 6
+  language: en
+  license: All rights reserved
+  page: 46-64
+  source: DOI.org (Crossref)
+  title: 'Evaluative conditioning: missing, presumed dead'
+  title-short: Evaluative conditioning
+  type: article-journal
+  URL: http://link.springer.com/10.1007/BF03076407
+  volume: '64'
+
+- id: field_experimental_2005
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Davey
+      given: Graham C. L.
+  citation-key: field_experimental_2005
+  container-title: A handbook of research methods in clinical and health psychology
+  editor:
+    - family: Miles
+      given: J. M. V.
+    - family: Gilbert
+      given: P.
+  event-place: Oxford
+  issued:
+    - year: 2005
+  license: All rights reserved
+  page: 175-184
+  publisher: Oxford University Press
+  publisher-place: Oxford
+  title: Experimental methods in clinical and health research
+  type: chapter
+
+- id: field_fear_2003
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Lawson
+      given: J.
+  citation-key: field_fear_2003
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/s0005-7967(03)00034-2
+  ISSN: 0005-7967
+  issued:
+    - year: 2003
+      month: 11
+  license: All rights reserved
+  page: 1277-1293
+  title: >-
+    Fear information and the development of fears during childhood: effects on
+    implicit fear responses and behavioural avoidance
+  type: article-journal
+  volume: '41'
+
+- id: field_fear_2003-1
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Hamilton
+      given: S. J.
+    - family: Knowles
+      given: K. A.
+    - family: Plews
+      given: E. L.
+  citation-key: field_fear_2003-1
+  container-title: Behaviour Research and Therapy
+  DOI: Pii s0005-7967(02)00050-5 10.1016/s0005-7967(02)00050-5
+  ISSN: 0005-7967
+  issued:
+    - year: 2003
+      month: 1
+  license: All rights reserved
+  page: 113-123
+  title: >-
+    Fear information and social phobic beliefs in children: a prospective
+    paradigm and preliminary results
+  type: article-journal
+  volume: '41'
+
+- id: field_future_2008-1
+  accessed:
+    - year: 2023
+      month: 8
+      day: 16
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Cartwright-Hatton
+      given: Sam
+    - family: Reynolds
+      given: Shirley
+    - family: Creswell
+      given: Cathy
+  citation-key: field_future_2008-1
+  container-title: Cognition & Emotion
+  container-title-short: Cognition & Emotion
+  DOI: 10.1080/02699930701842270
+  ISSN: 0269-9931, 1464-0600
+  issue: '3'
+  issued:
+    - year: 2008
+      month: 4
+  language: en
+  license: All rights reserved
+  page: 385-394
+  source: DOI.org (Crossref)
+  title: Future directions for child anxiety theory and treatment
+  type: article-journal
+  URL: http://www.tandfonline.com/doi/abs/10.1080/02699930701842270
+  volume: '22'
+
+- id: field_homogeneity_2007
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_homogeneity_2007
+  container-title: Encyclopedia of Measurement and Statistics
+  editor:
+    - family: Salkind
+      given: N. J.
+  event-place: 'Thousand Oaks: CA'
+  issued:
+    - year: 2007
+  license: All rights reserved
+  page: 442-444
+  publisher: Sage
+  publisher-place: 'Thousand Oaks: CA'
+  title: Homogeneity of variance
+  type: chapter
+  volume: '2'
+
+- id: field_how_2010
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Gillett
+      given: Raphael
+  citation-key: field_how_2010
+  container-title: British Journal of Mathematical & Statistical Psychology
+  DOI: 10.1348/000711010x502733
+  ISSN: 0007-1102
+  issued:
+    - year: 2010
+      month: 11
+  license: All rights reserved
+  page: 665-694
+  title: How to do a meta-analysis
+  type: article-journal
+  volume: '63'
+
+- id: field_how_2013
+  author:
+    - family: Field
+      given: Zoe C.
+    - family: Field
+      given: Andy P.
+  citation-key: field_how_2013
+  container-title: Emotion
+  DOI: 10.1037/a0031147
+  ISSN: 1528-3542
+  issued:
+    - year: 2013
+      month: 6
+  license: All rights reserved
+  page: 409-423
+  title: >-
+    How trait anxiety, interpretation bias and memory affect acquired fear in
+    children learning about new animals
+  type: article-journal
+  volume: '13'
+
+- id: field_i_2000
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_i_2000
+  container-title: Consciousness and Cognition
+  DOI: 10.1006/ccog.1999.0402
+  ISSN: 1053-8100
+  issued:
+    - year: 2000
+      month: 3
+  license: All rights reserved
+  page: 13-36
+  title: >-
+    I like it, but I'm not sure why: Can evaluative conditioning occur without
+    conscious awareness?
+  type: article-journal
+  volume: '9'
+
+- id: field_i_2006
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_i_2006
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2005.03.006
+  ISSN: 0005-7967
+  issued:
+    - year: 2006
+      month: 3
+  license: All rights reserved
+  page: 439-455
+  title: >-
+    I don't like it because it eats sprouts: Conditioning preferences in
+    children
+  type: article-journal
+  volume: '44'
+
+- id: field_information_2011
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Hadwin
+      given: Julie A.
+    - family: Lester
+      given: Kathryn J.
+  citation-key: field_information_2011
+  container-title: >-
+    Anxiety disorders in children and adolescents: research, assessment and
+    intervention
+  edition: 2nd
+  editor:
+    - family: Silverman
+      given: W. K.
+    - family: Field
+      given: Andy P.
+  event-place: Cambridge
+  issued:
+    - year: 2011
+  license: All rights reserved
+  page: 103–128
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  title: >-
+    Information processing biases in child and adolescent anxiety: evidence and
+    origins
+  type: chapter
+
+- id: field_interaction_2007
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Storksen-Coulson
+      given: Hannah
+  citation-key: field_interaction_2007
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2007.09.001
+  ISSN: 0005-7967
+  issued:
+    - year: 2007
+      month: 12
+  license: All rights reserved
+  page: 3051-3059
+  title: >-
+    The interaction of pathways to fear in childhood anxiety: A preliminary
+    study
+  type: article-journal
+  volume: '45'
+
+- id: field_intraclass_2005
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_intraclass_2005
+  container-title: Encyclopedia of statistics in behavioral science
+  editor:
+    - family: Everitt
+      given: B.
+    - family: Howell
+      given: D. C.
+  event-place: New York
+  issued:
+    - year: 2005
+  license: All rights reserved
+  page: 948–954
+  publisher: Wiley
+  publisher-place: New York
+  title: Intraclass correlation
+  type: chapter
+  volume: '2'
+
+- id: field_is_2005
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_is_2005
+  container-title: Psychological Methods
+  DOI: 10.1037/1082-989x.10.4.444
+  ISSN: 1082-989X
+  issued:
+    - year: 2005
+      month: 12
+  license: All rights reserved
+  page: 444-467
+  title: >-
+    Is the meta-analysis of correlation coefficients accurate when population
+    correlations vary?
+  type: article-journal
+  volume: '10'
+
+- id: field_is_2006-1
+  accessed:
+    - year: 2023
+      month: 8
+      day: 18
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_is_2006-1
+  container-title: Clinical Psychology Review
+  container-title-short: Clinical Psychology Review
+  DOI: 10.1016/j.cpr.2005.05.010
+  ISSN: '02727358'
+  issue: '7'
+  issued:
+    - year: 2006
+      month: 11
+  language: en
+  license: All rights reserved
+  page: 857-875
+  source: DOI.org (Crossref)
+  title: >-
+    Is conditioning a useful framework for understanding the development and
+    treatment of phobias?
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0272735805001637
+  volume: '26'
+
+- id: field_is_2010
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Lester
+      given: Kathryn J.
+  citation-key: field_is_2010
+  container-title: Clinical Child and Family Psychology Review
+  DOI: 10.1007/s10567-010-0078-8
+  ISSN: 1096-4037
+  issued:
+    - year: 2010
+      month: 12
+  license: All rights reserved
+  page: 315-332
+  title: >-
+    Is there room for 'development' in developmental models of information
+    processing biases to threat in children and adolescents?
+  type: article-journal
+  volume: '13'
+
+- id: field_kendalls_2005
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_kendalls_2005
+  container-title: Encyclopedia of Statistics in Behavioral Science
+  editor:
+    - family: Everitt
+      given: B.
+    - family: Howell
+      given: D. C.
+  event-place: New York
+  issued:
+    - year: 2005
+  license: All rights reserved
+  page: 1010–1011
+  publisher: Wiley
+  publisher-place: New York
+  title: Kendall's Coefficient of Concordance
+  type: chapter
+  volume: '2'
+
+- id: field_kurtosis_2007
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_kurtosis_2007
+  container-title: Encyclopedia of Measurement and Statistics
+  editor:
+    - family: Salkind
+      given: N. J.
+  event-place: 'Thousand Oaks: CA'
+  issued:
+    - year: 2007
+  license: All rights reserved
+  page: 522-523
+  publisher: Sage
+  publisher-place: 'Thousand Oaks: CA'
+  title: Kurtosis
+  type: chapter
+  volume: '2'
+
+- id: field_learning_2010
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Lester
+      given: Kathryn J.
+  citation-key: field_learning_2010
+  container-title: 'Information processing biases and anxiety: A developmental perspective'
+  editor:
+    - family: Hadwin
+      given: Julie A
+    - family: Field
+      given: Andy P
+  event-place: Chichester
+  issued:
+    - year: 2010
+  license: All rights reserved
+  page: 253-278
+  publisher: Wiley-Blackwell
+  publisher-place: Chichester
+  title: >-
+    Learning of Information processing biases in anxious children and
+    adolescents
+  type: chapter
+
+- id: field_maternal_2020
+  accessed:
+    - year: 2020
+      month: 3
+      day: 13
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Lester
+      given: Kathryn J.
+    - family: Cartwright-Hatton
+      given: Sam
+    - family: Harold
+      given: Gordon T.
+    - family: Shaw
+      given: Daniel S.
+    - family: Natsuaki
+      given: Misaki N.
+    - family: Ganiban
+      given: Jody M.
+    - family: Reiss
+      given: David
+    - family: Neiderhiser
+      given: Jenae M.
+    - family: Leve
+      given: Leslie D.
+  citation-key: field_maternal_2020
+  container-title: Journal of Applied Developmental Psychology
+  container-title-short: Journal of Applied Developmental Psychology
+  DOI: 10.1016/j.appdev.2020.101123
+  ISSN: 0193-3973
+  issued:
+    - year: 2020
+      month: 5
+      day: 1
+  language: en
+  license: All rights reserved
+  page: '101123'
+  source: ScienceDirect
+  title: >-
+    Maternal and paternal influences on childhood anxiety symptoms: A
+    genetically sensitive comparison
+  title-short: Maternal and paternal influences on childhood anxiety symptoms
+  type: article-journal
+  URL: http://www.sciencedirect.com/science/article/pii/S0193397318301898
+  volume: '68'
+
+- id: field_meta-analysis_2001
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_meta-analysis_2001
+  container-title: Psychological Methods
+  DOI: 10.1037/1082-989x.6.2.161
+  ISSN: 1082-989X
+  issued:
+    - year: 2001
+      month: 6
+  license: All rights reserved
+  page: 161-180
+  title: >-
+    Meta-analysis of correlation coefficients: A Monte Carlo comparison of
+    fixed- and random-effects methods
+  type: article-journal
+  volume: '6'
+
+- id: field_meta-analysis_2005
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_meta-analysis_2005
+  container-title: A handbook of research methods in clinical and health psychology
+  editor:
+    - family: Miles
+      given: J.
+    - family: Gilbert
+      given: P.
+  event-place: Oxford
+  issued:
+    - year: 2005
+  license: All rights reserved
+  page: 295-308
+  publisher: Oxford University Press
+  publisher-place: Oxford
+  title: Meta-analysis
+  type: chapter
+
+- id: field_meta-analysis_2009
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_meta-analysis_2009
+  container-title: The SAGE Handbook of Quantitative Methods in Psychology
+  editor:
+    - family: Millsap
+      given: R. E.
+    - family: Maydeu-Olivares
+      given: A.
+  event-place: London
+  issued:
+    - year: 2009
+  license: All rights reserved
+  page: 404-422
+  publisher: Sage
+  publisher-place: London
+  title: Meta-analysis
+  type: chapter
+
+- id: field_meta-analysis_2012
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_meta-analysis_2012
+  container-title: The Oxford Handbook of Research Strategies for Clinical Psychology
+  editor:
+    - family: Comer
+      given: J. S.
+    - family: Kendall
+      given: P. C.
+  event-place: Oxford
+  issued:
+    - year: 2012
+  license: All rights reserved
+  publisher: Oxford University Press.
+  publisher-place: Oxford
+  title: Meta-analysis in clinical psychology research
+  type: chapter
+
+- id: field_non-sadistical_2010
+  accessed:
+    - year: 2019
+      month: 4
+      day: 16
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_non-sadistical_2010
+  container-title: Teaching Psychology in Higher Education
+  DOI: 10.1002/9781444320732.ch6
+  editor:
+    - literal: Upton, Dominic
+    - literal: Trapp, Annie
+  ISBN: 978-1-4443-2073-2
+  issued:
+    - year: 2010
+  language: en
+  license: Copyright © 2010 Blackwell Publishing Ltd
+  page: 134-163
+  publisher: John Wiley & Sons, Ltd
+  source: Wiley Online Library
+  title: Non-Sadistical Methods for Teaching Statistics
+  type: chapter
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444320732.ch6
+
+- id: field_one-way_2007
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_one-way_2007
+  container-title: Encyclopedia of Measurement and Statistics
+  editor:
+    - family: Salkind
+      given: N. J.
+  event-place: 'Thousand Oaks: CA'
+  issued:
+    - year: 2007
+  license: All rights reserved
+  page: 713-716
+  publisher: Sage
+  publisher-place: 'Thousand Oaks: CA'
+  title: One-way analysis of variance
+  type: chapter
+  volume: '2'
+
+- id: field_parent-child_2007
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Ball
+      given: Jess E.
+    - family: Kawycz
+      given: Nicola J.
+    - family: Moore
+      given: Harriett
+  citation-key: field_parent-child_2007
+  container-title: Behavioural and Cognitive Psychotherapy
+  DOI: 10.1017/s1352465807003736
+  ISSN: 1352-4658
+  issued:
+    - year: 2007
+  license: All rights reserved
+  page: 473-486
+  title: >-
+    Parent-child relationships and the verbal information pathway to fear in
+    children: Two preliminary experiments
+  type: article-journal
+  volume: '35'
+
+- id: field_post-event_2004
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Morgan
+      given: Julie
+  citation-key: field_post-event_2004
+  container-title: Journal Of Anxiety Disorders
+  DOI: 10.1016/j.janxdis.2003.08.004
+  ISSN: 0887-6185
+  issued:
+    - year: 2004
+  license: All rights reserved
+  page: 647-663
+  title: >-
+    Post-event processing and the retrieval of autobiographical memories in
+    socially anxious individuals
+  type: article-journal
+  volume: '18'
+
+- id: field_predicting_2019
+  accessed:
+    - year: 2020
+      month: 2
+      day: 12
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Evans
+      given: Danielle
+    - family: Bloniewski
+      given: Tomasz
+    - family: Kovas
+      given: Yulia
+  citation-key: field_predicting_2019
+  container-title: Royal Society Open Science
+  container-title-short: R. Soc. open sci.
+  DOI: 10.1098/rsos.191459
+  ISSN: 2054-5703, 2054-5703
+  issue: '11'
+  issued:
+    - year: 2019
+      month: 11
+      day: 29
+  language: en
+  license: All rights reserved
+  page: '191459'
+  source: DOI.org (Crossref)
+  title: >-
+    Predicting maths anxiety from mathematical achievement across the transition
+    from primary to secondary education
+  type: article-journal
+  URL: https://royalsocietypublishing.org/doi/10.1098/rsos.191459
+  volume: '6'
+
+- id: field_primer_2011
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Wright
+      given: Daniel B.
+  citation-key: field_primer_2011
+  container-title: Journal of Experimental Psychopathology
+  DOI: 10.5127/jep.013711
+  issued:
+    - year: 2011
+  license: All rights reserved
+  page: 271-293
+  title: >-
+    A primer on using multilevel models in clinical and experimental
+    psychopathology research.
+  type: article-journal
+  volume: '2'
+
+- id: field_problems_2003
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_problems_2003
+  container-title: Understanding Statistics
+  issued:
+    - year: 2003
+  license: All rights reserved
+  page: 77-96
+  title: >-
+    The problems in using Fixed-effects models of meta-analysis on real-world
+    data
+  type: article-journal
+  volume: '2'
+
+- id: field_reevaluating_1999
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Davey
+      given: G. C. L.
+  citation-key: field_reevaluating_1999
+  container-title: Journal of Experimental Psychology-Animal Behavior Processes
+  container-title-short: J. Exp. Psychol.-Anim. Behav. Process.
+  DOI: 10.1037/0097-7403.25.2.211
+  ISSN: 0097-7403
+  issued:
+    - year: 1999
+      month: 4
+  license: All rights reserved
+  page: 211-224
+  title: >-
+    Reevaluating evaluative conditioning: A nonassociative explanation of
+    conditioning effects in the visual evaluative conditioning paradigm
+  type: article-journal
+  volume: '25'
+
+- id: field_research_2000
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_research_2000
+  container-title: British Journal of Mathematical & Statistical Psychology
+  ISSN: 0007-1102
+  issued:
+    - year: 2000
+      month: 11
+  language: English
+  license: All rights reserved
+  page: 329-330
+  title: Research methodology in the social, behavioural and life sciences.
+  type: article-journal
+  volume: '53'
+
+- id: field_robust_2017
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Wilcox
+      given: Rand R.
+  citation-key: field_robust_2017
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2017.05.013
+  ISSN: 0005-7967
+  issued:
+    - year: 2017
+      month: 11
+  license: All rights reserved
+  note: WOS:000413132300003
+  page: 19-38
+  title: >-
+    Robust statistical methods: A primer for clinical psychology and
+    experimental psychopathology researchers
+  type: article-journal
+  volume: '98'
+
+- id: field_role_2011
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Purkis
+      given: H. M.
+  citation-key: field_role_2011
+  container-title: >-
+    Anxiety disorders in children and adolescents: research, assessment and
+    intervention
+  edition: 2nd
+  editor:
+    - family: Silverman
+      given: W. K.
+    - family: Field
+      given: A. P.
+  event-place: Cambridge
+  issued:
+    - year: 2011
+  license: All rights reserved
+  page: 227-256
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  title: >-
+    The role of learning in the aetiology of child and adolescent fear and
+    anxiety
+  type: chapter
+
+- id: field_shared_2008-1
+  author:
+    - family: Field
+      given: Andy P
+    - family: Cartwright-Hatton
+      given: Sam
+  citation-key: field_shared_2008-1
+  container-title: International Journal of Cognitive Therapy
+  DOI: 10.1521/ijct.2008.1.3.206
+  issue: '3'
+  issued:
+    - year: 2008
+  language: en
+  license: All rights reserved
+  page: 206-222
+  source: Zotero
+  title: Shared and unique cognitive factors in social anxiety
+  type: article-journal
+  volume: '1'
+
+- id: field_sir_2005
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_sir_2005
+  container-title: Encyclopedia of statistics in behavioral science
+  editor:
+    - family: Everitt
+      given: B. S.
+    - family: Howell
+      given: D. C.
+  event-place: Chichester
+  issued:
+    - year: 2005
+  license: All rights reserved
+  page: 658-659
+  publisher: Wiley
+  publisher-place: Chichester
+  title: Sir Ronald Aylmer Fisher
+  type: chapter
+  volume: '2'
+
+- id: field_skills_2014
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_skills_2014
+  event-place: York, UK
+  genre: Report
+  issued:
+    - year: 2014
+  language: en
+  license: All rights reserved
+  page: '44'
+  publisher: The Higher Education Academy
+  publisher-place: York, UK
+  title: Skills in mathematics and statistics in psychology and tackling transition
+  type: report
+  URL: >-
+    https://www.advance-he.ac.uk/knowledge-hub/skills-mathematics-and-statistics-psychology-and-tackling-transition
+
+- id: field_temperament_2009
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Price-Evans
+      given: Khanya
+  citation-key: field_temperament_2009
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2009.01.020
+  ISSN: 0005-7967
+  issued:
+    - year: 2009
+      month: 5
+  license: All rights reserved
+  page: 431-436
+  title: >-
+    Temperament moderates the effect of the verbal threat information pathway on
+    children's heart rate responses to novel animals
+  type: article-journal
+  volume: '47'
+
+- id: field_verbal_2007
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Schorah
+      given: Hannah
+  citation-key: field_verbal_2007
+  container-title: Journal of Child Psychology and Psychiatry
+  container-title-short: J. Child Psychol. Psychiatry
+  DOI: 10.1111/j.1469-7610.2007.01772.x
+  ISSN: 0021-9630
+  issued:
+    - year: 2007
+      month: 11
+  license: All rights reserved
+  page: 1088-1093
+  title: The verbal information pathway to fear and heart rate changes in children
+  type: article-journal
+  volume: '48'
+
+- id: field_verbal_2008
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Lawson
+      given: Joanne
+    - family: Banerjee
+      given: Robin
+  citation-key: field_verbal_2008
+  container-title: Journal of Abnormal Psychology
+  DOI: 10.1037/0021-843x.117.1.214
+  ISSN: 0021-843X
+  issued:
+    - year: 2008
+      month: 2
+  license: All rights reserved
+  page: 214-224
+  title: >-
+    The verbal threat information pathway to fear in children: The longitudinal
+    effects on fear cognitions and the immediate effects on avoidance behavior
+  type: article-journal
+  volume: '117'
+
+- id: field_verbal_2008-1
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Lawson
+      given: Joanne
+  citation-key: field_verbal_2008-1
+  container-title: Cognition & Emotion
+  DOI: 10.1080/02699930801886532
+  ISSN: 0269-9931
+  issued:
+    - year: 2008
+  license: All rights reserved
+  page: 459-479
+  title: >-
+    The verbal information pathway to fear and subsequent causal learning in
+    children
+  type: article-journal
+  volume: '22'
+
+- id: field_watch_2006
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_watch_2006
+  container-title: Journal of Clinical Child and Adolescent Psychology
+  DOI: 10.1207/s15374424jccp3503_8
+  ISSN: 1537-4416
+  issued:
+    - year: 2006
+      month: 9
+  license: All rights reserved
+  page: 431-439
+  title: 'Watch out for the beast: Fear information and attentional bias in children'
+  type: article-journal
+  volume: '35'
+
+- id: field_what_2009
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Nightingale
+      given: Zoe C.
+  citation-key: field_what_2009
+  container-title: Clinical Child Psychology and Psychiatry
+  issued:
+    - year: 2009
+  license: All rights reserved
+  page: 343-351
+  title: What if Little Albert had escaped?
+  type: article-journal
+  volume: '14'
+
+- id: field_when_2001
+  author:
+    - family: Field
+      given: Andy P.
+  citation-key: field_when_2001
+  container-title: Consciousness and Cognition
+  DOI: 10.1006/ccog.2001.0529
+  ISSN: 1053-8100
+  issued:
+    - year: 2001
+      month: 12
+  license: All rights reserved
+  page: 559-566
+  title: >-
+    When all is still concealed: Are we closer to understanding the mechanisms
+    underlying evaluative conditioning?
+  type: article-journal
+  volume: '10'
+
+- id: field_whos_2001
+  author:
+    - family: Field
+      given: Andy P.
+    - family: Argyris
+      given: N. G.
+    - family: Knowles
+      given: K. A.
+  citation-key: field_whos_2001
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/s0005-7967(00)00080-2
+  ISSN: 0005-7967
+  issued:
+    - year: 2001
+      month: 11
+  license: All rights reserved
+  page: 1259-1276
+  title: >-
+    Who's afraid of the big bad wolf: a prospective paradigm to test Rachman's
+    indirect pathways in children
+  type: article-journal
+  volume: '39'
+
+- id: flackEffectsSharedStorybook2018
+  accessed:
+    - year: 2018
+      month: 7
+      day: 4
+  author:
+    - family: Flack
+      given: Zoe M.
+    - family: Field
+      given: Andy P.
+    - family: Horst
+      given: Jessica S.
+  citation-key: flackEffectsSharedStorybook2018
+  container-title: Developmental Psychology
+  DOI: http://dx.doi.org.ezproxy.sussex.ac.uk/10.1037/dev0000512
+  ISSN: 0012-1649
+  issue: '7'
+  issued:
+    - year: 2018
+      month: 7
+  language: English
+  license: © 2018, American Psychological Association
+  page: 1334-1346
+  source: ProQuest
+  title: 'The effects of shared storybook reading on word learning: A meta-analysis'
+  title-short: The effects of shared storybook reading on word learning
+  type: article-journal
+  URL: http://search.proquest.com/docview/2019686507/abstract/30DD3350957E4855PQ/1
+  volume: '54'
+
+- id: greenwood_ui_2018
+  accessed:
+    - year: 2019
+      month: 3
+      day: 18
+  author:
+    - family: Greenwood
+      given: Kathryn
+    - family: Alford
+      given: Katie
+    - family: O’Leary
+      given: Iain
+    - family: Peters
+      given: Emmanuelle
+    - family: Hardy
+      given: Amy
+    - family: Cavanagh
+      given: Kate
+    - family: Field
+      given: Andy P.
+    - family: Visser
+      given: Richard
+      non-dropping-particle: de
+    - family: Fowler
+      given: David
+    - family: Davies
+      given: Matthew
+    - family: Papamichail
+      given: Alexandra
+    - family: Garety
+      given: Philippa
+  citation-key: greenwood_ui_2018
+  container-title: Trials
+  container-title-short: Trials
+  DOI: 10.1186/s13063-018-3023-7
+  ISSN: 1745-6215
+  issue: '1'
+  issued:
+    - year: 2018
+      month: 11
+      day: 20
+  license: All rights reserved
+  page: '644'
+  source: BioMed Central
+  title: >-
+    The U&I study: study protocol for a feasibility randomised controlled trial
+    of a pre-cognitive behavioural therapy digital ‘informed choice’
+    intervention to improve attitudes towards uptake and implementation of CBT
+    for psychosis
+  title-short: The U&I study
+  type: article-journal
+  URL: https://doi.org/10.1186/s13063-018-3023-7
+  volume: '19'
+
+- id: grist_mediating_2012
+  author:
+    - family: Grist
+      given: Rebecca M.
+    - family: Field
+      given: Andy P.
+  citation-key: grist_mediating_2012
+  container-title: J Behav Ther Exp Psychiatry
+  DOI: 10.1016/j.jbtep.2011.11.002
+  ISSN: 1873-7943
+  issued:
+    - year: 2012
+      month: 6
+  language: eng
+  license: All rights reserved
+  page: 801-7
+  title: >-
+    The mediating effect of cognitive development on children's worry
+    elaboration
+  type: article-journal
+  volume: '43'
+
+- id: hadwin_introduction_2010
+  author:
+    - family: Hadwin
+      given: Julie A.
+    - family: Field
+      given: Andy P.
+  citation-key: hadwin_introduction_2010
+  container-title: 'Information processing biases and anxiety: A developmental perspective'
+  editor:
+    - family: Hadwin
+      given: J. A.
+    - family: Field
+      given: Andy P.
+  event-place: Chichester
+  issued:
+    - year: 2010
+  license: All rights reserved
+  page: 1-17
+  publisher: Wiley-Blackwell
+  publisher-place: Chichester
+  title: >-
+    An introduction to the study of information processing biases in childhood
+    anxiety: Theoretical and methodological issues
+  type: chapter
+
+- id: hanrahan_meta-analysis_2013
+  author:
+    - family: Hanrahan
+      given: Fidelma
+    - family: Field
+      given: Andy P.
+    - family: Jones
+      given: Fergal W.
+    - family: Davey
+      given: Graham C. L.
+  citation-key: hanrahan_meta-analysis_2013
+  container-title: Clin Psychol Rev
+  DOI: 10.1016/j.cpr.2012.10.008
+  ISSN: 1873-7811
+  issued:
+    - year: 2013
+      month: 2
+  language: eng
+  license: All rights reserved
+  page: 120-32
+  title: >-
+    A meta-analysis of cognitive therapy for worry in generalized anxiety
+    disorder
+  type: article-journal
+  volume: '33'
+
+- id: huijding_assessment_2010
+  author:
+    - family: Huijding
+      given: J.
+    - family: Wiers
+      given: R. W.
+    - family: Field
+      given: Andy P.
+  citation-key: huijding_assessment_2010
+  container-title: 'Information processing biases and anxiety: A developmental perspective'
+  editor:
+    - family: Hadwin
+      given: Julie A.
+    - family: Field
+      given: Andy P.
+  event-place: Chichester
+  issued:
+    - year: 2010
+  license: All rights reserved
+  page: 151-182
+  publisher: Wiley-Blackwell
+  publisher-place: Chichester
+  title: The assessment of fear-related automatic associations in children.
+  type: chapter
+
+- id: huijding_behavioral_2009
+  author:
+    - family: Huijding
+      given: Jorg
+    - family: Field
+      given: Andy P.
+    - family: De Houwer
+      given: Jan
+    - family: Vandenbosch
+      given: Katrien
+    - family: Rinck
+      given: Mike
+    - family: Oeveren
+      given: Machteld
+      non-dropping-particle: van
+  citation-key: huijding_behavioral_2009
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2009.02.011
+  ISSN: 0005-7967
+  issued:
+    - year: 2009
+      month: 6
+  license: All rights reserved
+  page: 471-477
+  title: >-
+    A behavioral route to dysfunctional representations: The effects of training
+    approach or avoidance tendencies towards novel animals in children
+  type: article-journal
+  volume: '47'
+
+- id: huijding_training_2011
+  author:
+    - family: Huijding
+      given: Jorg
+    - family: Muris
+      given: Peter
+    - family: Lester
+      given: Kathryn J.
+    - family: Field
+      given: Andy P.
+    - family: Joosse
+      given: Galina
+  citation-key: huijding_training_2011
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2011.06.005
+  ISSN: 0005-7967
+  issued:
+    - year: 2011
+      month: 10
+  license: All rights reserved
+  page: 606-613
+  title: >-
+    Training children to approach or avoid novel animals: Effects on
+    self-reported attitudes and fear beliefs and information-seeking behaviors
+  type: article-journal
+  volume: '49'
+
+- id: kelly_can_2010
+  author:
+    - family: Kelly
+      given: Vicky L.
+    - family: Barker
+      given: Helen
+    - family: Field
+      given: Andy P.
+    - family: Wilson
+      given: Charlotte
+    - family: Reynolds
+      given: Shirley
+  citation-key: kelly_can_2010
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2009.10.002
+  ISSN: 0005-7967
+  issued:
+    - year: 2010
+      month: 2
+  license: All rights reserved
+  page: 164-170
+  title: >-
+    Can Rachman's indirect pathways be used to un-learn fear? A prospective
+    paradigm to test whether children's fears can be reduced using positive
+    information and modelling a non-anxious response
+  type: article-journal
+  volume: '48'
+
+- id: kruijt_capturing_2016
+  author:
+    - family: Kruijt
+      given: Anne-Wil
+    - family: Field
+      given: Andy P.
+    - family: Fox
+      given: Elaine
+  citation-key: kruijt_capturing_2016
+  container-title: Plos One
+  DOI: 10.1371/journal.pone.0166600
+  ISSN: 1932-6203
+  issue: '11'
+  issued:
+    - year: 2016
+      month: 11
+      day: 22
+  license: All rights reserved
+  note: WOS:000388886000019
+  page: e0166600
+  title: >-
+    Capturing dynamics of biased attention: are new attention variability
+    measures the way forward?
+  type: article-journal
+  volume: '11'
+
+- id: lascelles_using_2003
+  author:
+    - family: Lascelles
+      given: K. R. R.
+    - family: Field
+      given: Andy P.
+    - family: Davey
+      given: G. C. L.
+  citation-key: lascelles_using_2003
+  container-title: Behavior Therapy
+  container-title-short: Behav. Therapy
+  DOI: 10.1016/s0005-7894(03)80014-x
+  ISSN: 0005-7894
+  issued:
+    - literal: Spr 2003
+  license: All rights reserved
+  page: 213-235
+  title: >-
+    Using foods as CSs and body shapes as UCSs: A putative role for associative
+    learning in the development of eating disorders
+  type: article-journal
+  volume: '34'
+
+- id: lawson_effects_2007
+  author:
+    - family: Lawson
+      given: Joanne
+    - family: Banerjee
+      given: Robin
+    - family: Field
+      given: Andy P.
+  citation-key: lawson_effects_2007
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2006.01.007
+  ISSN: 0005-7967
+  issued:
+    - year: 2007
+      month: 1
+  license: All rights reserved
+  page: 21-37
+  title: >-
+    The effects of verbal information on children's fear beliefs about social
+    situations
+  type: article-journal
+  volume: '45'
+
+- id: lester_anxious_2009
+  author:
+    - family: Lester
+      given: Kathryn J.
+    - family: Field
+      given: Andy P.
+    - family: Oliver
+      given: Samantha
+    - family: Cartwright-Hatton
+      given: Sam
+  citation-key: lester_anxious_2009
+  container-title: Behaviour Research and Therapy
+  DOI: 10.1016/j.brat.2008.11.005
+  ISSN: 0005-7967
+  issued:
+    - year: 2009
+      month: 2
+  license: All rights reserved
+  page: 170-174
+  title: >-
+    Do anxious parents interpretive biases towards threat extend into their
+    child's environment?
+  type: article-journal
+  volume: '47'
+
+- id: lester_are_2010
+  author:
+    - family: Lester
+      given: Kathryn J.
+    - family: Seal
+      given: Katherine
+    - family: Nightingale
+      given: Zoe C.
+    - family: Field
+      given: Andy P.
+  citation-key: lester_are_2010
+  container-title: Journal Of Anxiety Disorders
+  DOI: 10.1016/j.janxdis.2009.09.004
+  ISSN: 0887-6185
+  issued:
+    - year: 2010
+      month: 1
+  license: All rights reserved
+  page: 102-108
+  title: >-
+    Are children's own interpretations of ambiguous situations based on how they
+    perceive their mothers have interpreted ambiguous situations for them in the
+    past?
+  type: article-journal
+  volume: '24'
+
+- id: lester_effects_2015
+  author:
+    - family: Lester
+      given: Kathryn J.
+    - family: Lisk
+      given: Stephen C.
+    - family: Mikita
+      given: Nina
+    - family: Mitchell
+      given: Sophie
+    - family: Huijding
+      given: Jorg
+    - family: Rinck
+      given: Mike
+    - family: Field
+      given: Andy P.
+  citation-key: lester_effects_2015
+  container-title: Journal of Behavior Therapy and Experimental Psychiatry
+  DOI: 10.1016/j.jbtep.2015.01.008
+  ISSN: 0005-7916
+  issued:
+    - year: 2015
+      month: 9
+  license: All rights reserved
+  page: 40-49
+  title: >-
+    The effects of verbal information and approach-avoidance training on
+    children's fear-related responses
+  type: article-journal
+  volume: '48'
+
+- id: lester_experimental_2011
+  author:
+    - family: Lester
+      given: Kathryn J.
+    - family: Field
+      given: Andy P.
+    - family: Muris
+      given: Peter
+  citation-key: lester_experimental_2011
+  container-title: Journal Of Anxiety Disorders
+  DOI: 10.1016/j.janxdis.2011.03.006
+  ISSN: 0887-6185
+  issued:
+    - year: 2011
+      month: 6
+  license: All rights reserved
+  page: 697-705
+  title: >-
+    Experimental modification of interpretation bias regarding social and animal
+    fear in children
+  type: article-journal
+  volume: '25'
+
+- id: lester_experimental_2011-1
+  author:
+    - family: Lester
+      given: Kathryn J.
+    - family: Field
+      given: Andy P.
+    - family: Muris
+      given: Peter
+  citation-key: lester_experimental_2011-1
+  container-title: Journal of Clinical Child and Adolescent Psychology
+  DOI: 10.1080/15374416.2011.618449
+  issued:
+    - year: 2011
+  license: All rights reserved
+  page: 864-877
+  title: >-
+    Experimental modification of interpretation bias about animal fear in young
+    children: Effects on cognition, avoidance behaviour, anxiety vulnerability
+    and physiological responding.
+  type: article-journal
+  volume: '40'
+
+- id: lester_maternal_2012
+  author:
+    - family: Lester
+      given: Kathryn J.
+    - family: Field
+      given: Andy P.
+    - family: Cartwright-Hatton
+      given: Sam
+  citation-key: lester_maternal_2012
+  container-title: Journal of Family Psychology
+  DOI: 10.1037/a0029711
+  ISSN: 1939-1293
+  issued:
+    - year: 2012
+      month: 10
+  language: eng
+  license: All rights reserved
+  page: 756-66
+  title: >-
+    Maternal anxiety and cognitive biases towards threat in their own and their
+    child's environment
+  type: article-journal
+  volume: '26'
+
+- id: lobue_importance_2020
+  accessed:
+    - year: 2020
+      month: 6
+      day: 18
+  author:
+    - family: LoBue
+      given: Vanessa
+    - family: Reider
+      given: Lori B.
+    - family: Kim
+      given: Emily
+    - family: Burris
+      given: Jessica L.
+    - family: Oleas
+      given: Denise S.
+    - family: Buss
+      given: Kristin A.
+    - family: Pérez‐Edgar
+      given: Koraly
+    - family: Field
+      given: Andy P.
+  citation-key: lobue_importance_2020
+  container-title: Infancy
+  container-title-short: Infancy
+  DOI: 10.1111/infa.12339
+  ISSN: 1525-0008, 1532-7078
+  issue: '4'
+  issued:
+    - year: 2020
+      month: 7
+  language: en
+  license: All rights reserved
+  page: 420-437
+  source: DOI.org (Crossref)
+  title: The importance of using multiple outcome measures in infant research
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/infa.12339
+  volume: '25'
+
+- id: mathur_developing_2023
+  accessed:
+    - year: 2024
+      month: 3
+      day: 19
+  author:
+    - family: Mathur
+      given: Sonal
+    - family: Weiss
+      given: Helen A.
+    - family: Neuman
+      given: Melissa
+    - family: Leurent
+      given: Baptiste
+    - family: Field
+      given: Andy P.
+    - family: Shetty
+      given: Tejaswi
+    - family: J.
+      given: James E.
+    - family: Nair
+      given: Pooja
+    - family: Mathews
+      given: Rhea
+    - family: Malik
+      given: Kanika
+    - family: Michelson
+      given: Daniel
+    - family: Patel
+      given: Vikram
+  citation-key: mathur_developing_2023
+  container-title: 'Cambridge Prisms: Global Mental Health'
+  container-title-short: Camb. prisms Glob. ment. health
+  DOI: 10.1017/gmh.2023.81
+  ISSN: 2054-4251
+  issued:
+    - year: 2023
+  language: en
+  license: All rights reserved
+  page: e87
+  source: DOI.org (Crossref)
+  title: >-
+    Developing knowledge-based psychotherapeutic competencies in non-specialist
+    providers: A pre-post study with a nested randomised controlled trial of a
+    coach-supported versus self-guided digital training course for a
+    problem-solving psychological intervention in India
+  title-short: >-
+    Developing knowledge-based psychotherapeutic competencies in non-specialist
+    providers
+  type: article-journal
+  URL: >-
+    https://www.cambridge.org/core/product/identifier/S205442512300081X/type/journal_article
+  volume: '10'
+
+- id: mathur_knowledge_2023
+  accessed:
+    - year: 2023
+      month: 11
+      day: 7
+  author:
+    - family: Mathur
+      given: Sonal
+    - family: Michelson
+      given: Daniel
+    - family: Shetty
+      given: Tejaswi
+    - family: Patel
+      given: Vikram
+    - family: Field
+      given: Andy P.
+  citation-key: mathur_knowledge_2023
+  container-title: Journal of Technology in Behavioral Science
+  container-title-short: J. technol. behav. sci.
+  DOI: 10.1007/s41347-023-00356-9
+  ISSN: 2366-5963
+  issued:
+    - year: 2023
+      month: 10
+      day: 21
+  language: en
+  license: All rights reserved
+  source: DOI.org (Crossref)
+  title: >-
+    Knowledge of problem solving (KOPS) scale: design and evaluation of a
+    digitally administered competence measure for a common practice element in
+    task-shared youth mental health interventions
+  title-short: Knowledge of problem solving (kops) scale
+  type: article-journal
+  URL: https://link.springer.com/10.1007/s41347-023-00356-9
+
+- id: mathurcoachsupportedselfguideddigital2023
+  author:
+    - family: Mathur
+      given: Sonal
+    - family: Weiss
+      given: Helen A
+    - family: Neuman
+      given: Melissa
+    - family: Field
+      given: Andy P
+    - family: Leurent
+      given: Baptiste
+    - family: Shetty
+      given: Tejaswi
+    - family: J
+      given: James E
+    - family: Nair
+      given: Pooja
+    - family: Mathews
+      given: Rhea
+    - family: Malik
+      given: Kanika
+    - family: Michelson
+      given: Daniel
+    - family: Patel
+      given: Vikram
+  citation-key: mathurcoachsupportedselfguideddigital2023
+  container-title: JMIR Research Protocols
+  container-title-short: JMIR Res Protoc
+  DOI: 10.2196/41981
+  ISSN: 1929-0748
+  issued:
+    - year: 2023
+      month: 6
+      day: 13
+  license: All rights reserved
+  page: e41981
+  title: >-
+    Coach-supported versus self-guided digital training course for a
+    problem-solving psychological intervention for nonspecialists: protocol for
+    a pre-post nested randomized controlled trial
+  type: article-journal
+  URL: https://www.researchprotocols.org/2023/1/e41981
+  volume: '12'
+
+- id: miles_perspectives_2007
+  author:
+    - family: Miles
+      given: J. N. V.
+    - family: Field
+      given: Andy P.
+  citation-key: miles_perspectives_2007
+  container-title: The Irish Journal of Psychology
+  issued:
+    - year: 2007
+  license: All rights reserved
+  page: 13-26
+  title: Perspectives on significance testing.
+  type: article-journal
+  volume: '28'
+
+- id: muris_distorted_2008
+  author:
+    - family: Muris
+      given: Peter
+    - family: Field
+      given: Andy P.
+  citation-key: muris_distorted_2008
+  container-title: Cognition & Emotion
+  DOI: 10.1080/02699930701843450
+  ISSN: 0269-9931
+  issued:
+    - year: 2008
+  license: All rights reserved
+  page: 395-421
+  title: Distorted cognition and pathological anxiety in children and adolescents
+  type: article-journal
+  volume: '22'
+
+- id: muris_effects_2009
+  author:
+    - family: Muris
+      given: Peter
+    - family: Rassin
+      given: E.
+    - family: Mayer
+      given: B.
+    - family: Smeets
+      given: G.
+    - family: Huijding
+      given: J.
+    - family: Remmerswaal
+      given: D.
+    - family: Field
+      given: A. P.
+  citation-key: muris_effects_2009
+  container-title: Behav Res Ther
+  DOI: Doi 10.1016/J.Brat.2008.12.002
+  ISSN: 0005-7967
+  issued:
+    - year: 2009
+      month: 3
+  language: English
+  license: All rights reserved
+  page: 206-214
+  title: Effects of verbal information on fear-related reasoning biases in children
+  type: article-journal
+  volume: '47'
+
+- id: muris_normal_2011
+  author:
+    - family: Muris
+      given: Peter
+    - family: Field
+      given: Andy P.
+  citation-key: muris_normal_2011
+  container-title: >-
+    Anxiety disorders in children and adolescents: research, assessment and
+    intervention
+  edition: 2nd
+  editor:
+    - family: Silverman
+      given: W. K.
+    - family: Field
+      given: A. P.
+  event-place: Cambridge
+  issued:
+    - year: 2011
+  license: All rights reserved
+  page: 76-89
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  title: The normal development of fear in children and adolescents
+  type: chapter
+
+- id: muris_role_2010
+  author:
+    - family: Muris
+      given: Peter
+    - family: Field
+      given: Andy P.
+  citation-key: muris_role_2010
+  container-title: Clinical Child and Family Psychology Review
+  DOI: 10.1007/s10567-010-0064-1
+  ISSN: 1096-4037
+  issued:
+    - year: 2010
+      month: 6
+  license: All rights reserved
+  page: 129-150
+  title: >-
+    The role of verbal threat information in the development of childhood fear.
+    "Beware the Jabberwock!"
+  type: article-journal
+  volume: '13'
+
+- id: nightingale_emotional_2010
+  author:
+    - family: Nightingale
+      given: Zoë C.
+    - family: Field
+      given: Andy P.
+    - family: Kindt
+      given: Merel
+  citation-key: nightingale_emotional_2010
+  container-title: 'Information processing biases and anxiety: A developmental perspective'
+  DOI: 10.1002/9780470661468.ch3
+  editor:
+    - family: Hadwin
+      given: Julie A.
+    - family: Field
+      given: Andy P.
+  event-place: Hoboken, NJ, US
+  ISBN: 978-0-470-99819-9 978-0-470-66145-1
+  issued:
+    - year: 2010
+  license: All rights reserved
+  page: 47-75
+  publisher: Wiley Blackwell
+  publisher-place: Hoboken, NJ, US
+  source: APA PsycNet
+  title: The emotional Stroop task in anxious children
+  type: chapter
+
+- id: pearce_impact_2016
+  author:
+    - family: Pearce
+      given: Laura J.
+    - family: Field
+      given: Andy P.
+  citation-key: pearce_impact_2016
+  container-title: Human Communication Research
+  DOI: doi:10.1111/hcre.12069
+  ISSN: 0360-3989
+  issued:
+    - year: 2016
+      month: 1
+  license: All rights reserved
+  page: 98-121
+  title: >-
+    The impact of "scary" TV and film on children's internalizing emotions: a
+    meta-analysis
+  type: article-journal
+  volume: '42'
+
+- id: perez-edgar_study_2021
+  accessed:
+    - year: 2021
+      month: 6
+      day: 15
+  author:
+    - family: Pérez-Edgar
+      given: Koraly
+    - family: LoBue
+      given: Vanessa
+    - family: Buss
+      given: Kristin A.
+    - family: Field
+      given: Andy P.
+    - family: Team
+      given: The LAnTs
+    - family: Reider
+      given: Lori
+    - family: Burris
+      given: Jessica
+    - family: Oleas
+      given: Denise
+    - family: Zhou
+      given: Anna
+    - family: Thomas
+      given: Centia
+    - family: Leigh
+      given: Samantha
+    - family: Ostlund
+      given: Brendan
+    - family: Anaya
+      given: Berenice
+    - family: Gunther
+      given: Kelley
+    - family: Vallorani
+      given: Alicia
+    - family: Youatt
+      given: Elizabeth
+    - family: Smith
+      given: Caitlin
+    - family: Promagan
+      given: Norbert
+    - family: Brown
+      given: Kayla
+    - family: Bierstedt
+      given: Laura
+    - family: Pinzon
+      given: Claudia
+    - family: Revilla
+      given: Kali
+    - family: Sarquez
+      given: Michell
+    - family: Rajasekera
+      given: Piumi
+    - family: Fareedi
+      given: Elveena
+    - family: Kershner
+      given: Annika
+    - family: McDoniel
+      given: Meghan
+    - family: Fu
+      given: Xiaoxue
+    - family: Morales
+      given: Santiago
+    - family: MacNeill
+      given: Leigha
+    - family: Auday
+      given: Eran
+    - family: Ermanni
+      given: Briana
+    - family: Tucker
+      given: Dara
+    - family: Metcalf
+      given: Kelly
+  citation-key: perez-edgar_study_2021
+  container-title: Frontiers in Psychiatry
+  container-title-short: Front. Psychiatry
+  DOI: 10.3389/fpsyt.2021.656958
+  ISSN: 1664-0640
+  issued:
+    - year: 2021
+  language: English
+  license: All rights reserved
+  publisher: Frontiers
+  source: Frontiers
+  title: 'Study Protocol: Longitudinal Attention and Temperament Study'
+  title-short: Study Protocol
+  type: article-journal
+  URL: >-
+    https://www.frontiersin.org/articles/10.3389/fpsyt.2021.656958/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Psychiatry&id=656958
+  volume: '12'
+
+- id: pincus_development_2004
+  author:
+    - family: Pincus
+      given: T.
+    - family: Williams
+      given: A. C. D.
+    - family: Vogel
+      given: S.
+    - family: Field
+      given: Andy P.
+  citation-key: pincus_development_2004
+  container-title: Pain
+  container-title-short: Pain
+  ISSN: 0304-3959
+  issued:
+    - year: 2004
+      month: 5
+  language: English
+  license: All rights reserved
+  page: 181-188
+  title: >-
+    The development and testing of the Depression, Anxiety, and Positive Outlook
+    Scale (DAPOS)
+  type: article-journal
+  volume: '109'
+
+- id: pincus_fear_2006
+  author:
+    - family: Pincus
+      given: Tamar
+    - family: Vogel
+      given: Steven
+    - family: Burton
+      given: A. Kim
+    - family: Santos
+      given: Rita
+    - family: Field
+      given: Andy P.
+  citation-key: pincus_fear_2006
+  container-title: Arthritis and Rheumatism
+  DOI: 10.1002/art.22273
+  ISSN: 0004-3591
+  issued:
+    - year: 2006
+      month: 12
+  license: All rights reserved
+  page: 3999-4010
+  title: >-
+    Fear avoidance and prognosis in back pain - A systematic review and
+    synthesis of current evidence
+  type: article-journal
+  volume: '54'
+
+- id: pincus_systematic_2002
+  author:
+    - family: Pincus
+      given: Tamar
+    - family: Burton
+      given: A. K.
+    - family: Vogel
+      given: S.
+    - family: Field
+      given: Andy P.
+  citation-key: pincus_systematic_2002
+  container-title: Spine (Phila Pa 1976)
+  ISSN: 1528-1159
+  issued:
+    - year: 2002
+      month: 3
+  language: eng
+  license: All rights reserved
+  page: E109-20
+  title: >-
+    A systematic review of psychological factors as predictors of
+    chronicity/disability in prospective cohorts of low back pain
+  type: article-journal
+  volume: '27'
+
+- id: price-evans_neglectful_2008
+  author:
+    - family: Price-Evans
+      given: Khanya
+    - family: Field
+      given: Andy P.
+  citation-key: price-evans_neglectful_2008
+  container-title: Behavioural and Cognitive Psychotherapy
+  DOI: 10.1017/s1352465808004396
+  ISSN: 1352-4658
+  issued:
+    - year: 2008
+      month: 7
+  license: All rights reserved
+  page: 473-482
+  title: >-
+    A neglectful parenting style moderates the effect of the verbal threat
+    information pathway on children's heart rate responses to novel animals
+  type: article-journal
+  volume: '36'
+
+- id: purkis_but_2011
+  author:
+    - family: Purkis
+      given: Helena M.
+    - family: Lester
+      given: Kathryn J.
+    - family: Field
+      given: Andy P.
+  citation-key: purkis_but_2011
+  container-title: Emotion
+  DOI: 10.1037/a0024415
+  ISSN: 1528-3542
+  issued:
+    - year: 2011
+      month: 12
+  license: All rights reserved
+  page: 1484-1488
+  title: >-
+    But what about the empress of Racnoss? The allocation of attention to
+    spiders and doctor who in a visual search task is predicted by fear and
+    expertise
+  type: article-journal
+  volume: '11'
+
+- id: reider_developmental_2022-1
+  accessed:
+    - year: 2023
+      month: 2
+      day: 8
+  author:
+    - family: Reider
+      given: Lori B.
+    - family: Bierstedt
+      given: Laura
+    - family: Burris
+      given: Jessica L.
+    - family: Vallorani
+      given: Alicia
+    - family: Gunther
+      given: "Kelley\_E."
+    - family: Buss
+      given: Kristin A.
+    - family: Pérez‐Edgar
+      given: Koraly
+    - family: Field
+      given: Andy P.
+    - family: LoBue
+      given: Vanessa
+  citation-key: reider_developmental_2022-1
+  container-title: Child Development
+  container-title-short: Child Development
+  DOI: 10.1111/cdev.13831
+  ISSN: 0009-3920, 1467-8624
+  issue: '6'
+  issued:
+    - year: 2022
+      month: 11
+  language: en
+  license: >-
+    Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+    License (CC-BY-NC-ND)
+  page: e607 - e621
+  source: DOI.org (Crossref)
+  title: >-
+    Developmental patterns of affective attention across the first 2 years of
+    life
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/cdev.13831
+  volume: '93'
+
+- id: reynolds_effect_2014-1
+  accessed:
+    - year: 2023
+      month: 8
+      day: 18
+  author:
+    - family: Reynolds
+      given: Gemma
+    - family: Field
+      given: Andy P.
+    - family: Askew
+      given: Chris
+  citation-key: reynolds_effect_2014-1
+  container-title: Emotion
+  container-title-short: Emotion
+  DOI: 10.1037/a0037225
+  ISSN: 1931-1516, 1528-3542
+  issue: '5'
+  issued:
+    - year: 2014
+      month: 10
+  language: en
+  license: All rights reserved
+  page: 995-1006
+  source: DOI.org (Crossref)
+  title: >-
+    Effect of vicarious fear learning on children’s heart rate responses and
+    attentional bias for novel animals.
+  type: article-journal
+  URL: http://doi.apa.org/getdoi.cfm?doi=10.1037/a0037225
+  volume: '14'
+
+- id: reynolds_learning_2017-1
+  accessed:
+    - year: 2023
+      month: 8
+      day: 18
+  author:
+    - family: Reynolds
+      given: Gemma
+    - family: Field
+      given: Andy P.
+    - family: Askew
+      given: Chris
+  citation-key: reynolds_learning_2017-1
+  container-title: Cognition and Emotion
+  container-title-short: Cognition and Emotion
+  DOI: 10.1080/02699931.2015.1116978
+  ISSN: 0269-9931, 1464-0600
+  issue: '3'
+  issued:
+    - year: 2017
+      month: 4
+      day: 3
+  language: en
+  license: All rights reserved
+  page: 572-579
+  source: DOI.org (Crossref)
+  title: Learning to fear a second-order stimulus following vicarious learning
+  type: article-journal
+  URL: https://www.tandfonline.com/doi/full/10.1080/02699931.2015.1116978
+  volume: '31'
+
+- id: reynolds_preventing_2015
+  author:
+    - family: Reynolds
+      given: Gemma
+    - family: Field
+      given: Andy P.
+    - family: Askew
+      given: Chris
+  citation-key: reynolds_preventing_2015
+  container-title: Journal of Abnormal Child Psychology
+  DOI: 10.1007/s10802-015-0004-0
+  ISSN: 0091-0627
+  issued:
+    - year: 2015
+      month: 10
+  license: All rights reserved
+  page: 1355-1367
+  title: >-
+    Preventing the development of observationally learnt fears in children by
+    devaluing the model's negative response
+  type: article-journal
+  volume: '43'
+
+- id: reynolds_reductions_2018
+  accessed:
+    - year: 2019
+      month: 3
+      day: 18
+  author:
+    - family: Reynolds
+      given: Gemma
+    - family: Field
+      given: Andy P.
+    - family: Askew
+      given: Chris
+  citation-key: reynolds_reductions_2018
+  container-title: Journal of Clinical Child & Adolescent Psychology
+  DOI: 10.1080/15374416.2016.1138410
+  ISSN: 1537-4416
+  issue: '4'
+  issued:
+    - year: 2018
+      month: 7
+      day: 4
+  license: All rights reserved
+  page: 555-568
+  PMID: '27008619'
+  source: Taylor and Francis+NEJM
+  title: >-
+    Reductions in Children’s Vicariously Learnt Avoidance and Heart Rate
+    Responses Using Positive Modeling
+  type: article-journal
+  URL: https://doi.org/10.1080/15374416.2016.1138410
+  volume: '47'
+
+- id: sawyer_posttraumatic_2010
+  author:
+    - family: Sawyer
+      given: Alexandra
+    - family: Ayers
+      given: Susan
+    - family: Field
+      given: Andy P.
+  citation-key: sawyer_posttraumatic_2010
+  container-title: Clinical Psychology Review
+  DOI: 10.1016/j.cpr.2010.02.004
+  ISSN: 0272-7358
+  issued:
+    - year: 2010
+      month: 6
+  license: All rights reserved
+  page: 436-447
+  title: >-
+    Posttraumatic growth and adjustment among individuals with cancer or
+    HIV/AIDS: A meta-analysis
+  type: article-journal
+  volume: '30'
+
+- id: schweizer_impact_2019
+  author:
+    - family: Schweizer
+      given: Susanne
+    - family: Satpute
+      given: Ajay B.
+    - family: Atzil
+      given: Shir
+    - family: Field
+      given: Andy P.
+    - family: Hitchcock
+      given: Caitlin
+    - family: Black
+      given: Melissa
+    - family: Barrett
+      given: Lisa Feldman
+    - family: Dalgleish
+      given: Tim
+  citation-key: schweizer_impact_2019
+  container-title: Psychological Bulletin
+  DOI: 10.1037/bul0000193
+  ISSN: 1939-1455(Electronic),0033-2909(Print)
+  issue: '6'
+  issued:
+    - year: 2019
+  license: All rights reserved
+  page: 566-609
+  source: APA PsycNET
+  title: >-
+    The impact of affective information on working memory: A pair of
+    meta-analytic reviews of behavioral and neuroimaging evidence
+  title-short: The impact of affective information on working memory
+  type: article-journal
+  volume: '145'
+
+- id: sladekova_estimating_2022
+  accessed:
+    - year: 2022
+      month: 4
+      day: 22
+  author:
+    - family: Sladekova
+      given: Martina
+    - family: Webb
+      given: Lois E. A.
+    - family: Field
+      given: Andy P.
+  citation-key: sladekova_estimating_2022
+  container-title: Psychological Methods
+  container-title-short: Psychological Methods
+  DOI: 10.1037/met0000470
+  ISSN: 1939-1463, 1082-989X
+  issued:
+    - year: 2022
+      month: 4
+      day: 21
+  language: en
+  license: All rights reserved
+  source: DOI.org (Crossref)
+  title: >-
+    Estimating the change in meta-analytic effect size estimates after the
+    application of publication bias adjustment methods.
+  type: article-journal
+  URL: http://doi.apa.org/getdoi.cfm?doi=10.1037/met0000470
+
+- id: smith_effects_2015
+  author:
+    - family: Smith
+      given: Helen E.
+    - family: Jones
+      given: Christina J.
+    - family: Hankins
+      given: Matthew
+    - family: Field
+      given: Andy
+    - family: Theadom
+      given: Alice
+    - family: Bowskill
+      given: Richard
+    - family: Horne
+      given: Rob
+    - family: Frew
+      given: Anthony J.
+  citation-key: smith_effects_2015
+  container-title: Psychosomatic Medicine
+  DOI: 10.1097/psy.0000000000000166
+  ISSN: 0033-3174
+  issued:
+    - year: 2015
+      month: 5
+  license: All rights reserved
+  page: 429-437
+  title: >-
+    The effects of expressive writing on lung function, quality of life,
+    medication use, and symptoms in adults with asthma: a randomized controlled
+    trial
+  type: article-journal
+  volume: '77'
+
+- id: stuijfzand_research_2018
+  accessed:
+    - year: 2019
+      month: 3
+      day: 18
+  author:
+    - family: Stuijfzand
+      given: Suzannah
+    - family: Creswell
+      given: Cathy
+    - family: Field
+      given: Andy P.
+    - family: Pearcey
+      given: Samantha
+    - family: Dodd
+      given: Helen
+  citation-key: stuijfzand_research_2018
+  container-title: Journal of Child Psychology and Psychiatry
+  DOI: 10.1111/jcpp.12822
+  ISSN: 1469-7610
+  issue: '11'
+  issued:
+    - year: 2018
+  language: en
+  license: >-
+    © 2017 The Authors. Journal of Child Psychology and Psychiatry published by
+    John Wiley & Sons Ltd on behalf of Association for Child and Adolescent
+    Mental Health.
+  page: 1127-1142
+  source: Wiley Online Library
+  title: >-
+    Research Review: Is anxiety associated with negative interpretations of
+    ambiguity in children and adolescents? A systematic review and meta-analysis
+  title-short: Research Review
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/jcpp.12822
+  volume: '59'
+
+- id: taylor_healthcare_2022
+  author:
+    - family: Taylor
+      given: Heather
+    - family: Cavanagh
+      given: Kate
+    - family: Field
+      given: Andy P
+    - family: Strauss
+      given: Clara
+  citation-key: taylor_healthcare_2022
+  container-title: Journal of Medical Internet Research
+  DOI: 10.2196/31744
+  issue: '8'
+  issued:
+    - year: 2022
+  license: All rights reserved
+  page: e31744
+  title: >-
+    Do healthcare workers need a little Headspace? Findings from a multi-site
+    definitive randomised controlled trial of an unguided digital
+    mindfulness-based self-help intervention to reduce healthcare worker stress
+    in comparison to an active control.
+  type: article-journal
+  volume: '10'
+
+- id: terry_data_2023
+  author:
+    - family: Terry
+      given: Jenny
+    - family: Ross
+      given: Robert M.
+    - family: Nagy
+      given: Tamás
+    - family: Salgado
+      given: Mauricio
+    - family: Garrido-Vásquez
+      given: Patricia
+    - family: Sarfo
+      given: Jacob O.
+    - family: Cooper
+      given: Susan
+    - family: Buttner
+      given: Anke C.
+    - family: Lima
+      given: Tiago J. S.
+    - family: Öztürk
+      given: İbrahim
+    - family: Akay
+      given: Nazlı
+    - family: Santos
+      given: Flavia H.
+    - family: Artemenko
+      given: Christina
+    - family: Copping
+      given: Lee T.
+    - family: Elsherif
+      given: Mahmoud M.
+    - family: Milovanović
+      given: Ilija
+    - family: Cribbie
+      given: Robert A.
+    - family: Drushlyak
+      given: Marina G.
+    - family: Swainston
+      given: Katherine
+    - family: Shou
+      given: Yiyun
+    - family: Leongómez
+      given: Juan David
+    - family: Palena
+      given: Nicola
+    - family: Abidin
+      given: Fitri A.
+    - family: Reyes-Rodríguez
+      given: Maria F.
+    - family: He
+      given: Yunfeng
+    - family: Abraham
+      given: Juneman
+    - family: Vatakis
+      given: Argiro
+    - family: Jankowsky
+      given: Kristin
+    - family: Schmidt
+      given: Stephanie N. L.
+    - family: Grimm
+      given: Elise
+    - family: González
+      given: Desirée
+    - family: Schmid
+      given: Philipp
+    - family: Ferreira
+      given: Roberto A.
+    - family: Rozgonjuk
+      given: Dmitri
+    - family: Özhan
+      given: Neslihan
+    - family: O’Connor
+      given: Patrick A.
+    - family: Zsido
+      given: Andras N.
+    - family: Stiglic
+      given: Gregor
+    - family: Rhodes
+      given: Darren
+    - family: Rodríguez
+      given: Cristina
+    - family: Ropovik
+      given: Ivan
+    - family: Enea
+      given: Violeta
+    - family: Nurwanti
+      given: Ratri
+    - family: Estudillo
+      given: Alejandro J.
+    - family: Beribisky
+      given: Nataly
+    - family: Himawan
+      given: Karel K.
+    - family: Geven
+      given: Linda M.
+    - family: Hoogmoed
+      given: Anne H.
+      non-dropping-particle: van
+    - family: Bret
+      given: Amélie
+    - family: Chapman
+      given: Jodie E.
+    - family: Alter
+      given: Udi
+    - family: Flack
+      given: Zoe M.
+    - family: Hanna
+      given: Donncha
+    - family: Soltanlou
+      given: Mojtaba
+    - family: Banik
+      given: Gabriel
+    - family: Adamkovič
+      given: Matúš
+    - family: Ven
+      given: Sanne H. G.
+      non-dropping-particle: van der
+    - family: Mosbacher
+      given: Jochen A.
+    - family: Şen
+      given: Hilal H.
+    - family: Anderson
+      given: Joel R.
+    - family: Batashvili
+      given: Michael
+    - family: Groot
+      given: Kristel
+      non-dropping-particle: de
+    - family: Parker
+      given: Matthew O.
+    - family: Helmy
+      given: Mai
+    - family: Ostroha
+      given: Mariia M.
+    - family: Gilligan-Lee
+      given: Katie A.
+    - family: Egara
+      given: Felix O.
+    - family: Barwood
+      given: Martin J.
+    - family: Thomas
+      given: Karuna
+    - family: McMahon
+      given: Grace
+    - family: Griffin
+      given: Siobhán M.
+    - family: Nuerk
+      given: Hans-Christoph
+    - family: Counsell
+      given: Alyssa
+    - family: Lindemann
+      given: Oliver
+    - family: Van Rooy
+      given: Dirk
+    - family: Wege
+      given: Theresa E.
+    - family: Lewis
+      given: Joanna E.
+    - family: Aczel
+      given: Balazs
+    - family: Monaghan
+      given: Conal
+    - family: Al-Hoorie
+      given: Ali H.
+    - family: Huber
+      given: Julia F.
+    - family: Yapan
+      given: Saadet
+    - family: Garrido Vásquez
+      given: Mauricio E.
+    - family: Callea
+      given: Antonino
+    - family: Ergiyen
+      given: Tolga
+    - family: Clay
+      given: James M.
+    - family: Mertens
+      given: Gaetan
+    - family: Topçu
+      given: Feyza
+    - family: Tutlu
+      given: Merve G.
+    - family: Täht
+      given: Karin
+    - family: Mikkor
+      given: Kristel
+    - family: Caso
+      given: Letizia
+    - family: Karner
+      given: Alexander
+    - family: Storm
+      given: Maxine M. C.
+    - family: Daroczy
+      given: Gabriella
+    - family: Zein
+      given: Rizqy A.
+    - family: Greco
+      given: Andrea
+    - family: Buchanan
+      given: Erin M.
+    - family: Schmid
+      given: Katharina
+    - family: Hunt
+      given: Thomas E.
+    - family: De keersmaecker
+      given: Jonas
+    - family: Branney
+      given: Peter E.
+    - family: Randell
+      given: Jordan
+    - family: Clark
+      given: Oliver J.
+    - family: Steltenpohl
+      given: Crystal N.
+    - family: Malu
+      given: Bhasker
+    - family: Tekeş
+      given: Burcu
+    - family: Ramis
+      given: TamilSelvan
+    - family: Agrigoroaei
+      given: Stefan
+    - family: Badcock
+      given: Nicholas A.
+    - family: McAloney-Kocaman
+      given: Kareena
+    - family: Semenikhina
+      given: Olena V.
+    - family: Graf
+      given: Erich W.
+    - family: Lea
+      given: Charlie
+    - family: Ogba
+      given: Kalu T. U.
+    - family: Guppy
+      given: Fergus M.
+    - family: Warhurst
+      given: Amy C.
+    - family: Lindsay
+      given: Shane
+    - family: Al Khateeb
+      given: Ahmed
+    - family: Scharnowski
+      given: Frank
+    - family: Kwaadsteniet
+      given: Leontien
+      non-dropping-particle: de
+    - family: Francis
+      given: Kathryn B.
+    - family: Lecompte
+      given: Mariah
+    - family: Webster
+      given: Lisa A. D.
+    - family: Morsanyi
+      given: Kinga
+    - family: Forwood
+      given: Suzanna E.
+    - family: Walters
+      given: Elizabeth R.
+    - family: Tip
+      given: Linda K.
+    - family: Wagge
+      given: Jordan R.
+    - family: Lai
+      given: Ho Yan
+    - family: Crossland
+      given: Deborah S.
+    - family: Darda
+      given: Kohinoor M.
+    - family: Flack
+      given: Tessa R.
+    - family: Leviston
+      given: Zoe
+    - family: Brolly
+      given: Matthew
+    - family: Hills
+      given: Samuel P.
+    - family: Collins
+      given: Elizabeth
+    - family: Roberts
+      given: Andrew J.
+    - family: Cheung
+      given: Wing-Yee
+    - family: Leonard
+      given: Sophie
+    - family: Verschuere
+      given: Bruno
+    - family: Stanley
+      given: Samantha K.
+    - family: Xenidou-Dervou
+      given: Iro
+    - family: Ghasemi
+      given: Omid
+    - family: Liew
+      given: Timothy
+    - family: Ansari
+      given: Daniel
+    - family: Guilaran
+      given: Johnrev
+    - family: Penny
+      given: Samuel G.
+    - family: Bahnmueller
+      given: Julia
+    - family: Hand
+      given: Christopher J.
+    - family: Rahajeng
+      given: Unita W.
+    - family: Peterburg
+      given: Dar
+    - family: Takacs
+      given: Zsofia K.
+    - family: Platow
+      given: Michael J.
+    - family: Field
+      given: Andy P.
+  citation-key: terry_data_2023
+  container-title: Journal of Open Psychology Data
+  DOI: 10.5334/jopd.80
+  issued:
+    - year: 2023
+  license: All rights reserved
+  title: >-
+    Data from an International Multi-Centre Study of Statistics and Mathematics
+    Anxieties and Related Variables in University Students (the SMARVUS Dataset)
+  type: article-journal
+
+- id: trickey_meta-analysis_2012
+  author:
+    - family: Trickey
+      given: D.
+    - family: Siddaway
+      given: A. P.
+    - family: Meiser-Stedman
+      given: R.
+    - family: Serpell
+      given: L.
+    - family: Field
+      given: Andy P.
+  citation-key: trickey_meta-analysis_2012
+  container-title: Clin Psychol Rev
+  DOI: 10.1016/j.cpr.2011.12.001
+  ISSN: 1873-7811
+  issued:
+    - year: 2012
+      month: 3
+  language: eng
+  license: All rights reserved
+  page: 122-38
+  title: >-
+    A meta-analysis of risk factors for post-traumatic stress disorder in
+    children and adolescents
+  type: article-journal
+  volume: '32'
+
+- id: ugland_erp_2013
+  author:
+    - family: Ugland
+      given: C. C.
+    - family: Dyson
+      given: B. J.
+    - family: Field
+      given: Andy P.
+  citation-key: ugland_erp_2013
+  container-title: Biol Psychol
+  DOI: 10.1016/j.biopsycho.2012.02.003
+  ISSN: 1873-6246
+  issued:
+    - year: 2013
+      month: 1
+  language: eng
+  license: All rights reserved
+  page: 69-81
+  title: >-
+    An ERP study of the interaction between verbal information and conditioning
+    pathways to fear
+  type: article-journal
+  volume: '92'
+
+- id: vallorani_assessing_2023
+  accessed:
+    - year: 2023
+      month: 2
+      day: 8
+  author:
+    - family: Vallorani
+      given: Alicia
+    - family: Gunther
+      given: Kelley E.
+    - family: Anaya
+      given: Berenice
+    - family: Burris
+      given: Jessica L.
+    - family: Field
+      given: Andy P.
+    - family: LoBue
+      given: Vanessa
+    - family: Buss
+      given: Kristin A.
+    - family: Pérez-Edgar
+      given: Koraly
+  citation-key: vallorani_assessing_2023
+  container-title: Developmental Psychology
+  container-title-short: Developmental Psychology
+  DOI: 10.1037/dev0001479
+  ISSN: 1939-0599, 0012-1649
+  issue: '2'
+  issued:
+    - year: 2023
+      month: 2
+  language: en
+  license: All rights reserved
+  page: 364-376
+  source: DOI.org (Crossref)
+  title: >-
+    Assessing bidirectional relations between infant temperamental negative
+    affect, maternal anxiety symptoms and infant affect-biased attention across
+    the first 24-months of life.
+  type: article-journal
+  URL: http://doi.apa.org/getdoi.cfm?doi=10.1037/dev0001479
+  volume: '59'
+
+- id: wardMetaanalysisMemoryAbility2019
+  accessed:
+    - year: 2019
+      month: 8
+      day: 2
+  author:
+    - family: Ward
+      given: Jamie
+    - family: Field
+      given: Andy P.
+    - family: Chin
+      given: Taylor
+  citation-key: wardMetaanalysisMemoryAbility2019
+  container-title: Memory
+  DOI: 10.1080/09658211.2019.1646771
+  ISSN: 0965-8211
+  issue: '0'
+  issued:
+    - year: 2019
+      month: 8
+      day: 2
+  license: All rights reserved
+  page: 1-14
+  source: Taylor and Francis+NEJM
+  title: A meta-analysis of memory ability in synaesthesia
+  type: article-journal
+  URL: https://www.tandfonline.com/doi/abs/10.1080/09658211.2019.1646771
+  volume: '0'
+
+- id: whaleFactorAnalysesDifferentiate2019
+  accessed:
+    - year: 2019
+      month: 8
+      day: 2
+  author:
+    - family: Whale
+      given: Richard
+    - family: Fialho
+      given: Renata
+    - family: Field
+      given: Andy P.
+    - family: Campbell
+      given: Graham
+    - family: Tibble
+      given: Jeremy
+    - family: Harrison
+      given: Neil A.
+    - family: Rolt
+      given: Michael
+  citation-key: whaleFactorAnalysesDifferentiate2019
+  container-title: Brain, Behavior, and Immunity
+  container-title-short: Brain, Behavior, and Immunity
+  DOI: 10.1016/j.bbi.2019.04.035
+  ISSN: 0889-1591
+  issued:
+    - year: 2019
+      month: 8
+      day: 1
+  license: All rights reserved
+  page: 519-524
+  source: ScienceDirect
+  title: >-
+    Factor analyses differentiate clinical phenotypes of idiopathic and
+    interferon-alpha-induced depression
+  type: article-journal
+  URL: http://www.sciencedirect.com/science/article/pii/S0889159118307542
+  volume: '80'
+
+- id: white_cognitive_2016
+  author:
+    - family: White
+      given: Lauren K.
+    - family: Suway
+      given: Jenna G.
+    - family: Pine
+      given: Daniel S.
+    - family: Field
+      given: Andy P.
+    - family: Lester
+      given: Kathryn J.
+    - family: Muris
+      given: Peter
+    - family: Bar-Haim
+      given: Yair
+    - family: Fox
+      given: Nathan A.
+  citation-key: white_cognitive_2016
+  container-title: Journal of Experimental Psychopathology
+  DOI: 10.5127/jep.053615
+  ISSN: 2043-8087
+  issued:
+    - year: 2016
+  license: All rights reserved
+  note: WOS:000392827200014
+  page: 499-510
+  title: >-
+    The cognitive and emotional effects of cognitive bias modification in
+    interpretations in behaviorally inhibited youth
+  type: article-journal
+  volume: '7'
+
+- id: woodhouse_relationship_2015
+  author:
+    - family: Woodhouse
+      given: Sarah
+    - family: Ayers
+      given: Susan
+    - family: Field
+      given: Andy P.
+  citation-key: woodhouse_relationship_2015
+  container-title: Journal Of Anxiety Disorders
+  DOI: 10.1016/j.janxdis.2015.07.002
+  ISSN: 0887-6185
+  issued:
+    - year: 2015
+      month: 10
+  license: All rights reserved
+  page: 103-117
+  title: >-
+    The relationship between adult attachment style and post-traumatic stress
+    symptoms: A meta-analysis
+  type: article-journal
+  volume: '35'
+
+- id: wright_giving_2009
+  author:
+    - family: Wright
+      given: Daniel B.
+    - family: Field
+      given: Andy P.
+  citation-key: wright_giving_2009
+  container-title: Psychologist
+  container-title-short: Psychologist
+  ISSN: 0952-8229
+  issued:
+    - year: 2009
+      month: 5
+  license: All rights reserved
+  page: 412-413
+  title: Giving your data the bootstrap
+  type: article-journal
+  volume: '22'
+
+- id: wright_using_2011
+  author:
+    - family: Wright
+      given: Daniel B.
+    - family: London
+      given: Kamala
+    - family: Field
+      given: Andy P.
+  citation-key: wright_using_2011
+  container-title: Journal of Experimental Psychopathology
+  DOI: doi:10.5127/jep.013611
+  issued:
+    - year: 2011
+  license: All rights reserved
+  page: 252–270
+  title: >-
+    Using bootstrap estimation and the plug-in principle for clinical psychology
+    data
+  type: article-journal
+  volume: '2'
+...

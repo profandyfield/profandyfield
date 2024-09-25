@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Andy Field">
+<meta name="dcterms.date" content="2016-04-28">
+<meta name="description" content="Blatant plug for my new textbook">
+
+<title>If you’re not doing something different, you’re not doing anything at all. – Andy Field</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4B4C2HG6H3"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-4B4C2HG6H3', { 'anonymize_ip': true});
+</script>
+
+
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../favicon.ico" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Andy Field</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../discoverse.html"> 
+<span class="menu-text">Discoverse</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/pubs.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/packages.html"> 
+<span class="menu-text">R Packages</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/profandyfield"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0003-3306-4695"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:orcid" aria-label="Icon orcid from fa6-brands Iconify.design set." title="Icon orcid from fa6-brands Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.co.uk/citations?user=0Iy7PFYAAAAJ&amp;hl=en"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:google-scholar" aria-label="Icon google-scholar from fa6-brands Iconify.design set." title="Icon google-scholar from fa6-brands Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/profandyfield"> 
+<span class="menu-text"><i class="fa-brands fa-x-twitter" aria-label="x-twitter"></i></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/profandyfield.bsky.social"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/profandyfield/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">If you’re not doing something different, you’re not doing anything at all.</h1>
+                  <div>
+        <div class="description">
+          Blatant plug for my new textbook
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Books</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://profandyfield.com">Andy Field</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 28, 2016</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Map</h2>
+   
+  <ul>
+  <li><a href="#a-history-of-an-adventure-in-statistics" id="toc-a-history-of-an-adventure-in-statistics" class="nav-link active" data-scroll-target="#a-history-of-an-adventure-in-statistics">A history of <em>An Adventure in Statistics</em></a></li>
+  <li><a href="#what-is-an-adventure-in-statistics-all-about" id="toc-what-is-an-adventure-in-statistics-all-about" class="nav-link" data-scroll-target="#what-is-an-adventure-in-statistics-all-about">What is <em>An Adventure in Statistics</em> all about?</a></li>
+  <li><a href="#what-goes-into-creating-a-textbook" id="toc-what-goes-into-creating-a-textbook" class="nav-link" data-scroll-target="#what-goes-into-creating-a-textbook">What goes into creating a textbook?</a>
+  <ul class="collapse">
+  <li><a href="#the-timeline" id="toc-the-timeline" class="nav-link" data-scroll-target="#the-timeline">The timeline</a></li>
+  <li><a href="#the-anatomy-of-an-adventure-in-statistics" id="toc-the-anatomy-of-an-adventure-in-statistics" class="nav-link" data-scroll-target="#the-anatomy-of-an-adventure-in-statistics">The anatomy of <em>An Adventure in Statistics</em></a></li>
+  </ul></li>
+  <li><a href="#the-beginning-and-the-end" id="toc-the-beginning-and-the-end" class="nav-link" data-scroll-target="#the-beginning-and-the-end">The beginning and the end</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p>Yesterday was the official launch of my new textbook <a href="https://uk.sagepub.com/en-gb/eur/an-adventure-in-statistics/book237529" target="_blank">An Adventure in Statistics: The Reality Enigma</a>. Although a few ‘print to order’ copies are floating about, the ‘proper’ hi-res print copies won’t be available for a few more weeks, but I thought it was a good opportunity to blog something about the book and perhaps textbook writing more generally. I’m going to start by telling you something about the book. Then I will try to give you an idea of the timeline and some rough statistics that probably don’t do justice to the emotional and physical investment that goes into a textbook.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="ais_cover.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption class="margin-caption">Cover of an adventure in statistics</figcaption>
+</figure>
+</div>
+<section id="a-history-of-an-adventure-in-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="a-history-of-an-adventure-in-statistics">A history of <em>An Adventure in Statistics</em></h2>
+<p>Visualization guru (and sculptor) Edward Tufte apparently has a small sign taped to his computer screen that says <em>“If you’re not doing something different, you’re not doing anything at all.”</em> It’s a note that I don’t have taped to my monitor, but I probably should because I like ‘different’, and I strive for ‘different’ not always in a good way.</p>
+<p>In 2008 I was in Rotterdam updating my SPSS book (third edition) and like all of my books I had a long list of things from the previous edition that I hated and wanted to change. It would be easy to just change the SPSS screenshots and slap a new cover on the front, but I wanted to do something different. After all <i>“If you’re not doing something different, you’re not doing anything at all.”</i></p>
+<p>I thought it would be interesting to try to embed the academic content of the book within a fictional story. I didn’t have a story though, and I had only 6 months to update the book. It would be impossible. So I copped out: I book-ended each chapter with an anecdote from the only story I had to hand – my life. Some thought it was different, but to me it was a poor imitation of what I could have done.</p>
+<p>A couple of years later I was approached to write a stats book for the ‘for dummies’ range. I was tempted. I spoke to my editor at <a href="https://uk.sagepub.com/" target="_blank">SAGE</a> (who publish my statistics books) because of potential overlap with the SPSS book. This led to a conversation with <a href="https://twitter.com/ZiyadMarar" target="_blank">Ziyad Marar</a> who runs the London office of SAGE. I’ve known Ziyad a long time – he signed my first book – but trust me, he rarely phones me. That’s true of most people because I go to great lengths to tell everyone how uncomfortable telephones make me, but a call from Ziyad is a particularly rare and beautiful thing. The gist of that conversation was that Ziyad convinced me to write new book for SAGE instead. He said, something to the effect of:</p>
+<blockquote class="blockquote">
+<p>‘Why not write that book for us? We will let you do whatever you like express yourself fully.’ “What?” I asked, “You’d give me complete control even after ‘the incident’?” “Yes”. He replied (after what I like to mis-remember as a dramatic pause).</p>
+</blockquote>
+<p>Ziyad was offering me the opportunity to set my imagination free, to go somewhere that perhaps other publishers would not let me go, to try something without needing to justify it with research, or pedagogy. An opportunity to follow my heart and not my head, but what did my heart want to do? I briefly considered whether it was possible to put even more penis jokes into a statistics textbook, but I’d been there, done that, worn the phallus and <i>“If you’re not doing something different, you’re not doing anything at all.”</i></p>
+<p>I thought back to 2008, to the idea of writing a fictional story through which a student learns statistics through a shared adventure with the main character. I thought about collaborating with a graphic novel illustrator to bring the story to life. I didn’t know anything about writing fiction: but, I didn’t know anything about logistic regression and multilevel models before I wrote 60-page chapters about them. Not knowing something should never be an obstacle to writing about it.</p>
+<p>I got on board a badass illustrator, <a href="http://www.jamesilesstudio.com/" target="_blank">James Iles</a>, to create graphic novel strips to bring the story to life. There have been a few pivotal moments during the book’s life but none more than the moment that James replied to my advert on freelancer.com. He fought off about 80 other applicants to get the gig, and although I deluded myself that the choice of illustrator was a complex, make-or-break, decision, my gut instinct always pointed to James. He’d done storyboarding for Doctor Who, and I fucking love Doctor Who. If James was good enough Doctor Who, he was certainly going to be good enough for me. Unknown to me at the time, I hadn’t just found an exceptionally talented artist, but I’d also found someone who would put as much passion and care into the book as I would.</p>
+</section>
+<section id="what-is-an-adventure-in-statistics-all-about" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-an-adventure-in-statistics-all-about">What is <em>An Adventure in Statistics</em> all about?</h2>
+<p>An adventure in statistics is set in a future in which the invention of the reality prism, a kind of hat that splits reality into the subjective and objective has bought society to collapse by showing everyone the truth. Without blind belief, no-one tried anymore. In the wake of this ‘reality revolution’ society fragmented into people who held onto the pre-technological past (the Clocktorians) and those who embraced the ever-accelerating technology of the new world (the chippers). Society had become a mix of the ultra-modern and the old fashioned.</p>
+<p>Into this world I put Zach, a rock musician, and his girlfriend Dr.&nbsp;Alice Nightingale. They are part of the first generation since the revolution to believe that they can change the world. Zach through his music, and Alice through her research. Then Alice suddenly disappears leaving Zach with a broken heart, a song playing on repeat and a scientific report that makes no sense to him. Fearing the worst, he sets out to find her. Strange things happen: people collapse and lose their memories, he gets messages from someone called Milton, and the word JIG:SAW haunts him. Zach feels that something is terribly wrong and that Alice is in danger, but her vanishing triggers an even worse thought: that after 10 years they have drifted apart.</p>
+<p>At a simple level <em>An Adventure in Statistics</em> is a story about Zach searching for Alice, and seeking the truth, but it’s also about the unlikely friendship he develops with a sarcastic cat, it’s about him facing his fear of science and numbers, it’s about him learning to believe in himself. It’s a story about love, about not forgetting who you are. It’s about searching for the heartbeats that hide in the gaps between you and the people you love. It’s about having faith in others.</p>
+<p>Of course, it’s also about fitting models, robust methods, classical and Bayesian estimation, significance testing and whole bunch of other tedious statistical things, but hopefully you’ll be so engrossed in the story that you won’t notice them. Or they might be a welcome relief from the terrible fiction. Time will tell.</p>
+</section>
+<section id="what-goes-into-creating-a-textbook" class="level2">
+<h2 class="anchored" data-anchor-id="what-goes-into-creating-a-textbook">What goes into creating a textbook?</h2>
+<p>What does writing a textbook involve? That is hard to explain. For an adventure in statistics I really enjoyed the writing (especially the fictional story), on the whole it has been the most rewarding experience of my academic career. However, rest assured that if you decide to write a textbook, you will hit some motivational dark times. Very dark times.</p>
+<section id="the-timeline" class="level3">
+<h3 class="anchored" data-anchor-id="the-timeline">The timeline</h3>
+<p>I had the initial idea in 2008, I wrote the proposal in January 2011 (final version March 2011). The final contract with SAGE was signed in April 2011. Around this time, I started discussing with SAGE my idea to have graphic novel elements and a story. I started making notes about a potential story and characters in a black book and using Scrivener. I started writing in January 2014. By this point James Iles had just come on board. (SAGE are doing some videos where James and I discuss how we worked, so I won’t say more on that.) At the point that I started writing I had a lot of ideas, most of the characters in place and a decent idea of what would happen at the beginning and end of the story, and some bits in the middle. A lot of the story developed as I wrote. (One thing I learned in writing this book is that even though I thought I’d done a lot of planning, I should have done an awful lot more before writing the first word!) June 2014 my wife and I had our first child. I took unpaid paternity leave and did quite a long stretch of writing (4 months) where I’d spend the day doing dad stuff until about 3-4pm and then start work, writing until 1-3am. I generally work better at night. The first draft was finished around April 2015. We had feedback from a fiction editor (<a href="https://twitter.com/gillybethstern" target="_blank">Gillian Stern</a>) on the story which came to me May 2015. I did a re-draft of the entire book based on that, which I finished around August 2015. I then had a bunch more feedback on the story from Robin, my development editor at SAGE, and on the statistics stuff and story from my wife. I did a third and final draft which was submitted October 2015. January 2016 I received the copy editor’s comments for the entire book for approval (or not). March 2016 I received proofs of the entire book, which I spent 2-3 weeks reading/correcting working well into the night most nights. April 2016 I received the corrected proofs to approve. In a sense then, it’s consumed 8 years of my life (as an ambition), but really it’s more like 4 years of work, 2 of them intensive.</p>
+</section>
+<section id="the-anatomy-of-an-adventure-in-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="the-anatomy-of-an-adventure-in-statistics">The anatomy of <em>An Adventure in Statistics</em></h3>
+<ul>
+<li>I don’t know exactly how many hours I spent on the book, but I spent probably 2 years casually collecting ideas and thoughts, and developing ideas for the structure and so on. I spent another 21 months pretty much doing not a lot else but writing or re-drafting the book. I had my university job to do as well, so it’s impossible to really know how many hours it took to create, but it’s probably somewhere in the region of 4000 hours. That’s just to the point of submitting the manuscript.</li>
+<li>I wrote 297,676 words, ~1.6 million characters, 13,421 paragraphs and 28,768 lines. In terms of word length that’s about 3-4 psychology PhD theses, or if you assume the average research paper is about 5000 words then it’s about 60 research papers. In 2 years. I will get precisely no credit in the <a href="http://www.ref.ac.uk/" target="_blank">REF</a> for this activity. [I’m not saying I should, I’m just making the point that you really are putting your research career on hold and investing a lot of creativity/energy into something that isn’t valued by the system that universities value. I am fortunate to be able to do this but I think this is a really tough balancing act for early-career scientists who want to write books.]</li>
+<li>Given the book had three drafts, and I had to read proofs, I have read at least 1.19 million of my own words. It’ll be a lot more than that because of stuff you write and then delete.</li>
+<li>I used <a href="https://www.literatureandlatte.com/scrivener.php" target="_blank">Scrivener</a> to plan the story. My project document in which I gathered ideas (e.g., plot ideas, character outlines, descriptions of locations, venues, objects, concepts, artwork ideas etc.) contains another 87,204 words and quite a few images – in addition to the 297,676 word in the book itself.</li>
+<li>I created 603 diagrams. [Not all of them are the book because this includes old versions of diagrams, and image files that I used in diagrams – for example, an image of a normal curve that I drop into a finished diagram]. I used <a href="https://www.omnigroup.com/" target="_blank">Omnigraffle</a> incidentally for my diagrams, and graphs and stat-y stuff would have been created using <a href="https://www.r-project.org/" target="_blank">R</a>, most often with <a href="http://docs.ggplot2.org/current/" target="_blank">ggplot2</a>.</li>
+<li>I created 185 data-related files (data files, R-scripts etc.)</li>
+<li>I wrote ~4000 lines of R-code (to generate data, create graphs, run analyses etc.).</li>
+<li>At some point I will have to produce a bunch of online stuff – powerpoint presentations, handouts, answers to tasks in the book etc.</li>
+<li>Basically, it was a lot of fucking work.</li>
+</ul>
+</section>
+</section>
+<section id="the-beginning-and-the-end" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-beginning-and-the-end">The beginning and the end</h2>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="andy_james.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption class="margin-caption">James Iles (Right) and I (Left) at the book launch</figcaption>
+</figure>
+</div>
+<p>Yesterday the book was launched: it is both a beginning and an end. Beginnings can be exciting. It is the beginning of the public life of <em>An Adventure in Statistics</em>. It might be the beginning of it being a well-received book? The beginning of it inspiring young scientists? The beginning of people thinking differently about teaching statistics? That’d be nice but my excitement is laced with fear because beginnings can be scary too: today could be the beginning of seeing the book through a reality prism that shows me the objective truth in the form of scathing reviews, poor sales, sympathetic looks, and five wasted years.</p>
+<p>Yesterday was also an end. Primarily an end to my work on the book (well, apart from a bunch of online materials …). I have never liked endings. When I was a child and people would come to stay, I always felt hollow when they left. For over 2 years, the characters in this book – especially Zach, Alice, Milton and Celia – have been the houseguests of my mind. We’ve had a lot of fun times. We’ve worked hard and played hard. We’ve had lots of late night conversations, we’ve shared our deepest feelings, we’ve discussed life, and they’ve helped me to see the world through different eyes. Yesterday they left me to find their own way in the world and I’m going to miss them. I feel a little hollow. I never thought I’d miss writing a statistics textbook.</p>
+<p>It’s a scary time. I am proud of and excited about the book, and of what James and I have created. I’m also a little terrified that no-one else will share my enthusiasm after all, it’s different to other statistics textbooks. People don’t always like ‘different’. Tufte’s words are a comfort though because if it’s true that <i>“If you’re not doing something different, you’re not doing anything at all.” </i>then I feel that, with <em>An Adventure in Statistics</em> I have at least done <i>something</i>.</p>
+<p>Andy</p>
+<p>Some of this blog is adapted from a speech I gave at the launch, which you can watch here</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EHra88daoJE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li>Download the <a href="http://www.methodspace.com/free-chapter-from-andy-fields-new-statistics-book/" target="_blank">preface and chapter 1</a>.</li>
+<li>Read the article in the <a href="https://www.timeshighereducation.com/news/andy-field-takes-statistics-adventure-to-a-new-level" target="_blank">Times Higher Education Supplement</a> about the book.</li>
+<li>The book can be ordered direct from <a href="https://uk.sagepub.com/en-gb/eur/an-adventure-in-statistics/book237529" target="_blank">SAGE</a>, or from your local <a href="https://www.amazon.co.uk/Adventure-Statistics-Reality-Enigma/dp/1446210456?ie=UTF8&amp;ref_=asap_bc" target="_blank">Amazon</a> or other retailer.</li>
+</ul>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{field2016,
+  author = {Field, Andy},
+  title = {If You’re Not Doing Something Different, You’re Not Doing
+    Anything at All.},
+  date = {2016-04-28},
+  url = {https://profandyfield.com/posts/2016_04_28_ais/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-field2016" class="csl-entry quarto-appendix-citeas" role="listitem">
+Field, Andy. 2016. <span>“If You’re Not Doing Something Different,
+You’re Not Doing Anything at All.”</span> April 28, 2016. <a href="https://profandyfield.com/posts/2016_04_28_ais/">https://profandyfield.com/posts/2016_04_28_ais/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><span class="faux-block">© 2024 Andy Field CC BY-SA 4.0</span></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,147 @@
+---
+title: "The referee's a ..."
+description: "Tongue in cheek look at Mike Dean's refereeing decisions"
+author:
+  - name: Andy Field
+    url: https://profandyfield.com
+date: 28 09 2015
+categories: [Arsenal, R, Statistics, Mike Dean, Referees, Football, Soccer] # self-defined categories
+citation: 
+  url: https://profandyfield.com/posts/2015_09_28_mike_dean/ 
+image: mike_dean.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+
+
+I'm a bit late on this particular bandwagon, but it's a busy time what with the start of term and finishing writing  textbook and all that. The textbook is also my excuse for having not written a blog for a year, well, that and the fact I rarely have anything interesting to say.
+
+Anyway, those of you who follow football (or soccer for our US friends) will know the flack that referees get. I am a regular at the stadium of the team I've supported^[Incidentally, I'm very much of the opinion that people are perfectly entitled to support a different team to me, and that the football team you support isn't a valid basis for any kind of negativity. If we all supported the same team it would be dull, and if everyone supported 'my' team, it'd be even harder for me to get tickets to games. So, you know, let's be accepting of our differences and all that ….] since the age of 3 and like most football stadiums I regularly hear the chant of 'The referee's a wanker' echoing around the ground. Referees have a tough job: the game is fast, often faster than they are, players can be a bit cheaty, and we have the benefit of TV replays which they (for some utterly inexplicable reason) do not. Nevertheless it's annoying when they get stuff wrong.
+
+The more specific referee-related thing I often hear resonating around the particular stadium that I attend is 'Oh dear me, Mike Dean is refereeing ... he hates us quite passionately' or something similar with a lot more swearing. This particular piece of folk wisdom reached dizzy new heights the weekend before last when he managed to ignore Diego Costa trying to superglue his hands to Laurent Koscielny's face shortly before chest bumping him to the floor, and then sending Gabriel off for … well, I'm not really sure what. Indeed, the FA weren't really sure what for either because they rescinded the red card and banned Costa for 3 matches. You can read the details here.
+
+So, does Mike Dean really hate Arsenal? In another blog 7amkickoff tried to answer this question using data collated about Mike Dean. You can read it [here](https://arseblog.news/2015/09/mike-dean-2-0-arsenal-by-the-numbers/). This blog has inspired me to go one step further and try to answer this question as a scientist would.
+
+### How does a scientist decide if Mike Dean really is a wanker?
+
+Scientists try to work with scientific statements. 'Mike Dean is a wanker' may be the folklore at the Emirates, but it is not a scientific statement because we probably can't agree on a working definition of what a wanker is (at least not in the refereeing sense). However, we can turn it into a scientific statement by changing the question to something like 'Do arsenal lose more games when Mike Dean (MD) referees?' This is what 7amkickoff tried to do. 7amkickoff presented data from 2009-2015 and concluded that 'Arsenal's win% in the Premier League since 2009 is 57% so a 24% win rate is quite anomalous' (the 24% is the win rate under Dean). There are several problems with this simplistic view, a couple of them are:
+
+- MD tends to referee Arsenal's tougher games (opponents such as Chelsea, Manchester United and Manchester City), so we need to compare Arsenal's win rate under MD to our win rate against only the same opponents as in the MD games. (In case you're interested the full list of clubs is Birmingham, Blackburn, Burnley, C Palace, Charlton, Chelsea, Fulham, Man City, Man Utd, Newcastle, QPR, Stoke City, Tottenham, Watford, West Brom, West Ham, Wigan). If we compare against a broader set of opponents then it isn't a fair comparison to MD: we are not comparing like for like.
+- How do we know that a win rate of 24% under MD isn't statistically comparable to a win rate of 57%. They seem different, but couldn't such a difference simply happen because of the usual random fluctuations in results? Or indeed because Arsenal are just bad at winning against 'bigger' teams and MD happens to officiate those games (see the point above)
+
+I'm going to use the same database as 7amkickoff and extend this analysis. I collected data from football-lineups.com for the past 10 years (2005-6 up to the Chelsea fixture on 19th Sept 2015). I am only looking at English Premier League (EPL) games. I have filtered the data to include only the opponents mentioned above, so we'll get a fair comparison of Arsenal's results under MD against their results against those same clubs when MD is not officiating. The data are [here](arsenal_md_results.csv) as a CSV file.
+
+A scientist essentially sets up two competing hypotheses. The first is that there is no effect of MD, that is Arsenal's results under MD are exactly the same as under other referees. This is known as the null hypothesis. The second is the opposite: that there is an effect of MD, that is Arsenal's results under MD are different compared to other referees. This is known as the alternative hypothesis. We can use statistical tests to compare these hypotheses.
+
+### A frequentist approach
+
+To grab the file into R and store in a tibble called `arse`, create a project in RStudio, put the data file in that project directory, and execute:
+
+```{r}
+#| message: false
+#| warning: false
+#| eval: false
+#| echo: false
+library(tidyverse)
+
+arse <- read_csv("arsenal_md_results.csv") |> 
+  mutate(
+    MD = factor(MD, levels = 0:1, labels = c("Other", "MD")) #turn numeric data about MD into a factor
+  )
+```
+```{r}
+#| message: false
+#| warning: false
+
+library(tidyverse)
+arse <- here::here("posts/2015_09_28_mike_dean/arsenal_md_results.csv") |>
+  read_csv() |> 
+  mutate(
+    MD = factor(MD, levels = 0:1, labels = c("Other", "MD"))
+  )
+```
+
+Let's get a table of all EPL arsenal fixtures against the aforementioned teams since 2005, we get this, by running the following code in R:
+
+```{r}
+#| message: false
+#| warning: false
+
+md_tbl <- xtabs(~MD + result, data = arse)
+```
+
+@tbl-crosstab is a nice version of the resulting table.
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+#| label: tbl-crosstab
+#| tbl-cap: Number of wins, losses and draws by Arsenal
+
+knitr::kable(md_tbl)
+```
+
+
+One way to test whether the profile of results is different for MD is to see whether there is a significant relationship between the variable `MD vs Other` and `result`. This test asks the question of whether the profile of draws to wins and loses is statistically different for MD than 'other'. If we assume that games are independent events (which is a simplifying assumption because they won't be) we can use a chi-square test. You can fit this model in R by running:
+
+```{r}
+#| message: false
+#| warning: false
+
+library(gmodels)
+CrossTable(md_tbl, fisher = TRUE, chisq = TRUE, sresid = TRUE, format = "SPSS")
+```
+
+The win rate under MD is 26.47% compared to 41.18% draws and 32.35% losses, under other referees it is 60.21%, 17.28% and 22.51% respectively. These are the comparable values to 7amkickoff but looking at 10 years and including only opponents that feature in MD games. The critical part of the output is the *p* = .0005. This is the probability that we would get the chi-square value we have IF the null hypothesis were true. In other words, if MD had no effect whatsoever on Arsenal's results the probability of getting a test result of at least 15.12 would be 0.000548. In other words, very small indeed. Scientists do this sort of thing all of the time, and generally accept that if *p* is less than .05 then this supports the alternative hypothesis. That is we can assume it's true. (In actual fact, although scientists do this they shouldn't because this probability value tells us nothing about either hypothesis, but that's another issue ...) Therefore, by conventional scientific method, we would accept that the profile of results under MD is significantly different than under other referees. Looking at the values in the cells of the table, we can actually see that the profile is significantly worse under MD than other referees in comparable games. Statistically speaking, MD is a wanker (if you happen to support Arsenal).
+
+As I said though, we made simplifying assumptions. Let's look at the raw results, and this time factor in the fact that results with the same opponents will be more similar than results involving different opponents. That is, we can assume that Arsenal's results against Chelsea will be more similar to each other than they will be to results against a different club like West Ham. What we do here is nest results within opponents. In doing so, we statistically model the fact that results against the same opposition will be similar to each other. This is known as a logistic multilevel model. What I am doing is predicting the outcome of winning the game (1 = win, 0 = not win) from whether MD refereed (1 = MD, 0 = other). I have fitted a random intercepts model, which says overall results will vary across different opponents, but also a random slopes model which entertains the possibility that the effect of MD might vary by opponent. The R code is this:
+
+```{r}
+#| message: false
+#| warning: false
+
+library(lme4)
+win_ri<-glmer(win ~ 1 + (1|Opponent), data = arse, family = binomial, na.action = na.exclude)
+win_md<-update(win_ri, .~. + MD)
+win_rs<-update(win_ri, .~ MD + (MD|Opponent))
+anova(win_ri, win_md, win_rs)
+```
+
+The summary of models shows that the one with the best fit is random intercepts and MD as a predictor. I can tell this because the model with MD as a predictor significantly improves the fit of the model (the *p* of 0.0024 is very small) but adding in the random slopes component does not improve the fit of the model hardly at all (because the *p* of 0.992 is very close to 1).
+
+Let's look at the best fitting model (win_md):
+
+```{r}
+#| message: false
+#| warning: false
+
+summary(win_md)
+```
+
+The important thing is whether the variable `MD` (which represents MD vs. other referees) is a 'significant predictor'. Looking at the *p*-value of 0.00358,we can assess the probability that we would get a `z`-value at least as large (ignoring the minus sign) as -2.913 if the null hypothesis were true (i.e. if MD had no effect at all on Arsenal's results). Again, because this value is less than 0.05, scientists would typically conclude that MD is a significant predictor of whether Arsenal win or not, even factoring in dependency between results when the opponent is the same. The value of the estimate (-1.2896) tells us about the strength and direction of the relationship and because our predictor variable is MD = 1, other  = 0, and our outcome is win = 1 and no win = 0, and the value is negative it means that as MD increases (in other words as we move from having 'other' as a referee to having MD as a referee) the outcome decreases (that is, the probability of winning decreases). So, this analysis shows that MD significantly decreases the probability of Arsenal winning. The model is more complex but the conclusion is the same as the previous, simpler, model: statistically speaking, MD is a wanker (if you happen to support Arsenal).
+
+### A Bayesian Approach
+
+The frequentist approach above isn't universally accepted because these probability values that I keep mentioning don't allow us to test directly the plausibility of the null and alternative hypothesis. A different approach is to use a Bayes Factor. Bayes Factors quantify the ratio of the probability of the data under the alternative hypothesis relative to the null. A value of 1, therefore, means that the observed data are equally probable under the null and alternative hypotheses, values below 1 suggest that the data are more probable under the null hypotheses relative to the alternative. Bayes factors provide information about the probability of the data under the null hypothesis (relative to the alternative) whereas significance tests (as above) provide no evidence at all about the status of the null hypothesis. Bayes Factors are pretty easy to do using Richard Morey's excellent BayesFactor package in R . There's a lot more technical stuff to consider, which I won't get into … for example, to do this properly we really need to set some prior believe in our hypothesis. However, Morey's packages uses some default priors that represent relatively open minded beliefs (about MD in this case!). To get a Bayes Factor for our original contingency table you'd run:
+
+```{r}
+#| message: false
+#| warning: false
+library(BayesFactor)
+bayesMD = contingencyTableBF(md_tbl, sampleType = "indepMulti", fixedMargin = "cols")
+bayesMD
+```
+
+
+The resulting Bayes Factor of 34.05 is a lot bigger than 1. The fact it is bigger than 1 suggests that the probability of the data under the alternative hypothesis is 34 times greater then the probability of the data under the null. In other words, we should shift our prior beliefs towards the idea the MD is a wanker by a factor of about 34. Yet again, statistically speaking, MD is a wanker (if you happen to support Arsenal).
+
+### Conclusion
+
+The aim of this blog is to take a tongue in cheek look at how we can apply statistics to a real-world question that vexes a great many people. (OK, the specific Mike Dean question only vexes Arsenal fans, but football fans worldwide are vexed by referees on a regular basis). With some publicly available data you can test these hypotheses, and reach conclusions based on data rather than opinion. That's the beauty of statistical models.
+
+I'll admit that to the casual reader this blog is going to be a lot more tedious than 7amkickoff's. However, what I lack in readability I gain in applying some proper stats to the data. Whatever way you look at it, Mike Dean, statistically speaking does predict poorer outcomes for Arsenal. There could be any number of other explanations for these data, but you'd think that the FA might want to have a look at that. Arsenal's results under Mike Dean are significantly different to under other referees, and these models show that this is more than simply the random fluctuations in results that happen with any sports team.
+
+On a practical note, next time I'm at the emirates and someone says 'Oh shit, it's Mike Dean, he hates us ...' I will be able to tell him or her confidently that statistically speaking they have a point ... well, at least in the sense that Arsenal are significantly more likely to lose when he referees!
+
+

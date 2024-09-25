@@ -1,0 +1,238 @@
+---
+title: "Publications"
+echo: false
+format: 
+  html:
+    toc-depth: 3
+---
+
+
+```{r}
+#| eval: true
+#| 
+
+library(yaml)
+library(stringr)
+
+get_surname <- function(aut, editor = FALSE){
+  if(!is.null(aut$`non-dropping-particle`)){
+    surname <- paste0(aut$`non-dropping-particle`, " ",  aut$family)
+  } else {
+    surname <- paste0(aut$family)
+  }
+  
+  if(!editor){
+    paste0(aut$family, ", ")
+  } else {
+    surname
+  }
+}
+
+get_initials <- function(aut, editor = FALSE){
+  initials <- word(aut$given, 1:10) |> 
+    purrr::discard(is.na) |> 
+    substr(start = 1, stop = 1) |> 
+    paste0(sep = ". ") |> 
+    str_flatten() |> 
+    str_trim(side = "right")
+  
+  if(editor){
+    paste0(initials, " ")
+  } else {
+    paste0(initials, ", ")
+  }
+}
+
+
+get_name <- function(aut, editor = FALSE){
+  if(editor){
+    name <- paste0(get_initials(aut, editor = editor), get_surname(aut, editor = editor))
+  } else {
+    name <- paste0(get_surname(aut, editor = editor), get_initials(aut))
+  }
+  
+  if(grepl("Field", x = name)){
+    gsub("Field", "<strong>Field</strong>", name)
+  } else {
+    name
+  }
+}
+
+
+get_author_list <- function(authors, editor = FALSE){
+  length <- length(authors)
+  
+  if(length > 1){
+    for(i in 1:(length-1)){
+      if(i == 1){
+        author_list <- get_name(authors[[i]], editor = editor)
+        } else {
+          author_list <- paste(author_list, get_name(authors[[i]], editor = editor))
+        }
+      }
+    
+    if(editor){
+      paste0(author_list, " & ", get_name(authors[[length]], editor = editor)) |> 
+        str_sub(end = -1)
+    } else {
+      paste0(author_list, "& ", get_name(authors[[length]], editor = editor)) |> 
+        str_sub(end = -3)
+    }
+    
+    } else {
+      if(editor){
+        get_name(authors[[1]], editor = editor) |> 
+        str_sub(end = -1)
+      } else {
+        get_name(authors[[1]], editor = editor) |> 
+        str_sub(end = -3)
+      }
+    }
+}
+
+```
+
+```{r}
+#| eval: true
+
+# test stuff out
+yaml_data <- yaml::read_yaml("my_pubs.yaml")
+
+#set up empty tibble with named variables
+pub_list <- tibble::tibble(index = numeric(),
+                           citation = character(),
+                           year = numeric(),
+                           authors = character(),
+                           type = character(),
+                           decade = character())
+```
+
+
+
+
+```{r}
+
+cite_no = 1
+
+for (data in yaml_data$references) {
+  title <- data$title
+  authors <- get_author_list(data$author)
+  year <- data$issued[[1]]$year
+  type <- data$type
+  jnl_book_title <- data$`container-title`
+  doi <- data$DOI
+  doi_url <- paste0("https://doi.org/", doi)
+
+  
+  if(type == "article-journal"){
+    volume <- data$volume
+    pages <- data$page
+    if(is.null(doi)){
+      citation <- paste0("<li>", authors, " (", year, "). ", title, ". <em>", jnl_book_title, "</em>, ", volume, ", ", pages,  ".</li>")
+    } else {
+      citation <- paste0("<li>", authors, " (", year, "). ", title, ". <em>", jnl_book_title, "</em>, ", volume, ", ", pages,  ". doi: <a href=\"", doi_url, "\">", doi, "</a></li>")
+    }
+    }
+  
+   if(type == "chapter"){
+     editors <- get_author_list(data$editor)
+     pages <- paste0(" (pp. ", data$page, ")")
+     city <- data$`publisher-place`
+     publisher <- data$publisher
+     if(length(data$editor) == 1){
+       ed_txt <- " (Eds.), "
+       } else {
+         ed_txt <- " (Ed.), "
+         }
+     citation <- paste0("<li>", authors, " (", year, "). ", title, ". In ", editors, ed_txt, "<em>", jnl_book_title, "</em>", pages, ". ", city, ": ", publisher, ".</li>")
+   }
+  
+  pub_list <- dplyr::add_row(.data = pub_list,
+                             index = cite_no, 
+                             year = year,
+                             citation = citation,
+                             authors = authors,
+                             type = type,
+                             decade = dplyr::case_when(
+                               year < 2000 ~ "Pre-2000",
+                               year >=2000 & year < 2010 ~ "2000-2009",
+                               year >=2010 & year < 2020 ~ "2010-2019",
+                               year >= 2020 ~ "Recent"
+                               )
+                             )
+  
+  cite_no = cite_no + 1
+}
+
+```
+
+
+## Journal articles
+
+
+```{r}
+#| label: "print_pubs"
+#| output: asis
+#| eval: true
+
+# order the tibble
+article_list <- pub_list |> 
+  dplyr::mutate(
+    decade = forcats::as_factor(decade) |> forcats::fct_relevel("Pre-2000", "2000-2009", "2010-2019", "Recent")
+  ) |> 
+  dplyr::filter(type == "article-journal" & !is.na(year)) |> 
+  dplyr::arrange(desc(decade), desc(year), authors)
+
+for(d in unique(article_list$decade)){
+  decade_pubs <- dplyr::filter(article_list, decade == d)
+  pub_str <- paste0("### ", d, "\n")
+  
+  for(y in unique(decade_pubs$year)){
+  pubs <- dplyr::filter(decade_pubs, year == y)
+  
+  pub_str <- paste0(pub_str, "#### ", y, "\n<ul>")
+    for(i in 1:nrow(pubs)){
+      pub_str <- paste0(pub_str, pubs[i, ]$citation) 
+    }
+     pub_str <- paste0(pub_str, "</ul>") |> cat()
+}
+}
+
+```
+
+## Book chapters
+
+```{r}
+#| label: "print_chapters"
+#| output: asis
+#| eval: true
+
+# order the tibble
+chapter_list <- pub_list |> 
+  dplyr::filter(type == "chapter") |> 
+  dplyr::arrange(desc(year), authors)
+
+for(y in unique(chapter_list$year)){
+  pubs <- dplyr::filter(chapter_list, year == y)
+  
+  pub_str <- paste0("### ", y, "\n<ul>")
+    for(i in 1:nrow(pubs)){
+      pub_str <- paste0(pub_str, pubs[i, ]$citation) 
+    }
+     pub_str <- paste0(pub_str, "</ul>") |> cat()
+}
+```
+
+
+```{r}
+#| eval: false
+
+button <- function(url, str, icon) {
+  icon_base <- substr(icon, 1, 2)
+  return(paste0('<a class="btn btn-outline-dark btn-sm" href="', url, '" target="_blank" rel="noopener noreferrer">',
+                '<i class="', icon_base, ' ', icon, '" role="img" aria-label="', str, '"></i>',
+                str,
+                '</a>'))
+}
+```
+

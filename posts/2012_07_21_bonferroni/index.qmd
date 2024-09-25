@@ -1,0 +1,30 @@
+---
+title: "Bonferroni correcting lots of correlations"
+description: "A discussion of Conferroni corrections"
+author:
+  - name: Andy Field
+    url: https://profandyfield.com
+date: 21 07 2012
+categories: [Statistics, Bonferroni correction, Correlation, Multiple tests] # self-defined categories
+citation: 
+  url: https://profandyfield.com/posts/2012_07_21_bonferroni/ 
+image: bonf.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Someone posed me this question:
+
+> Some of my research, if not all of it (:-S) will use multiple correlations. I’m now only considering those correlations that are less than .001. However, having looked at bonferroni corrections today – testing 49 correlations require an alpha level of something lower than 0.001. So essentially meaning that correlations have to be significant at .000. Am I correct on this? The calculator that I am using from the internet says that with 49 correlational tests, with an alpha level of 0.001 – there is chance of finding a significant result in approximately 5% of the time.
+> Some people have said to me that in personality psychology this is okay – but I personally feel wary about publishing results that could essentially be regarded as meaningless. Knowing that you probably get hammered every day for answers to stats question, I can appreciate that you might not get back to me. However – if you can, could you give me your opinion on using multiple correlations? Just seems a clunky method for finding stuff out.
+
+It seemed like the perfect opportunity for a rant, so here goes. My views on this might differ a bit from conventional wisdom, so might not get you published, but this is my take on it:
+
+> Null hypothesis significance testing (i.e. looking at p-values) is a deeply flawed process. Stats people know it’s flawed, but everyone does it anyway. I won’t go into the whys and wherefors of it being flawed but I touch on a few things here  and to a lesser extent here. Basically, the whole idea of determining ‘significance’ based on an arbitrary cut off for a p-value is stupid. Fisher didn’t think it was a good idea, Neyman and Pearson didn’t think it was a good idea, and the whole thing dates back to prehistoric times when we didn’t have computers to compute exact p-values for us.
+>
+> Because of the above, Bonferroni correcting when you’ve done a billion tests is even more ridiculous because your alpha level will be so small that you will almost certainly make Type II errors and lots of them. Psychologists are so scared of Type I errors, that they forget about Type II errors.
+>
+> Correlation coefficients are effect sizes. We don’t need a p-value to interpret them. The p-value adds precisely nothing of value to a correlation coefficient other than to potentially fool you into thinking that a small effect is meaningful or that a large effect is not (depending on your sample size). I don’t care how small your p-value is, an r = .02 or something is crap. If your sample size is fairly big then the correlation should be a precise estimate of the population effect (bigger sample = more precise). What does add value is a confidence interval for r, because it gives you limits within which the true (population) value is likely to lie.
+
+So, in a nutshell, I would (personally) not even bother with p-values in this situation because, at best, they add nothing of any value, and, at worst, they will mislead you. I would, however, get confidence intervals for your many correlations (and if you bootstrap the CIs, which you can on SPSS, then all the better). I would then interpret effects based on the size of r and the likely size of the population effect (which the confidence intervals tells you).
+Of course reviewers and PhD examiners might disagree with me on this, but they’re wrong:-)
+Ahhhhhh, that feels better.

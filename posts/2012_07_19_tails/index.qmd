@@ -1,0 +1,41 @@
+---
+title: "One-tailed tests"
+description: "A discussion of using one-tailed tests"
+author:
+  - name: Andy Field
+    url: https://profandyfield.com
+date: 19 07 2012
+categories: [Statistics, One-tailed tests] # self-defined categories
+citation: 
+  url: https://profandyfield.com/posts/2012_07_19_tails/ 
+image: tail.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.yaml
+---
+
+I've been thinking about writing a blog on one-tailed tests for a while. The reason is that one of the changes I'm making in my re-write of DSUS4 is to alter the way I talk about one-tailed tests. You might wonder why I would want to alter something like that – surely if it was good enough for the third edition then it's good enough for the fourth? Textbook writing is quite an interesting process because when I wrote the first edition, I was very much younger, and to some extent the content was driven by what I saw in other textbooks. Even as the book has evolved over certain editions, the publishers will get feedback from lecturers who use the book, I get emails from people who use the book, and so, again, content gets driven a bit by what people who use the book want and expect to see. People expect to learn about one-tailed tests in an introductory statistics book and I haven't wanted to disappoint them. However, as you get older you also get more confident about having an opinion on things. So, although I have happily entertained one-tailed tests in the past, in more recent years I have felt that they are one of the worse aspects of hypothesis testing that should probably be discouraged.
+
+Yesterday I got the following question landing in my inbox, which was the perfect motivator to write this blog and explain why I'm trying to deal with one-tailed tests very differently in the new edition of DSUS:
+
+> I need some advice and thought you may be able to help. I have a one-tailed hypothesis, ego depletion will increase response times on a Stroop task. The data is parametric and I am using a related T-Test. Before depletion the Stroop performance mean is 70.66 (12.36). After depletion the Stroop performance mean is 61.95 (10.36). The t-test is, *t*(138) = 2.07, *p* = .02 (one-tailed). Although the t-test comes out significant, it goes against what I have hypothesised. That Stroop performance decreased rather than increased after depletion. So it goes in the other direction. How do I acknowledge this in a report? I have done this so far. Is it correct?
+>
+> "Although the graph suggests there was a decrease in Stroop performance times after ego-depletion. Before ego-depletion (*M* = 0.66, *SD* = 12.36) after ego-depletion (*M* = 61.95, *SD* = 10.36), a t-test showed there was a significance between Stroop performance phase one and two *t*(138) = 10.94, *p* \<.001 (one-tailed)."
+
+This question illustrates perfectly the confusion people have about one-tailed tests. The author quite rightly wants to acknowledge that the effect was in the opposite direction, but quite wrongly still wants to report the effect … and why not, effects in the opposite direction and interesting and intriguing and any good scientists wants to explain interesting findings.
+
+The trouble is that my answer to the question of what to do when you get a significant one-tailed *p*-value but the effect is in the opposite direction to what you predicted is (and I quote my re-written chapter 2 here):
+
+> *if you do a one-tailed test and the results turn out to be in the opposite direction to what you predicted you must ignore them, resist all temptation to interpret them, and accept (no matter how much it pains you) the null hypothesis. If you don't do this, then you have done a two-tailed test using a different level of significance from the one you set out to use*
+
+Quoting some edited highlights of the new section I wrote on one-tailed tests, one-tailed tests are problematic for three reasons
+
+1.  As the question I was sent illustrates, when scientists see interesting and unexpected findings their natural instinct is to want to explain them. Therefore, one-tailed tests are dangerous because like a nice piece of chocolate cake when you're on a diet, they waft the smell of temptation under your nose. You know you shouldn't eat the cake, but it smells so nice, and looks so tasty that you shovel it down your throat. Many a scientist's throat has a one-tailed effect in the opposite direction to that predicted wedged in it, turning their face red (with embarrassment).
+2.  One-tailed tests are appropriate only if a result in the opposite direction to the expected direction would result in exactly the same action as a non-significant result [@ruxton2010; @lombardi2009]. This can happen, for example, if a result in the opposite direction would be theoretically meaningless or impossible to explain even if you wanted to [@kimmel1957]. Another situation would be if, for example, you're testing a new drug to treat depression. You predict it will be better than existing drugs. If it is not better than existing drugs (non-significant *p*) you would not approve the drug; however it was significantly worse than existing drugs (significant p but in the opposite direction) you would also not approve the drug. In both situations, the drug is not approved.
+3.  One-tailed tests encourage cheating. If you do a two-tailed test and find that your p is .06, then you would conclude that your results were not significant (because .06 is bigger than the critical value of .05). Had you done this test one tailed however, the p you would get would be half of the two tailed value (.03). This one-tailed value would be significant at the conventional level. Therefore, if a scientist finds a two-tailed *p* that is just non-significant, they might be tempted to pretend that they'd always intended to do a one-tailed test, half the p value to make it significant and report that significant value. Partly this problem exists because of journal's obsessions with *p*-values, which therefore rewards significance. This reward might be enough of a temptation for some people to half their *p*-value just to get a significant effect. This practice is cheating (for reasons explained in one of the Jane Superbrain boxes in Chapter 2 of my SPSS/SAS/R books). Of course, I'd never suggest that scientists would half their *p*-values just so that they become significant, but it is interesting that two recent surveys of practice in ecology journals concluded that *"all uses of one-tailed tests in the journals surveyed seemed invalid." \[*@lombardi2009\], and that only 1 in 17 papers using one-tailed tests were justified in doing so [@ruxton2010].
+
+For these reasons, DSUS4 onwards discourages the use of one-tailed tests unless there's a very good reason to use one (e.g., 2 above).
+
+PS Thanks to Shane Lindsay who, a while back now, sent me the Lombardi and Ruxton papers.
+
+::: refs
+:::

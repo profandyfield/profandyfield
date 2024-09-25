@@ -1,0 +1,14 @@
+---
+references:
+- id: metafor
+  author:
+  - family: Viechtbauer
+    given: Wolfgang
+  DOI: 10.18637/jss.v036.i03
+  issued: 2010
+  page: 1\--48
+  providerKey: Packages
+  title: Conducting meta-analyses in {R} with the {metafor} package
+  type: article
+  volume: 36
+...

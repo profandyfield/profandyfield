@@ -1,0 +1,151 @@
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,400italic,400bold);
+@import url(https://fonts.googleapis.com/css?family=Sintony:400,400bold);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono&display=swap);
+
+// Primary/body text
+$mainFont: 'Poppins', sans-serif;
+$headingFont: 'Sintony', Impact, sans-serif;
+$codeFont: 'Fira Mono';
+
+
+/* From https://github.com/andrewheiss/ath-quarto/blob/main/html/ath.scss */
+
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000000 !default;
+
+$blue:    #2780e3 !default;
+$indigo:  #6610f2 !default;
+$purple:  #170C3A !default;
+$pink:    #A52C60 !default;
+$red:     #CF4446 !default;
+$orange:  #EE6A24 !default;
+$light-orange:  #E6AB46 !default;
+$yellow:  #F6D645 !default;
+$green:   #118230 !default;
+$teal:    #068194 !default;
+$cyan:    #3093CF !default;
+
+// contrast palette for accessibility based on #4B9D8E
+
+$ds6purpdk: #76609a !default; // use with white text
+$ds6purp: #a68ecb !default; // use with dark text
+$ds6bwn: #d3ad67 !default; // use with dark text
+$ds6bwndk: #a87b40 !default; // use with dark text
+$ds6grndk: #297466 !default; // use with white text
+
+$ds6:     #4B9D8E !default;
+$ds6grey: #4A4A48 !default;
+$ds6salmon:     #CA8878 !default;
+
+// defaults
+
+$primary:   $ds6!default;
+$secondary: $gray-700 !default;
+$success:   $green !default;
+$info:      $cyan !default;
+$warning:   $orange !default;
+$danger:    $red !default;
+$light:     $gray-400 !default;
+$dark:      $black !default;
+
+
+
+// Links
+$link-color: $ds6 !default;
+$link-decoration: none !default;
+$link-hover-color: $ds6salmon !default;
+$link-hover-decoration: underline !default;
+
+// Callouts
+$callout-color-note: $primary !default;
+$callout-color-caution: $ds6purpdk !default;
+$callout-color-important: $ds6salmon !default;
+
+
+
+// Footer
+$footer-bg: $gray-900 !default;
+$footer-fg: $gray-300 !default;
+
+// Inline code
+$code-bg: $gray-100 !default;
+$code-color: $ds6purpdk !default;
+
+// TOC
+$toc-color: $ds6bwndk;
+$toc-font-size: 1em;
+
+// Code copy
+$btn-code-copy-color-active: $orange !default;
+
+
+/*-- scss:rules --*/
+
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3em;
+    //font-family: $footer-font-family;
+
+    a {
+        color: $primary;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}

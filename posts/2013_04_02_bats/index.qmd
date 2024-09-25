@@ -1,0 +1,165 @@
+---
+title: "Bat cunnilingus and spurious results"
+description: "Critique of work on bat cunnilingus"
+author:
+  - name: Andy Field
+    url: https://profandyfield.com
+date: 02 04 2013
+categories: [R, Statistics, Robust methods, Research critique] # self-defined categories
+citation: 
+  url: https://profandyfield.com/posts/2013_04_02_bats/ 
+image: bat.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.yaml
+---
+
+Thanks to my brother I became aware of an article about bat cunnilingus today [@maruthupandian2013]. My brother, knowing how entertained I had been by a bat felating itself at Disney on my honeymoon, decided that this would be just the sort of article that I'd like. Knowing the kind of examples I put in my textbooks I suspect his email is the first of many. Anyway, this article suggests that male bats engage in cunnilingus with females. Female bats, that is. They have videos to prove it. Male bats like cunnilingus so much that they don't just use it as foreplay, but they get stuck in afterwards as well. The article has two main findings:
+
+> The more that males (bats) engage in cunnilingus, the longer the duration of intercourse, $r$ = .91 (see their Figure 1).
+
+They tested this with a Pearson *r*, based on 8 observations (although each observation was the average of several data points I think – it's not entirely clear how the authors came about these averages). They conclude that this behaviour may be due to sperm competition in that males sort of 'clean out' the area before they procreate. They argue that the longer intercourse duration supports this argument because longer duration = greater chance of paternity.
+
+> The more that males engage in pre-intercourse cunnilingus, the less they engage in post-intercourse cunnilingus, *r* = –.79 (see their Figure 2).
+
+They again tested this with a Pearson *r*, based on 8 observations. They conclude *"… the negative relationship between the duration of pre- and post-copulatory cunnilingus suggests the possibility of sperm competition. Thus, the male removes the sperm of competitors but apparently not its own – lick for longer before but less after copulation, if paternity uncertainty is high."*
+
+There are several leaps of faith in their conclusions. Does longer duration necessarily imply greater chance of paternity? Also, if sperm competition is at the root of all of this then I'm not sure post coital cunilingus is really ever an adaptive strategy: consuming your own sperm hardly seems like the best method of impregnating your mate. Yes, I'm still talking about bats here, what you choose to do in your own free time is none of my business.
+
+Enough about Cunnilingus, what about Statistics?
+
+Anyway, I want to make a statistical point, not an evolutionary one. It struck me when looking at this article that finding 2 is probably spurious. Figure 2 looks very much like two outliers are making a relationship out of nothing. With only 8 observations they are likely to have a large impact. With 8 observations it is, of course, hard to say what's an outlier and what isn't; however, the figure was like a bat tongue to my brain: my juices were flowing. Fortunately, with so few observations we can approximate the data from the two figures. I emphasises that these are quick estimates of values based on the graphs and a ruler. We have three variables estimated from the paper: pre (pre-intercourse cunnilingus), post (post-intercourse cunnilingus), duration (duration of intercourse). We're going to use R, if you don't know how to use it then some imbecile called Andy Field has written a book on it that you could look at [@field2012; @fielddsr22025].
+
+
+Let's load some packages that will be useful (if you don't have them installed then install them) and input these approximate scores as shown below. They are displayed in @tbl-data.
+
+```{r}
+#| message: false
+
+library(WRS2) #wilcox robust functions
+library(correlation)
+library(boot)
+library(tidyverse)
+
+bat <- tibble(
+  pre = c(46, 50, 51, 52, 53, 53.5, 55, 59),
+  post = c(162, 140, 150, 140, 142, 138, 152, 122),
+  duration = c(14.4, 14.4, 14.9, 15.5, 15.4, 15.2, 15.3, 16.4)
+)
+```
+
+
+```{r}
+#| tbl-cap: Approximation of data from Maruthupandian & Marimuthu (2013)
+#| label: tbl-data
+#| echo: false
+#| warning: false
+#| message: false
+
+
+knitr::kable(bat) # view the data
+```
+
+
+Now lets replicate Figures 1 (see @fig-mm131) and 2 (see @fig-mm132) from the paper. As you can see the figures – more or less – replicate their data.
+
+```{r}
+#| fig-cap: Replica of Maruthupandian & Marimuthu (2013) Figure 1
+#| label: fig-mm131
+#| warning: false
+#| message: false
+
+ggplot(data = bat, aes(x = pre, y = duration)) + 
+  geom_point() +
+  stat_smooth(method = "lm") +
+  coord_cartesian(ylim = c(13, 18), xlim = c(44, 60)) +
+  theme_minimal()
+```
+
+```{r}
+#| fig-cap: Replica of Maruthupandian & Marimuthu (2013) Figure 2
+#| label: fig-mm132
+#| warning: false
+#| message: false
+
+ggplot(data = bat, aes(x = pre, y = post)) + 
+  geom_point() +
+  stat_smooth(method = "lm") +
+  coord_cartesian(ylim = c(85, 200), xlim = c(44, 60)) +
+  theme_minimal()
+```
+
+
+
+OK, let's replicate their correlation coefficient estimates by executing:
+
+```{r}
+#| warning: false
+#| message: false
+
+
+correlation(bat, p_adjust = "none")
+```
+
+So, we replicate the pre-intercourse cunnilingus (Pre) – duration correlation of .91 exactly (*p*= .002), and we more or less get the right value for the pre-post correlation: we get r = –.78 (*p* = .023) instead of -.79, but we're within rounding error. So, it looks like our estimates of the raw data from the Figures in the article aren't far off the real values at all. Just goes to show how useful graphs in papers can be for extracting the raw data. If I'm right and the data in Figure 2 are affected by the first and last case, we'd expect something different to happen if we calculate the correlation based on ranked scores (i.e. Spearman's rho). Let's try it: 
+
+```{r}
+#| warning: false
+#| message: false
+
+
+correlation(bat, method = "spearman", p_adjust = "none")
+```
+
+The Pre-duration correlation has dropped from .91 to .78 (*p* = .023) but it's still very strong. However, the pre-post correlation has changed fairly dramatically from -.79 to *r* = –.50 (*p* = .204) and is now not significant (although I wouldn't want to read to much into that with an *n* = 8). What about if we try a robust correlation such as the percentile bend correlation described by @wilcox2017
+
+```{r}
+#| warning: false
+#| message: false
+
+
+pbcor(bat$pre, bat$post)
+pbcor(bat$pre, bat$duration)
+```
+
+
+The pre post correlation has changed dramatically from -.79 to *r* = –.37 (*p* = .369) and is now not significant (again I wouldn't want to read to much into that with an *n* = 8, but it is now a much smaller effect than they're reporting in the paper). The pre-duration correlation fares much better: it is still very strong and significant, *r* = .85 (*p* = .007). We could also try to estimate the population value of these two relationships by computing a robust confidence interval using bootstrapping. We'll stick with Pearson *r* seeing as that's the estimate that they used in the paper but you could try this with the other measures if you like.
+
+
+In essence then, the true relationship between pre- and post-intercourse cunnilingus duration lies somewhere between about –1 and 0.6. In other words, it could be anything really, including zero. 
+
+```{r}
+#| warning: false
+#| message: false
+
+
+bootr <-function(data, i){ 
+  cor(data[i, 1], data[i, 2])
+  } 
+
+bootprepost <-boot(bat[1:2], bootr, 2000)
+boot.ci(bootprepost) 
+```
+
+For the relationship between pre-intercourse bat cunnilingus and intercourse duration the true relationship is somewhere between r= .5 and .98. In other words, it's likely to be – at the very worst – a strong and positive association.
+
+```{r}
+#| warning: false
+#| message: false
+
+
+bootpreduration <- boot(bat[c(1, 3)], bootr, 2000)
+boot.ci(bootpreduration)
+```
+
+
+:::{.callout-note}
+What does this tell us? Well, I'm primarily interested in using this as a demonstration of why it's important to look at your data and to employ robust tests. I'm not trying to knock the research. Of course, in the process I am, inevitably, sort of knocking it. So, I think there are three messages here:
+
+1. Their first finding that the more that males (bats) engage in cunnilingus, the longer the duration of intercourse is very solid. The population value could be less than the estimate they report, but it could very well be that large too. At the very worst it is still a strong association.
+2. The less good news is that finding 2 (that the more that males engage in pre-intercourse cunnilingus, the less they engage in post-intercourse cunnilingus) is probably wrong. The best case scenario is that the finding is real but the authors have overestimated it. The worst case scenario is that the population effect is in the opposite direction to what the authors report, and there is, of course, a mid ground that there is simply no effect at all in the population (or one so small as to be not remotely important).
+3. It's also worth pointing out that the two extreme cases that have created this spurious result may in themselves be highly interesting observations. There may be important reasons why individual bats engage in unusually long or short bouts of cunnilingus (either pre or post intercourse) and finding out what factors affect this will be an interesting thing that the authors should follow up.
+:::
+
+::: refs
+:::
+

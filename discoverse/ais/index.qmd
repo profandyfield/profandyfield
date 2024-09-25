@@ -1,0 +1,105 @@
+---
+title: "An Adventure in Statistics"
+subtitle: "[www.statisticsadventure.com](https://www.statisticsadventure.com)"
+date: 01 03 2022
+categories: [Statistics Theory] # self-defined categories
+author:
+  name:
+    given: Andy P. 
+    family: Field
+citation:
+  type: book
+  publisher: "SAGE Publications"
+  publisher-place: "London"
+image: ais_02_cover_tran.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+![](ais_02_cover_small.jpg){width="50%"}
+
+## Resources
+
+<blockquote>
+  <em>"Sometimes you must trust that you have the ability to find the answers yourself"</em> Milton
+</blockquote>
+
+- [A blog about the book]()
+- [Companion website](https://www.statisticsadventure.com/)
+- [Interactive tutorials for R](https://www.statisticsadventure.com/adventr/)
+- [Buy from SAGE](https://uk.sagepub.com/en-gb/eur/an-adventure-in-statistics/book275264)
+
+
+## About
+
+<blockquote>
+  <em>"I wasn't sure how we'd got to this place, or how to leave it."</em> Zach Slade
+</blockquote>
+
+Will Zach find Alice, the missing love of his life, and save the world? Will he survive the bridge of death? Can he escape the zombie horde? Statistically speaking the odds don’t look good….
+Reluctant hero Zach Slade wakes up to find that his soul mate Alice has vanished. To find her, he must solve a puzzle using the only clue he has – Alice’s unfinished research report. If only he hadn’t skipped science class to form a band.
+The more Zach unravels the enigma of reality, the more he sense that something is very wrong. Did Alice ever exist? Who is the mysterious Professor Milton? What is causing people to forget who they are? And why is everyone intent on teaching him statistics?
+Join Zach on his bizarre journey … It will transform your understanding of statistics forever.
+
+## Audience
+
+This book is aimed at people with no prior knowledge of statistics.
+
+## What's it about?
+
+At a simple level ‘an adventure in statistics’ is a story about Zach searching for Alice, and seeking the truth, but it’s also about the unlikely friendship he develops with a sarcastic cat, it’s about him facing his fear of science and numbers, it’s about him learning to believe in himself. It’s a story about love, about not forgetting who you are. It’s about searching for the heartbeats that hide in the gaps between you and the people you love. It’s about having faith in others.
+Of course, it’s also about fitting models, robust methods, classical and Bayesian estimation, significance testing and whole bunch of other tedious statistical things, but hopefully you’ll be so engrossed in the story that you won’t notice them. Or they might be a welcome relief from the terrible fiction. Time will tell.
+
+## What's the difference to my other textbooks?
+
+My Discovering Statistics Using ... range focuses on doing statistics using specific software packages (e.g., IBM SPSS Statistics, R, SAS) and do not spend much time on introductory concepts. An Adventure in Statistics does the opposite: it teaches the foundations of statistics from the bottom up focusing on theory, concepts and interpretation rather than software packages (because my other books already do that). As such, it is complimentary to my other books: it provides the grass roots introduction to statistics that my other books do not have space to provide. I will be producing some free materials to accompany the book to show how to use (most likely R, IBM SPSS Statistics and, possible, JASP) to reproduce what is in the book.
+
+## Awards
+
+<blockquote>
+  <em>"It’s stupid, stupid words, stupid symbols and even more stupid pictures."</em> Zach Slade
+</blockquote>
+
+
+- 2023: APEX Award for Publication Excellence: Print Media - Education & Training
+- 2017: Shortlisted for the British Psychological Society Book Award
+- 2016: [The Association of Learned &amp; Professional Society Publishers Award for Innovation in Publishing](http://www.alpsp.org/news/20160701awardsfinalists)
+- 2016: [British Book Design and Production Awards (Primary, Secondary and Tertiary Education category)](http://www.britishbookawards.org/shortlist-winners-2016/) 
+ 
+
+## Reviews
+
+<blockquote>
+  <em>" I have at last encountered a book that provides solid, innovative statistics instruction alongside lessons in coding. And it’s fair to say that it does so like no other ... If only I’d had this book back in grad school."</em> <a href="http://www.americanscientist.org/bookshelf/pub/stats-and-fiction">American Scientist</a>. Reviewed by Katie L. Burke.
+  
+  <em>"Field has succeeded in bringing a refreshing new approach to learning statistical methods, in this easy-to-follow and engaging guide."</em> <a href="https://thepsychologist.bps.org.uk/stand-out-story-stats">The Psychologist</a>, Reviewed by Stacey A. Bedwell.
+</blockquote>
+
+## Contents
+
+### Chapter list
+
+ 
+-  Chapter 1: Why you need science 
+-  Chapter 2: Reporting research, variables and measurement 
+-  Chapter 3: Summarizing Data 
+-  Chapter 4: Fitting models (central tendency) 
+-  Chapter 5: Presenting data 
+-  Chapter 6: z-scores 
+-  Chapter 7: Probability 
+-  Chapter 8: Inferential statistics 
+-  Chapter 9: Robust estimation 
+-  Chapter 10: Hypothesis testing 
+-  Chapter 11: Modern approaches to theory testing 
+-  Chapter 12: Assumptions 
+-  Chapter 13: Relationships 
+-  Chapter 14: The general linear model 
+-  Chapter 15: comparing two means 
+-  Chapter 16: Comparing several means 
+-  Chapter 17: Factorial designs 
+ 
+
+### Alphabetic list of selected topics covered
+
+ANOVA (including robust methods and Bayesian approaches), assumptions (additivity, homoskedasticity, linearity, independent errors, normality etc.), bar charts, Bayes factors, Bayesian methods, Bayes theorem, bias (sources and correcting for it), boxplots,  central limit theorem, chi-square test, confidence intervals, correlation (including robust methods and Bayesian approaches), effect sizes, Fisher's exact test, frequency distributions, histograms, IQR, likelihood ratio, mean, median, meta-analysis, mode, null hypothesis significance testing (including power, Type I and II errors, error rates, criticisms), probability theory (classical and empirical), range, regression (including robust methods and Bayesian approaches), robust estimation, sampling theory, sampling distributions, scatterplots, standard deviation, standard error, t-tests (including robust methods and Bayesian approaches), variance, z-scores.
+
+

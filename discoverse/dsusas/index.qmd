@@ -1,0 +1,30 @@
+---
+title: "Discovering Statistics Using SAS"
+date: 01 02 2010
+categories: [SAS, Statistics Theory] # self-defined categories
+author:
+  - name:
+    given: Andy P. 
+    family: Field
+  - name:
+    given: Jeremy 
+    family: Miles
+citation:
+  type: book
+  publisher: "SAGE Publications"
+  publisher-place: "London"
+image: dsusas.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+
+![](dsusas.jpg){width="50%"}
+
+
+## Resources
+
+- [Companion website for instructors](https://studysites.sagepub.com/fieldandmilessas/)
+- [Order from SAGE](https://uk.sagepub.com/en-gb/eur/discovering-statistics-using-sas/book234095)
+
+
+

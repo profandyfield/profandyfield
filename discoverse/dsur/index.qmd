@@ -1,0 +1,42 @@
+---
+title: "Discovering Statistics Using R and RStudio"
+subtitle: "[www.discovr.rocks](https://www.discovr.rocks)"
+date: 01 02 2025
+categories: [R, Statistics Theory] # self-defined categories
+author:
+  name:
+    given: Andy P. 
+    family: Field
+citation:
+  type: book
+  publisher: "SAGE Publications"
+  publisher-place: "London"
+image: dsr2_cover_small.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+![](dsr2_cover_small.jpg){width="50%"}
+
+## The second edition
+
+The [first edition of this book](https://uk.sagepub.com/en-gb/eur/discovering-statistics-using-r/book236067) is now quite out of date. The good news is that I'\ve been working on an update for the past 4+ years! I hope to finish it soon.
+
+:::: {.columns}
+::: {.column width="25%"}
+![](../../images/hex_discovr.png){width="75%"}
+
+:::
+::: {.column width="5%"}
+:::
+
+::: {.column width="70%"}
+In the meantime, I have written a package of R tutorials [the discovr package](https://discovr.rocks/discover) that contains a lot of the new material, and you can find out about the new edition at the [companion website](https://discovr.rocks/).
+:::
+:::
+
+## Resources
+
+- [Companion website for students](https://discovr.rocks/)
+- [Companion website for instructors old edition](https://study.sagepub.com/field6e)
+- [Order from SAGE](https://uk.sagepub.com/en-gb/eur/discovering-statistics-using-ibm-spss-statistics/book285130)
+

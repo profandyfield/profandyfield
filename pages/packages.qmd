@@ -1,0 +1,45 @@
+---
+title: "R Packages"
+bibliography: references.yaml
+---
+
+I have written the following packages for R.
+
+:::::: columns
+::: {.column width="25%"}
+![](../images/hex_discovr.png){width="75%"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="70%"}
+The [discovr package](https://discovr.rocks/discover) contains interactive tutorials for learning R that accompany my book \[Discovering Statistics Using R and RStudio\]. The tutorials are written using a package called `learnr`. Once a tutorial is running it's a bit like reading excerpts of the book but with places where you can practice the R code that you have just been taught. The `discovr` package is free and offered to support tutors and students using my textbook. You can find out about the package at the [companion website](https://discovr.rocks/discovr) and install the package from [github](https://github.com/profandyfield/discovr).
+:::
+::::::
+
+:::::: columns
+::: {.column width="25%"}
+![](../images/hex_adventr.png){width="75%"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="70%"}
+The [adventr package](https://discovr.rocks/discover) contains interactive tutorials for learning R that accompany my book [An adventure in statistics](https://www.statisticsadventure.com). The tutorials are written using a package called `learnr`. Once a tutorial is running it teaches you how to use R to run the analyses within the textbook (and more). You can find out about the package at the [companion website](https://www.statisticsadventure.com/adventr/) and install the package from [github](https://github.com/profandyfield/adventr).
+:::
+::::::
+
+:::::: columns
+::: {.column width="25%"}
+![](../images/hex_metahelpr.png){width="75%"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="70%"}
+The [metahelpr package](https://github.com/profandyfield/metahelpr). The goal of `metahelpr` is to offer tutorials and helper functions for conducting meta-analysis using the `metafor` package [@metafor]. The package contains some helper functions that I often use when I conduct meta-analysis. The tutorials are written using a package called `learnr`. Find out more and install the package from [github](https://github.com/profandyfield/metahelpr).
+:::
+::::::

@@ -1,0 +1,36 @@
+---
+references:
+- id: kosfeld2005
+  author:
+  - family: Kosfeld
+    given: Michael
+  - family: Heinrichs
+    given: Markus
+  - family: Zak
+    given: Paul J.
+  - family: Fischbacher
+    given: Urs
+  - family: Fehr
+    given: Ernst
+  container-title: Nature
+  container-title-short: Nature
+  DOI: 10.1038/nature03701
+  is-referenced-by-count: 2532
+  ISSN: 0028-0836
+  issue: 7042
+  issued: 2005-06
+  language: en
+  member: 297
+  page: 673-676
+  prefix: 10.1038
+  providerKey: doi
+  publisher: Springer Science and Business Media LLC
+  reference-count: 30
+  references-count: 30
+  score: 1
+  source: Crossref
+  title: Oxytocin increases trust in humans
+  type: article-journal
+  URL: "http://dx.doi.org/10.1038/nature03701"
+  volume: 435
+...

@@ -1,0 +1,30 @@
+---
+title: "How to Design and Report Experiments"
+date: 01 01 2003
+categories: [Methodology, Statistics Theory] # self-defined categories
+author:
+  - name:
+    given: Andy P. 
+    family: Field
+  - name:
+    given: Graham 
+    family: Hole
+citation:
+  type: book
+  publisher: "SAGE Publications"
+  publisher-place: "London"
+image: htdre-cover.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+
+![](htdre-cover.jpg){width="50%"}
+
+
+## Resources
+
+
+- [Order from SAGE](https://uk.sagepub.com/en-gb/eur/how-to-design-and-report-experiments/book219351)
+
+
+

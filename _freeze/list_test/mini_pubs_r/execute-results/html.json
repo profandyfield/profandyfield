@@ -1,0 +1,15 @@
+{
+  "hash": "052552240d97b4bc9bb35e3e4c7bc782",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Publications\"\necho: false\nformat: \n  html:\n    toc-depth: 3\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n## Journal articles\n\n\n\n<h3>2016</h2>\n<ul><li>Askew, C.,  Reynolds, G.,  Fielding-Smith, S., & Field, A. P. (2016). Inhibition of vicariously learned fear in children using positive modeling and prior exposure. <em>J Abnorm Psychol</em>, 125, 279-291.</li></ul><h3>2004</h2>\n<ul><li>Andrea, H.,  Beurskens, A.,  Kant, I. J.,  Davey, G. C. L.,  Field, A. P., & Schayck, C. P. (2004). The relation between pathological worrying and fatigue in a working population. <em>Journal of Psychosomatic Research</em>, 57, 399-407. doi: <a href=\"https://doi.org/10.1016/j.jpsychores.2003.09.013\">10.1016/j.jpsychores.2003.09.013</a></li></ul>\n\n\n\n## Book chapters\n\n\n\n<h3>2013</h2>\n<ul><li>Field, A. (2013). Demystifying statistics: bring your imprimatur … to the laughter. In Bilham, T. (Eds.), <em>For the Love of Learning</em> (pp. 109-113). London: Macmillan Education UK.</li></ul><h3>2001</h2>\n<ul><li>Field, A. P., & Davey, G. C. L. (2001). Conditioning models of childhood anxiety.. In Silverman, W. K., & Treffers, P. A. (Ed.), <em>Anxiety Disorders in Children and Adolescents: Research, Assessment and Intervention</em> (pp. 187–211). Cambridge: Cambridge University Press.</li></ul>\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

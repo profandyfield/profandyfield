@@ -1,0 +1,32 @@
+---
+title: "Side effects"
+description: "A discussion of the importance of statistical literacy"
+author:
+  - name: Andy Field
+    url: https://profandyfield.com
+date: 01 08 2012
+categories: [Statistics, Statistical literacy, Side effects] # self-defined categories
+citation: 
+  url: https://profandyfield.com/posts/2012_08_01_side_effects/ 
+image: sideeffects.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+I know I have been a bit rubbish with blogs recently, but I'm massively behind with the Discovering Statistics Using SPSS update, and these things fall by the wayside. Also, I can so rarely find anything remotely interesting to say, let alone blog about. If it were a blog about music then I could write all day. Anyway …
+So, while writing the DSUS update I was unwell for a couple of months. It turned out to (probably) be stress related (updating a book involves a lot of long days, late nights, and pressure). Unlike women who sensibly go to the doctor when they feel ill, men do not. However, I did eventually do the un-manly thing and go to my doctor. She prescribed some pills. In one of my other blogs I talked about key statistical skills that we should try to teach undergrads, and as I read the instructions of these pills it occurred to me that this is a good example of where the world would be a better place if people left university understanding statistics a bit better, and providing useful statistical information, therefore became the norm.
+
+Like a diligent patient, I read the instruction leaflet with the pills. Like most instruction leaflets with pills they had an un-amusing list of possible side effects. These side effects were helpfully listed as common, uncommon and rare. Common ones included headache, stomache aches and feeling sick (Ok, I can handle that), uncommon ones were dizziness, liver disease which might make my eyes yellow, rash, sleepiness or trouble sleeping (but not both). The rare ones included liver failure resulting in brain damage, bleeding at the lips, eyes, mouth, nose and genitals and development of breasts in men.
+Excuse me? Did it say 'development of breasts in men'?
+
+Yes it did.
+
+Here's a photo to prove it.
+
+![](sideeffects.png)
+
+I'll admit that I don't know much about human anatomy, but based on the little I do know, it seems intuitive that my immune system, if reacting badly to something like a drug, might overload my liver and make it explode, or give me kidney failure. I also know that feeling sick and having flu-like symptoms is part and parcel of your immune system kicking into action. But why on earth would my body respond to a nasty drug by sprouting breasts? Perhaps because having them would make me more likely to visit my doctor.
+
+Anyway, back to the tenuous link to stats. Whenever I read this sort of thing (which fortunately isn't often) I usually feel that I'd rather put up with whatever it is that's bothering me than run the risk of, for example, bleeding from my penis or getting brain damage. I might feel differently if I had enough information to assess the risk. What do they mean by 'uncommon' or 'rare': 1/100, 1/1,000, 1/billion? Wouldn't it be nice if we could have a bit more information, maybe even an odds ratio – that way I could know, for example, that if I take the pill I'd be 1.2 times more likely to grow breasts than if I don't. That way we could better assess the likelihood of these adverse events, which if you're as neurotic as me, would be very helpful.
+The campaign for more stats on drug instruction leaflets starts here.
+
+Anyway, after all that I took the pill, went to sleep and dreamt of the lovely new breasts that I'd have in the morning … 

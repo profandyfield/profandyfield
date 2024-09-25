@@ -1,0 +1,52 @@
+---
+title: "Andy Field"
+subtitle: "The stats book guy ..."
+toc: false
+about:
+  template: trestles
+  image: images/andy_milton.png
+  links:
+    - icon: github
+      href: https://github.com/profandyfield
+    - text: "{{< iconify fa6-brands orcid >}}"
+      href: https://orcid.org/0000-0003-3306-4695
+    - text: "{{< iconify fa6-brands google-scholar >}}"
+      href: https://scholar.google.co.uk/citations?user=0Iy7PFYAAAAJ&hl=en
+    - text: "{{< fa brands x-twitter >}}"
+      href: https://twitter.com/profandyfield
+    - text: "{{< iconify fa6-brands bluesky >}}"
+      href: https://bsky.app/profile/profandyfield.bsky.social
+    - icon: linkedin
+      href: https://www.linkedin.com/in/profandyfield/
+---
+
+
+
+I am Professor of Quantitative Methods at the [University of Sussex](https://profiles.sussex.ac.uk/p9846-andy-field), UK. I’ve published a lot of research papers, blah blah blah, but no-one has ever read them, or would want to. The chances are if you're here it's because of one of my statistics textbooks and you don't need to be told that I write statistics textbooks, but I do.
+
+## Education and Societies
+
+- 2021: RStudio certified trainer (RStudio)
+- 2017-present: Chartered Statistician (Royal Statistical Society)
+- 2010–present:	Fellow of the Academy of Social Sciences
+- 2009–present:	Fellow of the Higher Teaching Academy
+- 1994–97:	Ph.D. (Psychology). University of Sussex, Brighton, UK
+- 1991–94:	B.Sc. (Psychology): City, University of London, UK.
+
+
+## Awards
+
+- 2024:	School of Psychology Teaching Award (University of Sussex, Statistics)
+- 2023, 2020, 2019, 2018, 2016, 2015:	Education Award (University of Sussex, Statistics)
+- 2017:	British Psychological Society book award (shortlisted)
+- 2016:	British Book Design and Production Awards (shortlisted)
+- 2016:	Association of Learned & Professional Society Publishers Award for Innovation in Publishing (Shortlisted)
+- 2015:	University Teaching Innovation Prize (University of Sussex).
+- 2010:	National Teaching Fellowship (HEA, Teaching Statistics)
+- 2007:	British Psychological Society Book Award (Winner)
+- 2006:	British Psychological Society Award for Excellence in the Teaching of Psychology.
+- 2001:	Prize for Excellence and Innovation in Teaching (University of Sussex)
+
+## Skills and hobies
+
+Statistics, R, Drumming, Guitar

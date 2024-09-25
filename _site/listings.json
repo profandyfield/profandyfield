@@ -1,0 +1,35 @@
+[
+  {
+    "listing": "/discoverse.html",
+    "items": [
+      "/discoverse/dsur/index.html",
+      "/discoverse/dsuj/index.html",
+      "/discoverse/dsus/index.html",
+      "/discoverse/ais/index.html",
+      "/discoverse/dsusas/index.html",
+      "/discoverse/htdre/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2017_11_17_dsus5/index.html",
+      "/posts/2017_01_03_stinkfiske/index.html",
+      "/posts/2016_04_28_ais/index.html",
+      "/posts/2016_03_29_sepultura/index.html",
+      "/posts/2016_02_17_retraction/index.html",
+      "/posts/2015_09_28_mike_dean/index.html",
+      "/posts/2014_10_31_oxytocin/index.html",
+      "/posts/2013_04_02_bats/index.html",
+      "/posts/2012_11_14_ks/index.html",
+      "/posts/2012_10_02_graham/index.html",
+      "/posts/2012_09_13_homoscedasticity/index.html",
+      "/posts/2012_08_06_normality/index.html",
+      "/posts/2012_08_01_side_effects/index.html",
+      "/posts/2012_07_21_bonferroni/index.html",
+      "/posts/2012_07_20_spss/index.html",
+      "/posts/2012_07_19_tails/index.html",
+      "/posts/2012_07_18_rock_racism/index.html"
+    ]
+  }
+]

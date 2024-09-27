@@ -16,7 +16,7 @@ website:
       - text: "Blog"
         href: blog.qmd
       - text: "Merch"
-        href: shop.qmd
+        href: pages/shop.qmd
     right:
       - icon: github
         href: https://github.com/profandyfield

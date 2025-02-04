@@ -12,8 +12,6 @@ about:
       href: https://orcid.org/0000-0003-3306-4695
     - text: "{{< iconify fa6-brands google-scholar >}}"
       href: https://scholar.google.co.uk/citations?user=0Iy7PFYAAAAJ&hl=en
-    - text: "{{< fa brands x-twitter >}}"
-      href: https://twitter.com/profandyfield
     - text: "{{< iconify fa6-brands bluesky >}}"
       href: https://bsky.app/profile/profandyfield.bsky.social
     - icon: linkedin

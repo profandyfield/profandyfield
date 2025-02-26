@@ -8,12 +8,12 @@ author:
     given: Andy P. 
     family: Field
   - name:
-    given: "Eric-Jan" 
-    family: Wagenmakers
-  - name:
     given: Johnny 
     family: Doorn
     dropping-particle: van
+  - name:
+    given: "Eric-Jan" 
+    family: Wagenmakers
 citation:
   type: book
   publisher: "SAGE Publications"

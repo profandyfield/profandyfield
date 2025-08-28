@@ -4406,4 +4406,347 @@ references:
     data
   type: article-journal
   volume: '2'
+  
+- id: dean_impact_2025
+  accessed:
+    - year: 2024
+      month: 12
+      day: 4
+  author:
+    - family: Dean
+      given: R.L.
+    - family: Lester
+      given: K.J.
+    - family: Grant
+      given: E.
+    - family: Field
+      given: A.P.
+    - family: Orchard
+      given: F.
+    - family: Pile
+      given: V.
+  citation-key: dean_impact_2025
+  container-title: Clinical Psychology Review
+  container-title-short: Clinical Psychology Review
+  DOI: 10.1016/j.cpr.2024.102521
+  ISSN: '02727358'
+  issued:
+    - year: 2025
+      month: 2
+  language: en
+  page: '102521'
+  source: DOI.org (Crossref)
+  title: >-
+    The impact of interventions for depression on self-perceptions in young
+    people: A systematic review & meta-analysis
+  title-short: >-
+    The impact of interventions for depression on self-perceptions in young
+    people
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0272735824001429
+  volume: '115'
+
+- id: greenwood_development_2025
+  accessed:
+    - year: 2025
+      month: 1
+      day: 14
+  author:
+    - family: Greenwood
+      given: Kathryn
+    - family: Chandler
+      given: Ruth
+    - family: Labuschagne
+      given: Kirsty
+    - family: Peters
+      given: Emmanuelle
+    - family: Alford
+      given: Katie
+    - family: De Visser
+      given: Richard
+    - family: Field
+      given: Andy
+    - family: Slater
+      given: Luke
+    - family: Garety
+      given: Philippa
+  citation-key: greenwood_development_2025
+  container-title: Early Intervention in Psychiatry
+  container-title-short: Early Intervention Psych
+  DOI: 10.1111/eip.13623
+  ISSN: 1751-7885, 1751-7893
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 1
+  language: en
+  license: All rights reserved
+  page: e13623
+  source: DOI.org (Crossref)
+  title: >-
+    The development and piloting of an early youth‐engagement ( <span
+    style="font-variant:small-caps;" smallcaps="smallcaps">EYE</span> ) model to
+    improve engagement of young people in first episode psychosis services: a
+    mixed methods study
+  title-short: 'The development and piloting of an early youth‐engagement ( '
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/eip.13623
+  volume: '19'
+
+- id: hall_registered_2024-1
+  accessed:
+    - year: 2024
+      month: 12
+      day: 4
+  author:
+    - family: Hall
+      given: Braeden
+    - family: Schmidt
+      given: Kathleen
+    - family: Wagge
+      given: Jordan
+    - family: Lewis
+      given: Savannah C.
+    - family: Weissgerber
+      given: Sophia C.
+    - family: Kiunke
+      given: Felix
+    - family: Pfuhl
+      given: Gerit
+    - family: Stieger
+      given: Stefan
+    - family: Tran
+      given: Ulrich S.
+    - family: Barzykowski
+      given: Krystian
+    - family: Bogatyreva
+      given: Natalia
+    - family: Kowal
+      given: Marta
+    - family: Massar
+      given: KarlIJn
+    - family: Pernerstofer
+      given: Felizitas
+    - family: Sorokowski
+      given: Piotr
+    - family: Voracek
+      given: Martin
+    - family: Chartier
+      given: Christopher R.
+    - family: Brandt
+      given: Mark J.
+    - family: Grahe
+      given: Jon E.
+    - family: Özdoğru
+      given: Asil A.
+    - family: Andreychik
+      given: Michael R.
+    - family: Chen
+      given: Sau-Chin
+    - family: Evans
+      given: Thomas R.
+    - family: Hautekiet
+      given: Caro
+    - family: IJzerman
+      given: Hans
+    - family: Kačmár
+      given: Pavol
+    - family: Krafnick
+      given: Anthony J.
+    - family: Musser
+      given: Erica D.
+    - family: Vergauwe
+      given: Evie
+    - family: Werner
+      given: Kaitlyn M.
+    - family: Aczel
+      given: Balazs
+    - family: Arriaga
+      given: Patrícia
+    - family: Batres
+      given: Carlota
+    - family: Beaudry
+      given: Jennifer L.
+    - family: Cova
+      given: Florian
+    - family: Ďurbisová
+      given: Simona
+    - family: Cramblet Alvarez
+      given: Leslie D.
+    - family: Feldman
+      given: Gilad
+    - family: Godbersen
+      given: Hendrik
+    - family: Gottfried
+      given: Jaroslav
+    - family: Haeffel
+      given: Gerald J.
+    - family: Hartanto
+      given: Andree
+    - family: Isloi
+      given: Chris
+    - family: McFall
+      given: Joseph P.
+    - family: Milyavskaya
+      given: Marina
+    - family: Moreau
+      given: David
+    - family: Nosáľová
+      given: Ester
+    - family: Papaioannou
+      given: Kostas
+    - family: Ruiz-Fernandez
+      given: Susana
+    - family: Schrötter
+      given: Jana
+    - family: Storage
+      given: Daniel
+    - family: Vezirian
+      given: Kevin
+    - family: Volz
+      given: Leonhard
+    - family: Weisberg
+      given: Yanna J.
+    - family: Xiao
+      given: Qinyu
+    - family: Awlia
+      given: Dana
+    - family: Branit
+      given: Hannah W.
+    - family: Dunn
+      given: Megan R.
+    - family: Groyecka-Bernard
+      given: Agata
+    - family: Haneda
+      given: Ricky
+    - family: Kielinska
+      given: Julita
+    - family: Kolle
+      given: Caroline
+    - family: Lubomski
+      given: Paweł
+    - family: Miller
+      given: Alexys M.
+    - family: Mækelæ
+      given: Martin J.
+    - family: Pantazi
+      given: Mytro
+    - family: Ribeiro
+      given: Rafael R.
+    - family: Ross
+      given: Robert M.
+    - family: Sorokowska
+      given: Agnieszka
+    - family: Aberson
+      given: Christopher L.
+    - family: Vassiliou
+      given: Xanthippi Alexi
+    - family: Baker
+      given: Bradley J.
+    - family: Bognar
+      given: Miklos
+    - family: Cong
+      given: Chin Wen
+    - family: Danvers
+      given: Alex F.
+    - family: Davis
+      given: William E.
+    - family: Dranseika
+      given: Vilius
+    - family: Dumbravă
+      given: Andrei
+    - family: Farmer
+      given: Harry
+    - family: Field
+      given: Andy P.
+    - family: Forscher
+      given: Patrick S.
+    - family: Graton
+      given: Aurélien
+    - family: Hajdu
+      given: Nandor
+    - family: Howlett
+      given: Peter A.
+    - family: Kabut
+      given: Radosław
+    - family: Larsen
+      given: Emmett M.
+    - family: Lee
+      given: Sean T. H.
+    - family: Legate
+      given: Nicole
+    - family: Levitan
+      given: Carmel A.
+    - family: Levy
+      given: Neil
+    - family: Lu
+      given: Jackson G.
+    - family: Misiak
+      given: Michał
+    - family: Morariu
+      given: Roxana E.
+    - family: Novak
+      given: Jennifer
+    - family: Pronizius
+      given: Ekaterina
+    - family: Prusova
+      given: Irina
+    - family: Rathnayake
+      given: Athulya S.
+    - family: Romanova
+      given: Marina O.
+    - family: Röer
+      given: Jan P.
+    - family: Sampaio
+      given: Waldir M.
+    - family: Schild
+      given: Christoph
+    - family: Schulte-Mecklenbeck
+      given: Michael
+    - family: Stephen
+      given: Ian D.
+    - family: Szecsi
+      given: Peter
+    - family: Takacs
+      given: Elizabeth
+    - family: Teeter
+      given: Julia N.
+    - family: Thiele-Evans
+      given: Elian H.
+    - family: Valeiro-Paterlini
+      given: Julia
+    - family: Vilares
+      given: Iris
+    - family: Villafana
+      given: Louise
+    - family: Wang
+      given: Ke
+    - family: Wu
+      given: Raymond
+    - family: Álvarez-Solas
+      given: Sara
+    - family: Moshontz
+      given: Hannah
+    - family: Buchanan
+      given: Erin M.
+  citation-key: hall_registered_2024-1
+  container-title: Advances in Methods and Practices in Psychological Science
+  container-title-short: Advances in Methods and Practices in Psychological Science
+  DOI: 10.1177/25152459241267902
+  ISSN: 2515-2459, 2515-2467
+  issue: '4'
+  issued:
+    - year: 2024
+      month: 10
+  language: en
+  license: All rights reserved
+  page: '25152459241267902'
+  source: DOI.org (Crossref)
+  title: >-
+    Registered replication report: a large multilab cross-cultural conceptual
+    replication of Turri et al. (2015)
+  title-short: Registered replication report
+  type: article-journal
+  URL: https://journals.sagepub.com/doi/10.1177/25152459241267902
+  volume: '7'
 ...

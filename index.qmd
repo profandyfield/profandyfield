@@ -24,12 +24,13 @@ I am Professor of Quantitative Methods at the [University of Sussex](https://pro
 
 ## Education and Societies
 
+- 2025: B.Sc. Hons. First Class (Mathematics and Statistics): The Open University, UK.
 - 2021: RStudio certified trainer (RStudio)
 - 2017-present: Chartered Statistician (Royal Statistical Society)
 - 2010–present:	Fellow of the Academy of Social Sciences
 - 2009–present:	Fellow of the Higher Teaching Academy
 - 1994–97:	Ph.D. (Psychology). University of Sussex, Brighton, UK
-- 1991–94:	B.Sc. (Psychology): City, University of London, UK.
+- 1991–94:	B.Sc. Hons. First Class (Psychology): City, University of London, UK.
 
 
 ## Awards
@@ -45,6 +46,6 @@ I am Professor of Quantitative Methods at the [University of Sussex](https://pro
 - 2006:	British Psychological Society Award for Excellence in the Teaching of Psychology.
 - 2001:	Prize for Excellence and Innovation in Teaching (University of Sussex)
 
-## Skills and hobies
+## Skills and hobbies
 
 Statistics, R, Drumming, Guitar

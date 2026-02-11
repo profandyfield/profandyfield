@@ -5,3 +5,5 @@
 
 /.quarto/
 /dev/
+
+**/*.quarto_ipynb

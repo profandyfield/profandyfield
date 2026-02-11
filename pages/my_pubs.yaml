@@ -4749,4 +4749,71 @@ references:
   type: article-journal
   URL: https://journals.sagepub.com/doi/10.1177/25152459241267902
   volume: '7'
+- id: loizou_are_2025
+  accessed:
+    - year: 2026
+      month: 1
+      day: 6
+  author:
+    - family: Loizou
+      given: Sofia
+    - family: Field
+      given: Andy P.
+    - family: Fowler
+      given: David
+    - family: Hayward
+      given: Mark
+  citation-key: loizou_are_2025
+  container-title: PLOS One
+  container-title-short: PLoS One
+  DOI: 10.1371/journal.pone.0333069
+  editor:
+    - family: Fung
+      given: Hong Wang
+  ISSN: 1932-6203
+  issue: '10'
+  issued:
+    - year: 2025
+      month: 10
+      day: 7
+  language: en
+  page: e0333069
+  source: DOI.org (Crossref)
+  title: >-
+    Are measures of voice hearing distinct from measures of emotional states,
+    recovery and well-being? A factor analysis study
+  title-short: >-
+    Are measures of voice hearing distinct from measures of emotional states,
+    recovery and well-being?
+  type: article-journal
+  URL: https://dx.plos.org/10.1371/journal.pone.0333069
+  volume: '20'
+- id: sladekova_robust_2025
+  accessed:
+    - year: 2026
+      month: 2
+      day: 11
+  author:
+    - family: Sladekova
+      given: Martina
+    - family: Field
+      given: Andy P.
+  citation-key: sladekova_robust_2025
+  container-title: PeerJ
+  DOI: 10.7717/peerj.20043
+  ISSN: 2167-8359
+  issued:
+    - year: 2025
+      month: 9
+      day: 29
+  language: en
+  license: https://creativecommons.org/licenses/by/4.0/
+  page: e20043
+  source: DOI.org (Crossref)
+  title: >-
+    Robust statistical methods and the credibility movement of psychological
+    science
+  type: article-journal
+  URL: https://peerj.com/articles/20043
+  volume: '13'
 ...

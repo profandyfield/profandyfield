@@ -4816,4 +4816,37 @@ references:
   type: article-journal
   URL: https://peerj.com/articles/20043
   volume: '13'
+- id: sladekova_sources_2026
+  accessed:
+    - year: 2026
+      month: 2
+      day: 18
+  author:
+    - family: Sladekova
+      given: Martina
+    - family: Poupa
+      given: Veronika
+    - family: Field
+      given: Andy P.
+  citation-key: sladekova_sources_2026
+  container-title: Royal Society Open Science
+  DOI: 10.1098/rsos.250076
+  ISSN: 2054-5703
+  issue: '2'
+  issued:
+    - year: 2026
+      month: 2
+      day: 18
+  language: en
+  license: http://creativecommons.org/licenses/by/4.0/
+  page: '250076'
+  source: DOI.org (Crossref)
+  title: >-
+    Sources of bias in general linear models: evaluating the analytic practice
+    in psychological research
+  title-short: Sources of bias in general linear models
+  type: article-journal
+  URL: >-
+    https://royalsocietypublishing.org/rsos/article/13/2/250076/480406/Sources-of-bias-in-general-linear-models
+  volume: '13'
 ...

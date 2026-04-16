@@ -38,5 +38,5 @@ In the meantime, I have written a package of R tutorials [the discovr package](h
 
 - [Companion website for students](https://discovr.rocks/)
 - [Companion website for instructors old edition](https://studysites.sagepub.com/dsur/)
-- [Order from SAGE]()
+- [Order from SAGE](https://uk.sagepub.com/en-gb/eur/discovering-statistics-using-r-and-rstudio/book261351)
 

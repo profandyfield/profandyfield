@@ -28,6 +28,8 @@ website:
         href: https://bsky.app/profile/profandyfield.com
       - icon: linkedin
         href: https://www.linkedin.com/in/profandyfield/
+      - text: "{{< iconify cib:ko-fi >}}"
+        href: https://ko-fi.com/andyfield
   search: 
     location: navbar
     type: textbox

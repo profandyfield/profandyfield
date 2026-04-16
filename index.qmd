@@ -16,6 +16,8 @@ about:
       href: https://bsky.app/profile/profandyfield.bsky.social
     - icon: linkedin
       href: https://www.linkedin.com/in/profandyfield/
+    - text: "{{< iconify cib:ko-fi >}}"
+      href: https://ko-fi.com/andyfield
 ---
 
 
@@ -49,3 +51,7 @@ I am Professor of Quantitative Methods at the [University of Sussex](https://pro
 ## Skills and hobbies
 
 Statistics, R, Drumming, Guitar
+
+```{=html}
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#c21818', 'Q5Q218ASK7');kofiwidget2.draw();</script> 
+```

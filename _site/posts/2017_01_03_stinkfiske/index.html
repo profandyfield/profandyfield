@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.22">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,6 +12,9 @@
 
 <title>StinkFiske – Andy Field</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -27,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -59,12 +61,14 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-042d2bef7982f49c2e5bdd73bd08bc3e.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-f048a250085f0a30502fa9d7f34217d0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-665ef5c5d77cfb05cd7a07c04fb2ab30.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bfe735afd4d1464c5a58396f81eeeb61.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-665ef5c5d77cfb05cd7a07c04fb2ab30.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-dark-fe87656a638d424e7cf851d2e4eb2324.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-838fd2924cb9a745b10c23e5ca8b27b1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4db31a012b01d0f74bcd2da42f1217cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-e2c7f22c05ae7875300ebcd516fd6a72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-4db31a012b01d0f74bcd2da42f1217cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -105,7 +109,169 @@ gtag('config', 'G-4B4C2HG6H3', { 'anonymize_ip': true});
 
 </head>
 
-<body class="floating nav-fixed slimcontent quarto-light">
+<body class="floating nav-fixed slimcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -113,7 +279,8 @@ gtag('config', 'G-4B4C2HG6H3', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../favicon.ico" alt="" class="navbar-logo">
+    <img src="../../favicon.ico" alt="" class="navbar-logo light-content">
+    <img src="../../favicon.ico" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Andy Field</span>
@@ -168,6 +335,10 @@ gtag('config', 'G-4B4C2HG6H3', { 'anonymize_ip': true});
     <a class="nav-link" href="https://www.linkedin.com/in/profandyfield/"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://ko-fi.com/andyfield"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="cib:ko-fi" aria-label="Icon ko-fi from cib Iconify.design set." title="Icon ko-fi from cib Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -231,165 +402,7 @@ gtag('config', 'G-4B4C2HG6H3', { 'anonymize_ip': true});
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
-<script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    window.setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        disableStylesheet(primaryStylesheets)
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      window.setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    window.hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(darkModeDefault) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const darkModeDefault = false;
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !window.hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-    };
-    // Switch to dark mode if need be
-    if (window.hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+
 
 
 
@@ -416,7 +429,7 @@ Tone
 <h2 class="anchored">
 Non-selective criticism
 </h2>
-<p>I think one reason why people might share Fiske’s views is that critiques tend to garner more interest when they change the conclusions of the study negatively, and because of the well-known selection bias for significant studies this invariably entails ‘look, the significant effect is not significant when the data police do things <em>properly</em>’. Wouldn’t it be fun, just for a change, to have a critique along the lines of ‘I did something the authors didn’t think of to improve the analysis, and the original conclusions stand up’. Let’s really let our imaginations wander to scenarios along the lines of ‘We re-examined this study of null results using some reasonable subjective priors to obtain Bayesian estimates of the model parameters and there’s greater evidence than the authors thought that the substantive effect under investigation could be big enough to warrant further investigation.’ In this last case, no-one would be doubting the integrity of the original authors but, other things being equal, there’s no difference in any of these situations: there’s data, there’s one analysis of it and some conclusions, then another analysis of it and some other conclusions.</p>
+<p>I think one reason why people might share Fiske’s views is that critiques tend to garner more interest when they change the conclusions of the study negatively, and because of the well-known selection bias for significant studies this invariably entails ‘look, the significant effect is not significant when the data police do things <em>properly</em>‘. Wouldn’t it be fun, just for a change, to have a critique along the lines of ‘I did something the authors didn’t think of to improve the analysis, and the original conclusions stand up’. Let’s really let our imaginations wander to scenarios along the lines of ‘We re-examined this study of null results using some reasonable subjective priors to obtain Bayesian estimates of the model parameters and there’s greater evidence than the authors thought that the substantive effect under investigation could be big enough to warrant further investigation.’ In this last case, no-one would be doubting the integrity of the original authors but, other things being equal, there’s no difference in any of these situations: there’s data, there’s one analysis of it and some conclusions, then another analysis of it and some other conclusions.</p>
 <p>My point is that researchers are likely to feel less defensive, if the focus or re-analysis within our discipline broadens from de-bunking. Re-analysis that reaches the same conclusions as the original paper has just as much value as debunking, but either the data police don’t do that sort of thing, or when we do no-one pays it any attention. We can’t control hits and retweets (and a good debunking story is always going to generate interest) but we can affect the broader culture of critique and make it more neutral.</p>
 <p>We also need to get away from this notion of doing analysis <em>the</em> correct way. Of course there are ways to do things incorrectly, but there is rarely one correct way. In a recent study by <a href="https://osf.io/gvm2z/">Silberzahn et al</a> 61 data analysts were given the same dataset and research question and asked to analyse the data resulting in a variety of models fit to the data. We can usefully re-analyse data/conclusions without falling into the judgemental terminology of correct/incorrect.</p>
 <p>We need ‘re-analysing data’ to become a norm rather than the current exceptions that get widely publicised because they challenge the conclusions of the paper in a bad way. To make it a norm, we need new a whole new system really because as click-baity as retractions are, science is about updating beliefs in the light of new evidence. Surely that ethos is best served by papers that are open to re-analysis, commentary and debate. Some hurdles are how to stop that debate getting buried, and how to reward/incentivise that debate (i.e.&nbsp;give people credit for the time they spend contributing to these ongoing discussions of theories). It feels like the traditional system on peer-reviewed ‘articles’ that stand as static documents of ‘truth’ poorly serves these aims. Quite how we create the sea change necessary to think of, present, and cite ‘journal articles’ that are dynamic pieces of knowledge in a constant state of flux is another matter. Of course, there is also the question of how we re-invent CVs because we all know how much academics love their CVs and all of the incentive structures currently favour lists of ‘static’ knowledge.</p>
@@ -431,7 +444,7 @@ Honest mistakes or mistaken honesty
 <h3 class="anchored">
 They know not what they do
 </h3>
-<p>Anecdotally, I get hundreds of emails a year asking statistics questions from people aspiring to publish their research (not just in psychology). None of them seem dishonest, but some of them certainly harbour some misconceptions about data analysis and what’s appropriate. <span class="citation" data-cites="hoekstra2012">Hoekstra, Kiers, and Johnson (<a href="#ref-hoekstra2012" role="doc-biblioref">2012</a>)</span> provide some evidence for researchers not routinely checking the assumptions of their models, but again I think this likely reflects perceived norms or poor education than it does malpractice.</p>
+<p>Anecdotally, I get hundreds of emails a year asking statistics questions from people aspiring to publish their research (not just in psychology). None of them seem dishonest, but some of them certainly harbour some misconceptions about data analysis and what’s appropriate. <span class="citation" data-cites="hoekstra2012">Hoekstra et al. (<a href="#ref-hoekstra2012" role="doc-biblioref">2012</a>)</span> provide some evidence for researchers not routinely checking the assumptions of their models, but again I think this likely reflects perceived norms or poor education than it does malpractice.</p>
 <p>It is of course ridiculous that we are expected to be both expert theoreticians in some specialist area of a discipline and simultaneously remain at the cutting edge of ever-increasingly complex statistical tools. It’s bonkers, it really is. I’ve reached the point where I spend so much time thinking/reading/doing statistics that I barely have room in my head for psychology. Within this context, I am certain that people are trying their best with their data, but let’s be clear - they are up against it for many reasons and there will always be some a-hole like me who has abandoned psychology for a life of nitpicking everyone else’s analyses.</p>
 <p>One major obstacle is the perpetuation of poor practice. The problem of education boils down to the fact that training in psychological research methods and data analysis tends to be quite rule-based. I did a report for the HEA a few years back on statistics teaching in UK psychology degree programmes <span class="citation" data-cites="field2014">(<a href="#ref-field2014" role="doc-biblioref">Field 2014</a>)</span>. There is amazing consistency in what statistical methods are taught to undergraduate psychologists in the UK, and it won’t surprise anyone that it is very based on Null Hypothesis Significance Testing (NHST), <em>p</em> values etc. Relatively few institutions delve into effect sizes, or Bayesian approaches. There’s nothing necessarily wrong with teaching NHST (I say this mainly to wind up the Bayesian’s on Twitter …) because it is so widely used, but it is important to also teach its limitations and to offer alternative approaches. It’s not clear how much this is done, but I think awareness of the issues <em>has</em> radically increased compared to when I was a postgraduate in 1763.</p>
 <p>One problem that teaching NHST does create is that it is very easy to be recipe-book about it: if you don’t understand what you’re doing just look at <em>p</em> and follow the rule. Of course, I’m absolutely guilty of this in my textbooks because it is such an easy trap to fall into.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> The nuances of NHST are tricky, so for students who struggle with statistics the line of least resistance is ‘follow this simple rule’. For those that then go onto PhDs, and are supervised by people who also blindly follow the rules (because that’s what they were taught too), and who are then incentivised to get ‘significant results’ (see later) you have, frankly, a recipe for disaster.</p>
@@ -456,12 +469,12 @@ Rant over
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-belia2005" class="csl-entry" role="listitem">
 Belia, S., F. Fidler, J. Williams, and Geoff Cumming. 2005. <span>“Researchers Misunderstand Confidence Intervals and Standard Error Bars.”</span> <em>Psychological Methods</em> 10: 389–96. https://doi.org/<a href="https://doi.org/10.1037/1082-989X.10.4.389">https://doi.org/10.1037/1082-989X.10.4.389</a>.
 </div>
 <div id="ref-field2014" class="csl-entry" role="listitem">
-Field, Andy P. 2014. <span>“Skills in Mathematics and Statistics in Psychology and Tackling Transition.”</span> Report. York, UK: The Higher Education Academy. <a href="https://www.advance-he.ac.uk/knowledge-hub/skills-mathematics-and-statistics-psychology-and-tackling-transition">https://www.advance-he.ac.uk/knowledge-hub/skills-mathematics-and-statistics-psychology-and-tackling-transition</a>.
+Field, Andy P. 2014. <em>Skills in Mathematics and Statistics in Psychology and Tackling Transition</em>. Report. The Higher Education Academy. <a href="https://www.advance-he.ac.uk/knowledge-hub/skills-mathematics-and-statistics-psychology-and-tackling-transition">https://www.advance-he.ac.uk/knowledge-hub/skills-mathematics-and-statistics-psychology-and-tackling-transition</a>.
 </div>
 <div id="ref-haller2002" class="csl-entry" role="listitem">
 Haller, H., and S. Kraus. 2002. <span>“Misinterpretations of Significance: A Problem Students Share with Their Teachers?”</span> <em>MPR-Online</em> 7: 1–20. <a href="https://www.metheval.uni-jena.de/lehre/0405-ws/evaluationuebung/haller.pdf">https://www.metheval.uni-jena.de/lehre/0405-ws/evaluationuebung/haller.pdf</a>.
@@ -477,7 +490,7 @@ Hoekstra, Rink, Henk Kiers, and Addie Johnson. 2012. <span>“Are Assumptions of
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-field2017" class="csl-entry quarto-appendix-citeas" role="listitem">
-Field, Andy. 2017. <span>“StinkFiske.”</span> January 3, 2017. <a href="https://profandyfield.com/posts/2017_03_01/">https://profandyfield.com/posts/2017_03_01/</a>.
+Field, Andy. 2017. <span>“StinkFiske.”</span> January 3. <a href="https://profandyfield.com/posts/2017_03_01/">https://profandyfield.com/posts/2017_03_01/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -493,7 +506,7 @@ Field, Andy. 2017. <span>“StinkFiske.”</span> January 3, 2017. <a href="http
       a.appendChild(i);
       window.document.body.appendChild(a);
     }
-    window.setColorSchemeToggle(window.hasAlternateSentinel())
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -543,13 +556,14 @@ Field, Andy. 2017. <span>“StinkFiske.”</span> January 3, 2017. <a href="http
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

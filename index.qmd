@@ -3,7 +3,8 @@ title: "Andy Field"
 subtitle: "The stats book guy ..."
 toc: false
 about:
-  template: trestles
+  id: about-content
+  template: solana
   image: images/andy_milton.png
   links:
     - icon: github
@@ -21,18 +22,29 @@ about:
 ---
 
 
+:::{#about-content}
 
 I am Professor of Quantitative Methods at the [University of Sussex](https://profiles.sussex.ac.uk/p9846-andy-field), UK. I’ve published a lot of research papers, blah blah blah, but no-one has ever read them, or would want to. The chances are if you're here it's because of one of my statistics textbooks and you don't need to be told that I write statistics textbooks, but I do.
 
-## Education and Societies
 
-- 2025: B.Sc. Hons. First Class (Mathematics and Statistics): The Open University, UK.
-- 2021: RStudio certified trainer (RStudio)
-- 2017-present: Chartered Statistician (Royal Statistical Society)
-- 2010–present:	Fellow of the Academy of Social Sciences
-- 2009–present:	Fellow of the Higher Teaching Academy
-- 1994–97:	Ph.D. (Psychology). University of Sussex, Brighton, UK
-- 1991–94:	B.Sc. Hons. First Class (Psychology): City, University of London, UK.
+
+```{=html}
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#c21818', 'Q5Q218ASK7');kofiwidget2.draw();</script> 
+```
+:::
+
+## Education
+
+- 2025: B.Sc. 1st Class (Mathematics and Statistics), The Open University.
+- 1997:	Ph.D. (Psychology), University of Sussex, Brighton.
+- 1994:	B.Sc. 1st Class (Psychology), City, University of London.
+
+## Societies
+
+- Chartered Statistician of the [Royal Statistical Society](https://rss.org.uk/membership/professional-development/chartered-statistician/)
+- RStudio certified trainer ([Posit](https://education.rstudio.com/trainers))
+- Fellow of the [Academy of Social Sciences](https://acss.org.uk/)
+- Fellow of the [Higher Education Academy](https://www.advance-he.ac.uk/)
 
 
 ## Awards
@@ -52,6 +64,4 @@ I am Professor of Quantitative Methods at the [University of Sussex](https://pro
 
 Statistics, R, Drumming, Guitar
 
-```{=html}
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#c21818', 'Q5Q218ASK7');kofiwidget2.draw();</script> 
-```
+

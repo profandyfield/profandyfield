@@ -4849,4 +4849,36 @@ references:
   URL: >-
     https://royalsocietypublishing.org/rsos/article/13/2/250076/480406/Sources-of-bias-in-general-linear-models
   volume: '13'
+- id: sladekova_quantifying_2026
+  accessed:
+    - year: 2026
+      month: 7
+      day: 14
+  author:
+    - family: Sladekova
+      given: Martina
+    - family: Field
+      given: Andy P.
+  citation-key: sladekova_quantifying_2026
+  container-title: Psychological Methods
+  container-title-short: Psychol. Methods
+  DOI: 10.1037/met0000821
+  ISSN: 1082-989X
+  issue: '4'
+  issued:
+    - year: 2026
+      month: 8
+  language: en
+  license: © 2026, American Psychological Association
+  number-of-pages: 676-696
+  page: 676–696
+  publisher: American Psychological Association
+  publisher-place: Washington, US
+  source: ProQuest
+  title: >-
+    Quantifying heteroscedasticity in linear models using quantile locally
+    weighted scatterplot smoothing intervals
+  type: article-journal
+  URL: https://www.proquest.com/docview/3339438181/abstract/4221A7D5A0024256PQ/6
+  volume: '31'
 ...

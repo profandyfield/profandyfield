@@ -49,6 +49,8 @@ project:
   render:
     - "*.qmd"
     - "!dev/"
+  resources:
+  - "images/emailimages/*"
 execute:
   freeze: true
   echo: true

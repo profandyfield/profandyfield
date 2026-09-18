@@ -4881,4 +4881,32 @@ references:
   type: article-journal
   URL: https://www.proquest.com/docview/3339438181/abstract/4221A7D5A0024256PQ/6
   volume: '31'
+- id: sladekova_sources_2026-1
+  accessed:
+    - year: 2026
+      month: 9
+      day: 18
+  author:
+    - family: Sladekova
+      given: Martina
+    - family: Field
+      given: Andy
+  citation-key: sladekova_sources_2026-1
+  container-title: Royal Society Open Science
+  DOI: 10.1098/rsos.260516
+  ISSN: 2054-5703
+  issue: '9'
+  issued:
+    - year: 2026
+      month: 9
+      day: 16
+  language: en
+  license: http://creativecommons.org/licenses/by/4.0/
+  page: rsos260516
+  source: DOI.org (Crossref)
+  title: 'Sources of bias in general linear models: assessing researchers’ understanding and self-reported practice'
+  title-short: Sources of bias in general linear models
+  type: article-journal
+  URL: https://royalsocietypublishing.org/rsos/article/13/9/rsos260516/483301/Sources-of-bias-in-general-linear-models-assessing
+  volume: '13'
 ...
